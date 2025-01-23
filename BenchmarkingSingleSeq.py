@@ -1,6 +1,108 @@
 import os, time
 
-from SQRNdbnseq import PairsToDBN as CombinePairsToDBN
+def CombinePairsToDBN(newpairs, length = 0, returnlevels = False, levellimit = -1):
+    """Convert a list of base pairs into a dbn string of the given length"""
+
+    # Initialize the dbn string
+    dbn = ['.']*length
+
+    # Define "brackets" for 30 pseudoknot levels (and 19 more encoded with cyrillic letters)
+    # Higher levels will be simply ignored
+    levels = ['()','[]','{}','<>','Aa','Bb','Cc','Dd','Ee','Ff','Gg',
+              'Hh','Ii','Jj','Kk','Ll','Mm','Nn','Oo','Pp','Qq','Rr',
+              'Ss','Tt','Uu','Vv','Ww','Xx','Yy','Zz',
+              'Бб','Гг','Дд','Ёё','Жж','Йй','Лл','Пп',
+              'Фф','Цц','Чч','Шш','Щщ','Ьь','Ыы','Ъъ','Ээ','Юю','Яя']
+
+    # groups of non-conflicting base pairs
+    groups = [set(),]
+
+    # normalize the pairs (i.e. ensure v < w)
+    pairs = set((min(v, w), max(v, w)) for v, w in newpairs)
+    
+    for pair in sorted(pairs):
+
+        level = 0
+
+        # find the minimum level where the pair is not in conflict
+        # with any base pair of that level
+        while any(v[0]<=pair[0]<=v[1]<=pair[1] or
+                  pair[0]<=v[0]<=pair[1]<=v[1] for v in groups[level]):
+            level += 1
+            if level == len(groups):
+                groups.append(set())
+            if level == len(levels):
+                levels.append('..')
+
+        # add the pair to the determined level
+        groups[level].add(pair)
+
+    # kind of a bubble sort of the base pairs among the levels
+    # to maximize the number of base pairs of the lowest levels
+    # e.g. to turn (..[[[...)...]]] into [..(((...]...)))
+    for times in range(len(groups)-1):
+        for i in range(len(groups)-1):
+
+            rest = {v for v in groups[i+1] if any(v[0]<=w[0]<=v[1]<=w[1] or
+                                                       w[0]<=v[0]<=w[1]<=v[1]
+                                                       for w in groups[i])}
+            clean = groups[i+1] - rest
+
+            while rest:
+
+                confjprev = set()
+                confiprev = set()
+
+                confj = rest.pop()
+                rest.add(confj)
+                confj = {confj,}
+                confi = {v for v in groups[i] if any(v[0]<=w[0]<=v[1]<=w[1] or
+                                                     w[0]<=v[0]<=w[1]<=v[1]
+                                                     for w in confj)}
+
+                while confjprev != confj or confiprev != confi:
+
+                    confjprev = confj
+                    confiprev = confi
+
+                    confj = {v for v in rest if any(v[0]<=w[0]<=v[1]<=w[1] or
+                                                    w[0]<=v[0]<=w[1]<=v[1]
+                                                    for w in confi)}
+                    confi = {v for v in groups[i] if any(v[0]<=w[0]<=v[1]<=w[1] or
+                                                     w[0]<=v[0]<=w[1]<=v[1]
+                                                     for w in confj)}
+
+                if len(confi) < len(confj):
+
+                    groups[i]   = confj | (groups[i] - confi)
+                    groups[i+1] = confi | (groups[i+1] - confj)
+
+                rest = rest - confj
+
+            if clean:
+
+                groups[i] |= clean
+                groups[i+1] -= clean
+
+    if returnlevels:
+        levels = {}
+        for lev, group in enumerate(groups):
+            for bp in group:
+                levels[bp] = lev + 1
+        return levels
+
+    # remove all levels higher than levellimit (if specified)
+    if levellimit >= 0:
+        groups = groups[:levellimit]
+
+    # add all the pairs to the dbn string
+    # according to their levels  
+    for i, group in enumerate(groups):
+        for pair in group:
+            dbn[pair[0]] = levels[i][0]
+            dbn[pair[1]] = levels[i][1]
+            
+    return ''.join(dbn)
 
 def StemmedIsolated(sorted_pairs):
 
@@ -131,6 +233,20 @@ def BPSEQtoDBN(bpseqfile):
             if x < z:
                 pairs.append((x-1,z-1))
         return CombinePairsToDBN(pairs,x)
+
+
+def PredictCONTRAfold(seq):
+
+    inpf = "inp.tmp"
+    with open(inpf,'w') as inp:
+        inp.write('>seq\n')
+        inp.write(seq+'\n')
+
+    os.system("~/software/contrafold/src/contrafold predict inp.tmp > outp2.tmp")
+    with open("outp2.tmp") as outp:
+        dbn = outp.readlines()[3].strip()
+    return [dbn,] 
+
 
 def PredictSPOTRNA(seq):
 
@@ -342,7 +458,7 @@ if __name__ == "__main__":
     NL      =  False
     
     dtst  = "SRtrain150"
-    tl    = "SQUARNA"
+    tl    = "CONTRAfold"
 
     for dataset, tool in ((dtst, tl),
                           ):
@@ -409,6 +525,7 @@ if __name__ == "__main__":
                            "ShapeKnots": PredictShapeKnots,
                            "ShapeKnots5": PredictShapeKnots5,
                            "RNAsubopt5": PredictRNAsubopt5,
+                           "CONTRAfold": PredictCONTRAfold,
                            }[tool](seq)
 
                 t1 = time.time()-t0

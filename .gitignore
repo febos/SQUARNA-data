@@ -9,6 +9,9 @@ __pycache__/
 # SQUARNA
 SQUARNA
 
+#temp
+*.tmp
+
 # Distribution / packaging
 .Python
 build/

@@ -247,6 +247,19 @@ def PredictCONTRAfold(seq):
         dbn = outp.readlines()[3].strip()
     return [dbn,] 
 
+def PredictEternaFold(seq):
+
+    inpf = "inp.tmp"
+    with open(inpf,'w') as inp:
+        inp.write('>seq\n')
+        inp.write(seq+'\n')
+
+    params = "--params ~/software/EternaFold-1.3.1/parameters/EternaFoldParams.v1"
+    os.system("~/software/contrafold/src/contrafold predict inp.tmp {} > outp2.tmp".format(params))
+    with open("outp2.tmp") as outp:
+        dbn = outp.readlines()[3].strip()
+    return [dbn,] 
+
 
 def PredictSPOTRNA(seq):
 
@@ -460,7 +473,8 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in ((dtst, tl),
+    for dataset, tool in (("SRtest150", "CONTRAfold"),
+                          ("SRtest150", "EternaFold"),
                           ):
 
         if NL:
@@ -526,6 +540,7 @@ if __name__ == "__main__":
                            "ShapeKnots5": PredictShapeKnots5,
                            "RNAsubopt5": PredictRNAsubopt5,
                            "CONTRAfold": PredictCONTRAfold,
+                           "EternaFold": PredictEternaFold,
                            }[tool](seq)
 
                 t1 = time.time()-t0

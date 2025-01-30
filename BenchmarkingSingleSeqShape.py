@@ -139,8 +139,8 @@ def CTtoDBN(ct_file):
 
 def PredictShapeKnots(seq, react, reactfile, top = 1):
 
-    SHAPEKNOTS_PATH   = "~/software/RNAstructureSource/RNAstructure/exe/ShapeKnots-smp"
-    SHAPEKNOTS_TABLES = "DATAPATH=~/software/RNAstructureSource/RNAstructure/data_tables"
+    SHAPEKNOTS_PATH   = "~/software/RNAstructure6.5/exe/ShapeKnots-smp"
+    SHAPEKNOTS_TABLES = "DATAPATH=~/software/RNAstructure6.5/data_tables"
 
     with open("inp.tmp","w") as inp:
         inp.write(">seq"+'\n')

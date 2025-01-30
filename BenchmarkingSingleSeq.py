@@ -312,8 +312,8 @@ def CTtoDBN(ct_file):
 
 def PredictShapeKnots(seq, top = 1):
 
-    SHAPEKNOTS_PATH   = "~/software/RNAstructureSource/RNAstructure/exe/ShapeKnots-smp"
-    SHAPEKNOTS_TABLES = "DATAPATH=~/software/RNAstructureSource/RNAstructure/data_tables"
+    SHAPEKNOTS_PATH   = "~/software/RNAstructure6.5/exe/ShapeKnots-smp"
+    SHAPEKNOTS_TABLES = "DATAPATH=~/software/RNAstructure6.5/data_tables"
 
     with open("inp.tmp","w") as inp:
         inp.write(">seq"+'\n')
@@ -473,8 +473,7 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest150", "CONTRAfold"),
-                          ("SRtest150", "EternaFold"),
+    for dataset, tool in (("SRtrain150", "ShapeKnots"),
                           ):
 
         if NL:

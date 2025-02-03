@@ -45,7 +45,7 @@ def PredictRNAalifold(dataset, fam):
 
     shapefile = "datasets/{}/shape2.0_unaligned/{}.dat".format(dataset,fam)
 
-    command = "RNAalifold --noPS {} --shape={} > outp3.tmp".format("datasets/{}/aln/{}.aln".format(dataset,fam),
+    command = "~/software/ViennaRNA-2.7.0/src/bin/RNAalifold --noPS {} --shape={} > outp3.tmp".format("datasets/{}/aln/{}.aln".format(dataset,fam),
                                                                      shapefile)
     os.system(command)
     with open("outp3.tmp") as file:

@@ -74,7 +74,7 @@ def PredictRNAfold(seq, react, reactfile):
         inp.write('>seq\n')
         inp.write(seq+'\n')
 
-    os.system("RNAfold --shape={} --noPS < inp.tmp > outp2.tmp".format(reactfile['RNAfold']))
+    os.system("~/software/ViennaRNA-2.7.0/src/bin/RNAfold --shape={} --noPS < inp.tmp > outp2.tmp".format(reactfile['RNAfold']))
     with open("outp2.tmp") as outp:
         dbn = outp.readlines()[2].split()[0]
     return [dbn,]        
@@ -87,7 +87,7 @@ def PredictRNAsubopt5(seq, react, reactfile, top = 5):
         inp.write('>seq\n')
         inp.write(seq+'\n')
 
-    os.system("RNAsubopt --shape={} --sorted < inp.tmp > outp2.tmp".format(reactfile['RNAfold']))
+    os.system("~/software/ViennaRNA-2.7.0/src/bin/RNAsubopt --shape={} --sorted < inp.tmp > outp2.tmp".format(reactfile['RNAfold']))
     with open("outp2.tmp") as outp:
         dbns = [x.split()[0] for x in outp.readlines()[2:]]
     return dbns[:top]     

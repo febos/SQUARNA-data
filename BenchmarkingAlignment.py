@@ -42,7 +42,7 @@ def PredictSQUARNAs3u(dataset, fam):
 
 def PredictRNAalifold(dataset, fam):
 
-    command = "RNAalifold --noPS {} > outp3.tmp".format("datasets/{}/aln/{}.aln".format(dataset,fam))
+    command = "~/software/ViennaRNA-2.7.0/src/bin/RNAalifold --noPS {} > outp3.tmp".format("datasets/{}/aln/{}.aln".format(dataset,fam))
     os.system(command)
     with open("outp3.tmp") as file:
         lines = file.readlines()

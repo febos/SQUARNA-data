@@ -175,7 +175,7 @@ def PredictRNAfold(seq):
         inp.write('>seq\n')
         inp.write(seq+'\n')
 
-    os.system("RNAfold --noPS < inp.tmp > outp2.tmp")
+    os.system("~/software/ViennaRNA-2.7.0/src/bin/RNAfold --noPS < inp.tmp > outp2.tmp")
     with open("outp2.tmp") as outp:
         dbn = outp.readlines()[2].split()[0]
     return [dbn,]
@@ -191,7 +191,7 @@ def PredictRNAsubopt5(seq, top = 5):
         add = "--deltaEnergy=0.1"
     else:
         add = ""
-    os.system("RNAsubopt --sorted {} < inp.tmp > outp2.tmp".format(add))
+    os.system("~/software/ViennaRNA-2.7.0/src/bin/RNAsubopt --sorted {} < inp.tmp > outp2.tmp".format(add))
     with open("outp2.tmp") as outp:
         dbns = [x.split()[0] for x in outp.readlines()[2:]]
     return dbns[:top]
@@ -473,7 +473,7 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtrain150", "ShapeKnots"),
+    for dataset, tool in (("SRtrain150", "RNAfold"),
                           ):
 
         if NL:

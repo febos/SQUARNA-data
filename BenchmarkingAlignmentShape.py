@@ -99,7 +99,7 @@ def PredictIPknot(dataset, fam):
         return lines[-1].strip()
 
 
-def PredictRscapeNested(dataset, fam):
+def PredictRscapeNestedOld(dataset, fam):
 
     command = "cd tmp; ~/software/rscape/rscape_v1.6.1/bin/R-scape"+\
               " --fold --covmin 4 --nofigures --rna {} > outp3.tmp".format("../datasets/{}/sto/{}.sto".format(dataset,fam))
@@ -122,7 +122,7 @@ def PredictRscapeNested(dataset, fam):
     return PairsToDBN(DBNToPairs(dbns["SS_cons"]),len(dbns["SS_cons"]))             
                  
 
-def PredictRscapeTotal(dataset, fam):
+def PredictRscapeTotalOld(dataset, fam):
 
     command = "cd tmp; ~/software/rscape/rscape_v1.6.1/bin/R-scape"+\
               " --fold --covmin 4 --nofigures --rna {} > outp3.tmp".format("../datasets/{}/sto/{}.sto".format(dataset,fam))

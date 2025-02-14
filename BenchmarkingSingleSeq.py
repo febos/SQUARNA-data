@@ -371,6 +371,9 @@ def PredictSQUARNAE(seq):
 def PredictSQUARNAG(seq):
     return PredictSQUARNA(seq, conf="greedy.conf")
 
+def PredictSQUARNAG5(seq):
+    return PredictSQUARNA(seq, conf="greedy.conf", top = 5)
+
 def PredictSQUARNAE5(seq):
     return PredictSQUARNA(seq, conf="edmonds.conf", top = 5)
 
@@ -473,7 +476,7 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtrain150", "SQUARNAE"),
+    for dataset, tool in (("SRtrain150", "SQUARNA5"),
                           ):
 
         if NL:
@@ -507,6 +510,7 @@ if __name__ == "__main__":
                            "SQUARNAnew5": PredictSQUARNAnew5,
                            "SQUARNAE": PredictSQUARNAE,
                            "SQUARNAG": PredictSQUARNAG,
+                           "SQUARNAG5": PredictSQUARNAG5,
                            "SQUARNAE5": PredictSQUARNAE5,
                            "SQUARNAGE": PredictSQUARNAGE,
                            "SQUARNAGE5": PredictSQUARNAGE5,

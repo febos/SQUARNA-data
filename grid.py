@@ -38,7 +38,7 @@ if __name__ == "__main__":
     for suboptmin in (0.7,):
         for suboptmax in (0.9,):
             for suboptsteps in (2,):
-                for bpp in (1, 0.75, 0.5, 0.25, 0.1, 0):
+                for bpp in (1, 0.75, 0.5, 0.25, 0.1, 0, -0.1, -0.25, -0.5, -0.75, -1):
                     for minfinscorefactor in (1.0,):
                         for distcoef in (0.09,):
                             for orderpenalty in (1.0,):

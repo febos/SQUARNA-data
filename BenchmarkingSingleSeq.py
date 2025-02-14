@@ -476,7 +476,7 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtrain150", "SQUARNA"),
+    for dataset, tool in (("SRtrain150", "SQUARNAn"),
                           ):
 
         if NL:

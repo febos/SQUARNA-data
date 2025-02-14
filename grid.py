@@ -22,7 +22,7 @@ if __name__ == "__main__":
     outp  = open(outpname,'w')
     algos = set("N")
 
-    title = '\t'.join("minlen minbpscore GC AU GU tpc fpc fnc fstotc fsc prc rcc tp5 fp5 fn5 fstot5 fs5 pr5 rc5 harmon5".split())
+    title = '\t'.join("bpp minlen minbpscore GC AU GU tpc fpc fnc fstotc fsc prc rcc tp5 fp5 fn5 fstot5 fs5 pr5 rc5 harmon5".split())
     print(title)
     outp.write(title+'\n')
     outp.close()
@@ -38,7 +38,7 @@ if __name__ == "__main__":
     for suboptmin in (0.7,):
         for suboptmax in (0.9,):
             for suboptsteps in (2,):
-                for _ in (2,):
+                for bpp in (1, 0.75, 0.5, 0.25, 0.1, 0):
                     for minfinscorefactor in (1.0,):
                         for distcoef in (0.09,):
                             for orderpenalty in (1.0,):
@@ -51,7 +51,7 @@ if __name__ == "__main__":
                                                                       (2, GC+AU),(2, GC+AU-0.25),(2, GC+AU+0.25),(2, GC+AU-0.5),(2, GC+AU+0.5),(2, GC+AU-0.75),(2, GC+AU+0.75),
                                                                       (2, GC+GC),(2, GC+GC-0.25),(2, GC+GC+0.25),(2, GC+GC-0.5),(2, GC+GC+0.5),(2, GC+GC-0.75),(2, GC+GC+0.75),):
 
-                                                print(minlen, minbpscore, GC, AU, GU, sep='\t', end='\t')
+                                                print(bpp, minlen, minbpscore, GC, AU, GU, sep='\t', end='\t')
 
                                                 paramsets = []
                                                 paramsets.append({"bpweights" : {'GU' : GU,
@@ -68,6 +68,7 @@ if __name__ == "__main__":
                                                                   "orderpenalty"  : orderpenalty,
                                                                   "loopbonus": 0.125,
                                                                   "maxstemnum" : maxstemnum,
+                                                                  "bpp": bpp,
                                                                   })
 
                                                 resultsB = []
@@ -110,7 +111,7 @@ if __name__ == "__main__":
                                                       round(np.mean(prB), 3), round(np.mean(rcB), 3), round(2*fsmean5*fstot5/(fstot5+fsmean5), 3), sep = '\t')
 
                                                 outp = open(outpname,'a')
-                                                toprint = '\t'.join([str(xx) for xx in [minlen, minbpscore, GC, AU, GU,
+                                                toprint = '\t'.join([str(xx) for xx in [bpp, minlen, minbpscore, GC, AU, GU,
                                                                                         tpC, fpC, fnC,
                                                                                         round(2*tpC / (2*tpC + fpC + fnC), 3),
                                                                                         round(np.mean(fsC), 3),

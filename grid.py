@@ -17,10 +17,10 @@ if __name__ == "__main__":
             db  = lines[ii+2].strip()
             queue.append([nm, sq, db, None, None])
 
-    outpname = 'Nussinov.tsv'
+    outpname = 'Hungarian.tsv'
 
     outp  = open(outpname,'w')
-    algos = set("N")
+    algos = set("H")
 
     title = '\t'.join("bpp minlen minbpscore GC AU GU tpc fpc fnc fstotc fsc prc rcc tp5 fp5 fn5 fstot5 fs5 pr5 rc5 harmon5".split())
     print(title)
@@ -51,6 +51,9 @@ if __name__ == "__main__":
                                                                       (2, GC+AU),(2, GC+AU-0.25),(2, GC+AU+0.25),(2, GC+AU-0.5),(2, GC+AU+0.5),(2, GC+AU-0.75),(2, GC+AU+0.75),
                                                                       (2, GC+GC),(2, GC+GC-0.25),(2, GC+GC+0.25),(2, GC+GC-0.5),(2, GC+GC+0.5),(2, GC+GC-0.75),(2, GC+GC+0.75),):
 
+                                                if minbpscore < 0:
+                                                    continue
+                                                
                                                 print(bpp, minlen, minbpscore, GC, AU, GU, sep='\t', end='\t')
 
                                                 paramsets = []

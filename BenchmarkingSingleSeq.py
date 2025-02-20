@@ -365,6 +365,14 @@ def PredictSQUARNA(seq, conf = "def.conf", top = 1):
     return res[:top]
 
 
+def PredictRibonanzaNet(seq):
+
+    with open("benchmarks/rbnz.txt") as inp:
+        lines = [x for x in inp.readlines() if x.strip()]
+        seqdbn = dict([line.split() for line in lines])
+    return [seqdbn[seq],]
+
+
 def PredictSQUARNAE(seq):
     return PredictSQUARNA(seq, conf="edmonds.conf")
 
@@ -384,7 +392,7 @@ def PredictSQUARNAGE5(seq):
     return PredictSQUARNA(seq, top = 5, algos="ge")
 
 def PredictSQUARNAn(seq):
-    return PredictSQUARNA(seq, conf="nussinov.conf")
+    return PredictSQUARNA(seq, conf="nussinovbpp.conf")
 
 def PredictSQUARNAn5(seq):
     return PredictSQUARNA(seq, top = 5, algos="n")
@@ -426,7 +434,7 @@ def PredictSQUARNAhne5(seq):
     return PredictSQUARNA(seq, top = 5, algos="hne")
 
 def PredictSQUARNAh(seq):
-    return PredictSQUARNA(seq, conf="hungarian.conf")
+    return PredictSQUARNA(seq, conf="hungarianbpp.conf")
 
 def PredictSQUARNAh5(seq):
     return PredictSQUARNA(seq, top = 5, algos="h")
@@ -476,7 +484,8 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtrain150", "SQUARNAn"),
+    for dataset, tool in (("SRtrain150", "SQUARNAnew"),
+                          ("SRtest150", "SQUARNAnew"),
                           ):
 
         if NL:
@@ -501,6 +510,7 @@ if __name__ == "__main__":
                 dbn = lines[i+2].strip()
 
                 structs = {"RNAfold":PredictRNAfold,
+                           "RibonanzaNet":PredictRibonanzaNet,
                            "IPknot": PredictIPknot,
                            "MXfold2":PredictMXfold2,
                            "SPOT-RNA":PredictSPOTRNA,

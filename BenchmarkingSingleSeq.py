@@ -392,7 +392,7 @@ def PredictSQUARNAGE5(seq):
     return PredictSQUARNA(seq, top = 5, algos="ge")
 
 def PredictSQUARNAn(seq):
-    return PredictSQUARNA(seq, conf="nussinovbpp.conf")
+    return PredictSQUARNA(seq, conf="nussinov.conf")
 
 def PredictSQUARNAn5(seq):
     return PredictSQUARNA(seq, top = 5, algos="n")
@@ -434,7 +434,7 @@ def PredictSQUARNAhne5(seq):
     return PredictSQUARNA(seq, top = 5, algos="hne")
 
 def PredictSQUARNAh(seq):
-    return PredictSQUARNA(seq, conf="hungarianbpp.conf")
+    return PredictSQUARNA(seq, conf="hungarian.conf")
 
 def PredictSQUARNAh5(seq):
     return PredictSQUARNA(seq, top = 5, algos="h")
@@ -485,7 +485,9 @@ if __name__ == "__main__":
     tl    = "CONTRAfold"
 
     for dataset, tool in (("SRtrain150", "SQUARNAnew"),
+                          ("SRtrain150", "SQUARNAnew5"),
                           ("SRtest150", "SQUARNAnew"),
+                          ("SRtest150", "SQUARNAnew5"),
                           ):
 
         if NL:

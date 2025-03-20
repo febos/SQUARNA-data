@@ -345,8 +345,11 @@ def PredictSQUARNA(seq, conf = "def.conf", top = 1):
     if len(seq) >= 1000:
         conf = "1000.conf"
     print(', '+conf)
-    
-    os.system("python3 SQUARNA/SQUARNA.py i=inp.tmp c={} toplim={} > outp2.tmp".format(conf, top))
+
+    if conf in ('def.conf','500.conf','1000.conf'):
+        os.system("python3 SQUARNA/SQUARNA.py i=inp.tmp toplim={} > outp2.tmp".format(top))
+    else:
+        os.system("python3 SQUARNA/SQUARNA.py i=inp.tmp c={} toplim={} > outp2.tmp".format(conf, top))
 
     cnt = 0
     flag = False
@@ -484,10 +487,10 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtrain150", "SQUARNAnew"),
-                          ("SRtrain150", "SQUARNAnew5"),
-                          ("SRtest150", "SQUARNAnew"),
-                          ("SRtest150", "SQUARNAnew5"),
+    for dataset, tool in (("SRtrain150", "SQUARNA"),
+                          ("SRtrain150", "SQUARNA5"),
+                          ("SRtest150", "SQUARNA"),
+                          ("SRtest150", "SQUARNA5"),
                           ):
 
         if NL:

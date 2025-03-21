@@ -376,6 +376,9 @@ def PredictRibonanzaNet(seq):
     return [seqdbn[seq],]
 
 
+def PredictSQUARNA5(seq):
+    return PredictSQUARNA(seq, top = 5)
+
 def PredictSQUARNAE(seq):
     return PredictSQUARNA(seq, conf="edmonds.conf")
 
@@ -388,96 +391,41 @@ def PredictSQUARNAG5(seq):
 def PredictSQUARNAE5(seq):
     return PredictSQUARNA(seq, conf="edmonds.conf", top = 5)
 
-def PredictSQUARNAGE(seq):
-    return PredictSQUARNA(seq, algos="ge")
+def PredictSQUARNAEnb(seq):
+    return PredictSQUARNA(seq, conf="edmondsnobpp.conf")
 
-def PredictSQUARNAGE5(seq):
-    return PredictSQUARNA(seq, top = 5, algos="ge")
+def PredictSQUARNAGnb(seq):
+    return PredictSQUARNA(seq, conf="greedynobpp.conf")
 
-def PredictSQUARNAn(seq):
-    return PredictSQUARNA(seq, conf="nussinov.conf")
+def PredictSQUARNAGnb5(seq):
+    return PredictSQUARNA(seq, conf="greedynobpp.conf", top = 5)
 
-def PredictSQUARNAn5(seq):
-    return PredictSQUARNA(seq, top = 5, algos="n")
-
-def PredictSQUARNAGn(seq):
-    return PredictSQUARNA(seq, algos="gn")
-
-def PredictSQUARNAGn5(seq):
-    return PredictSQUARNA(seq, top = 5, algos="gn")
-
-def PredictSQUARNAghn(seq):
-    return PredictSQUARNA(seq, algos="ghn")
-
-def PredictSQUARNAghn5(seq):
-    return PredictSQUARNA(seq, top = 5, algos="ghn")
-
-def PredictSQUARNAghe(seq):
-    return PredictSQUARNA(seq, algos="ghe")
-
-def PredictSQUARNAghe5(seq):
-    return PredictSQUARNA(seq, top = 5, algos="ghe")
-
-def PredictSQUARNAgne(seq):
-    return PredictSQUARNA(seq, algos="gne")
-
-def PredictSQUARNAgne5(seq):
-    return PredictSQUARNA(seq, top = 5, algos="gne")
-
-def PredictSQUARNAghne(seq):
-    return PredictSQUARNA(seq, algos="ghne")
-
-def PredictSQUARNAghne5(seq):
-    return PredictSQUARNA(seq, top = 5, algos="ghne")
-
-def PredictSQUARNAhne(seq):
-    return PredictSQUARNA(seq, algos="hne")
-
-def PredictSQUARNAhne5(seq):
-    return PredictSQUARNA(seq, top = 5, algos="hne")
-
-def PredictSQUARNAh(seq):
-    return PredictSQUARNA(seq, conf="hungarian.conf")
-
-def PredictSQUARNAh5(seq):
-    return PredictSQUARNA(seq, top = 5, algos="h")
-
-def PredictSQUARNAGh(seq):
-    return PredictSQUARNA(seq, algos="gh")
-
-def PredictSQUARNAGh5(seq):
-    return PredictSQUARNA(seq, top = 5, algos="gh")
-
-def PredictSQUARNA5(seq):
-    return PredictSQUARNA(seq, top = 5)
+def PredictSQUARNAEnb5(seq):
+    return PredictSQUARNA(seq, conf="edmondsnobpp.conf", top = 5)
 
 def PredictSQUARNAN(seq):
-    return PredictSQUARNA(seq, top = 10**6)
+    return PredictSQUARNA(seq, conf="nussinov.conf")
 
-def PredictSQUARNAalt(seq):
-    return PredictSQUARNA(seq, conf = "alt.conf")
+def PredictSQUARNANnb(seq):
+    return PredictSQUARNA(seq, conf="nussinovnobpp.conf")
 
-def PredictSQUARNAalt5(seq):
-    return PredictSQUARNA(seq, conf = "alt.conf", top = 5)
+def PredictSQUARNAH(seq):
+    return PredictSQUARNA(seq, conf="hungarian.conf")
 
-def PredictSQUARNAnew(seq):
-    return PredictSQUARNA(seq, conf = "newdef.conf")
+def PredictSQUARNAH5(seq):
+    return PredictSQUARNA(seq, conf="hungarian.conf", top = 5)
 
-def PredictSQUARNAnew5(seq):
-    return PredictSQUARNA(seq, conf = "newdef.conf", top = 5)
+def PredictSQUARNAHnb(seq):
+    return PredictSQUARNA(seq, conf="hungariannobpp.conf")
 
-def PredictSQUARNAaltN(seq):
-    return PredictSQUARNA(seq, conf = "alt.conf", top = 10**6)
+def PredictSQUARNAHnb5(seq):
+    return PredictSQUARNA(seq, conf="hungariannobpp.conf", top = 5)
 
-def PredictSQUARNAsk(seq):
-    return PredictSQUARNA(seq, conf = "sk.conf")
+def PredictSQUARNAnb(seq):
+    return PredictSQUARNA(seq, conf = "nobpp.conf")
 
-def PredictSQUARNAsk5(seq):
-    return PredictSQUARNA(seq, conf = "sk.conf", top = 5)
-
-def PredictSQUARNAskN(seq):
-    return PredictSQUARNA(seq, conf = "sk.conf", top = 10**6)
-
+def PredictSQUARNAnb5(seq):
+    return PredictSQUARNA(seq, conf = "nobpp.conf", top = 5)
      
 
 if __name__ == "__main__":
@@ -487,11 +435,35 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtrain150", "SQUARNA"),
-                          ("SRtrain150", "SQUARNA5"),
+    for dataset, tool in (("SRtest150",  "RNAfold"),
+                          ("SRtest150", "RibonanzaNet"),
+                          ("SRtest150", "IPknot"),
+                          ("SRtest150", "MXfold2"),
+                          ("SRtest150", "SPOT-RNA"),
+                          ("SRtest150", "ShapeKnots"),
+                          ("SRtest150", "ShapeKnots5"),
+                          ("SRtest150", "RNAsubopt5"),
+                          ("SRtest150", "CONTRAfold"),
+                          ("SRtest150", "EternaFold"),
                           ("SRtest150", "SQUARNA"),
                           ("SRtest150", "SQUARNA5"),
-                          ):
+                          ("SRtest150", "SQUARNAnb"),
+                          ("SRtest150", "SQUARNAnb5"),
+                          ("SRtest150", "SQUARNAN"),
+                          ("SRtest150", "SQUARNANnb"),
+                          ("SRtest150", "SQUARNAH"),
+                          ("SRtest150", "SQUARNAH5"),
+                          ("SRtest150", "SQUARNAHnb"),
+                          ("SRtest150", "SQUARNAHnb5"),
+                          ("SRtest150", "SQUARNAG"),
+                          ("SRtest150", "SQUARNAG5"),
+                          ("SRtest150", "SQUARNAGnb"),
+                          ("SRtest150", "SQUARNAGnb5"),
+                          ("SRtest150", "SQUARNAE"),
+                          ("SRtest150", "SQUARNAE5"),
+                          ("SRtest150", "SQUARNAEnb"),
+                          ("SRtest150", "SQUARNAEnb5"),
+                          ):     
 
         if NL:
             dataset += "NL"
@@ -521,39 +493,22 @@ if __name__ == "__main__":
                            "SPOT-RNA":PredictSPOTRNA,
                            "SQUARNA": PredictSQUARNA,
                            "SQUARNA5": PredictSQUARNA5,
-                           "SQUARNAnew": PredictSQUARNAnew,
-                           "SQUARNAnew5": PredictSQUARNAnew5,
-                           "SQUARNAE": PredictSQUARNAE,
+                           "SQUARNAnb": PredictSQUARNAnb,
+                           "SQUARNAnb5": PredictSQUARNAnb5,
+                           "SQUARNAN": PredictSQUARNAN,
+                           "SQUARNANnb": PredictSQUARNANnb,
+                           "SQUARNAH": PredictSQUARNAH,
+                           "SQUARNAH5": PredictSQUARNAH5,
+                           "SQUARNAHnb": PredictSQUARNAHnb,
+                           "SQUARNAHnb5": PredictSQUARNAHnb5,
                            "SQUARNAG": PredictSQUARNAG,
                            "SQUARNAG5": PredictSQUARNAG5,
+                           "SQUARNAGnb": PredictSQUARNAGnb,
+                           "SQUARNAGnb5": PredictSQUARNAGnb5,
+                           "SQUARNAE": PredictSQUARNAE,
                            "SQUARNAE5": PredictSQUARNAE5,
-                           "SQUARNAGE": PredictSQUARNAGE,
-                           "SQUARNAGE5": PredictSQUARNAGE5,
-                           "SQUARNAn": PredictSQUARNAn,
-                           "SQUARNAn5": PredictSQUARNAn5,
-                           "SQUARNAGn": PredictSQUARNAGn,
-                           "SQUARNAGn5": PredictSQUARNAGn5,
-                           "SQUARNAh": PredictSQUARNAh,
-                           "SQUARNAh5": PredictSQUARNAh5,
-                           "SQUARNAGh": PredictSQUARNAGh,
-                           "SQUARNAGh5": PredictSQUARNAGh5,
-                           "SQUARNAghn": PredictSQUARNAghn,
-                           "SQUARNAghn5": PredictSQUARNAghn5,
-                           "SQUARNAghe": PredictSQUARNAghe,
-                           "SQUARNAghe5": PredictSQUARNAghe5,
-                           "SQUARNAgne": PredictSQUARNAgne,
-                           "SQUARNAgne5": PredictSQUARNAgne5,
-                           "SQUARNAghne": PredictSQUARNAghne,
-                           "SQUARNAghne5": PredictSQUARNAghne5,
-                           "SQUARNAhne": PredictSQUARNAhne,
-                           "SQUARNAhne5": PredictSQUARNAhne5,
-                           "SQUARNAN": PredictSQUARNAN,
-                           "SQUARNAalt": PredictSQUARNAalt,
-                           "SQUARNAalt5": PredictSQUARNAalt5,
-                           "SQUARNAaltN": PredictSQUARNAaltN,
-                           "SQUARNAsk": PredictSQUARNAsk,
-                           "SQUARNAsk5": PredictSQUARNAsk5,
-                           "SQUARNAskN": PredictSQUARNAskN,
+                           "SQUARNAEnb": PredictSQUARNAEnb,
+                           "SQUARNAEnb5": PredictSQUARNAEnb5,
                            "ShapeKnots": PredictShapeKnots,
                            "ShapeKnots5": PredictShapeKnots5,
                            "RNAsubopt5": PredictRNAsubopt5,

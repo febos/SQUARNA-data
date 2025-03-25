@@ -330,6 +330,26 @@ def PredictShapeKnots(seq, top = 1):
         return ['.'*len(seq),]
 
 
+def PredictFold(seq, top = 1):
+
+    FOLD_PATH   = "~/software/RNAstructure6.5/exe/Fold"
+    FOLD_TABLES = "DATAPATH=~/software/RNAstructure6.5/data_tables"
+
+    with open("inp.tmp","w") as inp:
+        inp.write(">seq"+'\n')
+        inp.write(seq+'\n')
+
+    os.system("{} {} inp.tmp outp2.tmp".format(FOLD_TABLES, FOLD_PATH))
+
+    try:
+        res = CTtoDBN("outp2.tmp")[:top]
+        if not res:
+            return ['.'*len(seq),]
+        return res
+    except:
+        return ['.'*len(seq),]
+
+
 def PredictShapeKnots5(seq):
     return PredictShapeKnots(seq, top = 5)
 
@@ -435,34 +455,7 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest150",  "RNAfold"),
-                          ("SRtest150", "RibonanzaNet"),
-                          ("SRtest150", "IPknot"),
-                          ("SRtest150", "MXfold2"),
-                          ("SRtest150", "SPOT-RNA"),
-                          ("SRtest150", "ShapeKnots"),
-                          ("SRtest150", "ShapeKnots5"),
-                          ("SRtest150", "RNAsubopt5"),
-                          ("SRtest150", "CONTRAfold"),
-                          ("SRtest150", "EternaFold"),
-                          ("SRtest150", "SQUARNA"),
-                          ("SRtest150", "SQUARNA5"),
-                          ("SRtest150", "SQUARNAnb"),
-                          ("SRtest150", "SQUARNAnb5"),
-                          ("SRtest150", "SQUARNAN"),
-                          ("SRtest150", "SQUARNANnb"),
-                          ("SRtest150", "SQUARNAH"),
-                          ("SRtest150", "SQUARNAH5"),
-                          ("SRtest150", "SQUARNAHnb"),
-                          ("SRtest150", "SQUARNAHnb5"),
-                          ("SRtest150", "SQUARNAG"),
-                          ("SRtest150", "SQUARNAG5"),
-                          ("SRtest150", "SQUARNAGnb"),
-                          ("SRtest150", "SQUARNAGnb5"),
-                          ("SRtest150", "SQUARNAE"),
-                          ("SRtest150", "SQUARNAE5"),
-                          ("SRtest150", "SQUARNAEnb"),
-                          ("SRtest150", "SQUARNAEnb5"),
+    for dataset, tool in (("SRtest150",  "Fold"),
                           ):     
 
         if NL:
@@ -510,6 +503,7 @@ if __name__ == "__main__":
                            "SQUARNAEnb": PredictSQUARNAEnb,
                            "SQUARNAEnb5": PredictSQUARNAEnb5,
                            "ShapeKnots": PredictShapeKnots,
+                           "Fold": PredictFold,
                            "ShapeKnots5": PredictShapeKnots5,
                            "RNAsubopt5": PredictRNAsubopt5,
                            "CONTRAfold": PredictCONTRAfold,

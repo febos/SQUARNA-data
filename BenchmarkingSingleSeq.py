@@ -207,6 +207,24 @@ def PredictIPknot(seq):
     os.system("~/software/ipknot-master/build/ipknot inp.tmp > outp2.tmp")
     with open("outp2.tmp") as outp:
         dbn = outp.readlines()[2].strip()
+    return [dbn,]
+
+def PredictHFold(seq):
+
+    #inpf = "inp.tmp"
+    #with open(inpf,'w') as inp:
+    #    inp.write('>seq\n')
+    #    inp.write(seq+'\n')
+
+    os.system('~/software/Shapify/HFold_iterative --s "{}" > outp2.tmp'.format(seq))
+    with open("outp2.tmp") as outp:
+        lines = outp.readlines()
+        try:
+            theline = [x for x in lines if x.startswith('Result_0:')][0]
+        except Exception as err:
+            print(lines)
+            raise err
+        dbn = theline.strip().split()[1]
     return [dbn,] 
 
 def PredictMXfold2(seq):
@@ -455,7 +473,7 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest150",  "Fold"),
+    for dataset, tool in (("SRtest150",  "HFold"),
                           ):     
 
         if NL:
@@ -504,6 +522,7 @@ if __name__ == "__main__":
                            "SQUARNAEnb5": PredictSQUARNAEnb5,
                            "ShapeKnots": PredictShapeKnots,
                            "Fold": PredictFold,
+                           "HFold": PredictHFold,
                            "ShapeKnots5": PredictShapeKnots5,
                            "RNAsubopt5": PredictRNAsubopt5,
                            "CONTRAfold": PredictCONTRAfold,

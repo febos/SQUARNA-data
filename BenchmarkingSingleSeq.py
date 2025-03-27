@@ -227,6 +227,18 @@ def PredictHFold(seq):
         dbn = theline.strip().split()[1]
     return [dbn,] 
 
+def PredictCParty(seq):
+
+    #inpf = "inp.tmp"
+    #with open(inpf,'w') as inp:
+    #    inp.write('>seq\n')
+    #    inp.write(seq+'\n')
+
+    os.system('~/software/CParty/build/CParty {} > outp2.tmp'.format(seq))
+    with open("outp2.tmp") as outp:
+        dbn = outp.readlines()[1].split()[0]
+    return [dbn,] 
+
 def PredictMXfold2(seq):
 
     inpf = "inp.tmp"
@@ -473,7 +485,7 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest150",  "HFold"),
+    for dataset, tool in (("SRtest150",  "CParty"),
                           ):     
 
         if NL:
@@ -523,6 +535,7 @@ if __name__ == "__main__":
                            "ShapeKnots": PredictShapeKnots,
                            "Fold": PredictFold,
                            "HFold": PredictHFold,
+                           "CParty": PredictCParty,
                            "ShapeKnots5": PredictShapeKnots5,
                            "RNAsubopt5": PredictRNAsubopt5,
                            "CONTRAfold": PredictCONTRAfold,

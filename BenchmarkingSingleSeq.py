@@ -209,7 +209,7 @@ def PredictIPknot(seq):
         dbn = outp.readlines()[2].strip()
     return [dbn,]
 
-def PredictHFold(seq):
+def PredictIterativeHFold(seq):
 
     #inpf = "inp.tmp"
     #with open(inpf,'w') as inp:
@@ -237,6 +237,20 @@ def PredictCParty(seq):
     os.system('~/software/CParty/build/CParty {} > outp2.tmp'.format(seq))
     with open("outp2.tmp") as outp:
         dbn = outp.readlines()[1].split()[0]
+    return [dbn,]
+
+def PredictKnotty(seq):
+
+    #inpf = "inp.tmp"
+    #with open(inpf,'w') as inp:
+    #    inp.write('>seq\n')
+    #    inp.write(seq+'\n')
+
+    os.system('cd ~/software/Knotty/; ./knotty {} > outp2.tmp'.format(seq))
+    with open(os.path.expanduser("~/software/Knotty/outp2.tmp")) as outp:
+        lines = outp.readlines()
+        dbn = lines[1].split()[1]
+        
     return [dbn,] 
 
 def PredictMXfold2(seq):
@@ -485,7 +499,7 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest150",  "CParty"),
+    for dataset, tool in (("SRtest150",  "Knotty"),
                           ):     
 
         if NL:
@@ -534,8 +548,9 @@ if __name__ == "__main__":
                            "SQUARNAEnb5": PredictSQUARNAEnb5,
                            "ShapeKnots": PredictShapeKnots,
                            "Fold": PredictFold,
-                           "HFold": PredictHFold,
+                           "IterativeHFold": PredictIterativeHFold,
                            "CParty": PredictCParty,
+                           "Knotty": PredictKnotty,
                            "ShapeKnots5": PredictShapeKnots5,
                            "RNAsubopt5": PredictRNAsubopt5,
                            "CONTRAfold": PredictCONTRAfold,

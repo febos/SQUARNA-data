@@ -225,7 +225,56 @@ def PredictIterativeHFold(seq):
             print(lines)
             raise err
         dbn = theline.strip().split()[1]
-    return [dbn,] 
+    return [dbn,]
+
+def PredictIterativeHFold5(seq):
+
+    #inpf = "inp.tmp"
+    #with open(inpf,'w') as inp:
+    #    inp.write('>seq\n')
+    #    inp.write(seq+'\n')
+
+    os.system('~/software/Shapify/HFold_iterative --s "{}" --n 5 > outp2.tmp'.format(seq))
+    with open("outp2.tmp") as outp:
+        lines = outp.readlines()
+        thelines = [x for x in lines if x.startswith('Result')]
+        if thelines:
+            dbns = [theline.strip().split()[1] for theline in thelines][:5]
+        else:
+            dbns = [lines[1].strip().split()[0],]
+        
+    return dbns
+
+def PredictHFold(seq):
+
+    #inpf = "inp.tmp"
+    #with open(inpf,'w') as inp:
+    #    inp.write('>seq\n')
+    #    inp.write(seq+'\n')
+
+    os.system('~/software/HFold/build/HFold {} > outp2.tmp'.format(seq))
+    with open("outp2.tmp") as outp:
+        lines = outp.readlines()
+        dbn = lines[1].strip().split()[0]
+    return [dbn,]
+
+def PredictHFold5(seq):
+
+    #inpf = "inp.tmp"
+    #with open(inpf,'w') as inp:
+    #    inp.write('>seq\n')
+    #    inp.write(seq+'\n')
+
+    os.system('~/software/HFold/build/HFold -n 5 {} > outp2.tmp'.format(seq))
+    with open("outp2.tmp") as outp:
+        lines = outp.readlines()
+        thelines = [x for x in lines if x.startswith('Result')]
+        if thelines:
+            dbns = [theline.strip().split()[1] for theline in thelines][:5]
+        else:
+            dbns = [lines[1].strip().split()[0],]
+        
+    return dbns
 
 def PredictCParty(seq):
 
@@ -238,6 +287,24 @@ def PredictCParty(seq):
     with open("outp2.tmp") as outp:
         dbn = outp.readlines()[1].split()[0]
     return [dbn,]
+
+def PredictCParty5(seq):
+
+    #inpf = "inp.tmp"
+    #with open(inpf,'w') as inp:
+    #    inp.write('>seq\n')
+    #    inp.write(seq+'\n')
+
+    os.system('~/software/CParty/build/CParty -n 5 {} > outp2.tmp'.format(seq))
+    with open("outp2.tmp") as outp:
+        lines = outp.readlines()
+        thelines = [x for x in lines if x.startswith('Result')]
+        if thelines:
+            dbns = [theline.strip().split()[1] for theline in thelines][:5]
+        else:
+            dbns = [lines[1].strip().split()[0],]
+        
+    return dbns
 
 def PredictKnotty(seq):
 
@@ -252,6 +319,26 @@ def PredictKnotty(seq):
         dbn = lines[1].split()[1]
         
     return [dbn,] 
+
+
+def PredictHotKnots(seq):
+
+    #inpf = "inp.tmp"
+    #with open(inpf,'w') as inp:
+    #    inp.write('>seq\n')
+    #    inp.write(seq+'\n')
+
+    os.system('cd ~/software/HotKnots_v2.0/bin; ./HotKnots -s {} > outp2.tmp'.format(seq))
+    with open(os.path.expanduser("~/software/HotKnots_v2.0/bin/outp2.tmp")) as outp:
+        lines = outp.readlines()
+        try:
+            theline = [x for x in lines if x.startswith('S0:')][0]
+        except Exception as err:
+            print(lines)
+            raise err
+        dbn = theline.strip().split()[1]
+    return [dbn,]
+
 
 def PredictMXfold2(seq):
 
@@ -499,7 +586,7 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest150",  "Knotty"),
+    for dataset, tool in (("SRtest150",  "HotKnots"),
                           ):     
 
         if NL:
@@ -548,8 +635,13 @@ if __name__ == "__main__":
                            "SQUARNAEnb5": PredictSQUARNAEnb5,
                            "ShapeKnots": PredictShapeKnots,
                            "Fold": PredictFold,
+                           "HFold": PredictHFold,
+                           "HFold5": PredictHFold5,
+                           "HotKnots": PredictHotKnots,
                            "IterativeHFold": PredictIterativeHFold,
+                           "IterativeHFold5": PredictIterativeHFold5,
                            "CParty": PredictCParty,
+                           "CParty5": PredictCParty5,
                            "Knotty": PredictKnotty,
                            "ShapeKnots5": PredictShapeKnots5,
                            "RNAsubopt5": PredictRNAsubopt5,

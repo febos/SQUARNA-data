@@ -209,6 +209,33 @@ def PredictIPknot(seq):
         dbn = outp.readlines()[2].strip()
     return [dbn,]
 
+
+def PredictCentroidFold(seq):
+
+    inpf = "inp.tmp"
+    with open(inpf,'w') as inp:
+        inp.write('>seq\n')
+        inp.write(seq+'\n')
+
+    os.system("~/software/centroid-rna-package-0.0.16-linux-x86_64/centroid_fold inp.tmp > outp2.tmp")
+    with open("outp2.tmp") as outp:
+        dbn = outp.readlines()[2].split()[0]
+    return [dbn,]
+
+
+def PredictCentroidFoldG6(seq):
+
+    inpf = "inp.tmp"
+    with open(inpf,'w') as inp:
+        inp.write('>seq\n')
+        inp.write(seq+'\n')
+
+    os.system("~/software/centroid-rna-package-0.0.16-linux-x86_64/centroid_fold -g 6 inp.tmp > outp2.tmp")
+    with open("outp2.tmp") as outp:
+        dbn = outp.readlines()[2].split()[0]
+    return [dbn,]
+
+
 def PredictIterativeHFold(seq):
 
     #inpf = "inp.tmp"
@@ -481,6 +508,26 @@ def PredictFold(seq, top = 1):
         return ['.'*len(seq),]
 
 
+def PredictProbKnot(seq, top = 1):
+
+    FOLD_PATH   = "~/software/RNAstructure6.5/exe/ProbKnot"
+    FOLD_TABLES = "DATAPATH=~/software/RNAstructure6.5/data_tables"
+
+    with open("inp.tmp","w") as inp:
+        inp.write(">seq"+'\n')
+        inp.write(seq+'\n')
+
+    os.system("{} {} inp.tmp outp2.tmp --sequence".format(FOLD_TABLES, FOLD_PATH))
+
+    try:
+        res = CTtoDBN("outp2.tmp")[:top]
+        if not res:
+            return ['.'*len(seq),]
+        return res
+    except:
+        return ['.'*len(seq),]
+
+
 def PredictShapeKnots5(seq):
     return PredictShapeKnots(seq, top = 5)
 
@@ -586,8 +633,8 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest150",  "HotKnots"),
-                          ):     
+    for dataset, tool in (("SRtest150",  "CentroidFold"),
+                          ("SRtest150",  "CentroidFoldG6"),):     
 
         if NL:
             dataset += "NL"
@@ -613,6 +660,8 @@ if __name__ == "__main__":
                 structs = {"RNAfold":PredictRNAfold,
                            "RibonanzaNet":PredictRibonanzaNet,
                            "IPknot": PredictIPknot,
+                           "CentroidFold":PredictCentroidFold,
+                           "CentroidFoldG6":PredictCentroidFoldG6,
                            "MXfold2":PredictMXfold2,
                            "SPOT-RNA":PredictSPOTRNA,
                            "SQUARNA": PredictSQUARNA,
@@ -635,6 +684,7 @@ if __name__ == "__main__":
                            "SQUARNAEnb5": PredictSQUARNAEnb5,
                            "ShapeKnots": PredictShapeKnots,
                            "Fold": PredictFold,
+                           "ProbKnot": PredictProbKnot,
                            "HFold": PredictHFold,
                            "HFold5": PredictHFold5,
                            "HotKnots": PredictHotKnots,

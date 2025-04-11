@@ -1,2 +1,3 @@
-# SQUARNA-data
-SQUARNA benchmark data 
+# [SQUARNA](https://github.com/febos/SQUARNA) benchmark data 
+
+

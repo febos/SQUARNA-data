@@ -176,7 +176,10 @@ def PredictSQUARNA(seq, react, reactfile, conf = "def.conf", top = 1):
     if len(seq) >= 1000:
         conf = "1000.conf"
     print(', '+conf)
-    os.system("python3 SQUARNA.py i=inp.tmp c={} toplim={} > outp2.tmp".format(conf, top))
+    if conf in ('def.conf','500.conf','1000.conf'):
+        os.system("SQUARNA i=inp.tmp toplim={} > outp2.tmp".format(top))
+    else:
+        os.system("SQUARNA i=inp.tmp c={} toplim={} > outp2.tmp".format(conf, top))
 
     cnt = 0
     flag = False

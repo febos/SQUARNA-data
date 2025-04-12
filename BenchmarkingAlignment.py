@@ -204,7 +204,7 @@ def ReadStockholm(stkfile):
 
 def PredictSQUARNAs1(dataset, fam):
 
-    command = "python SQUARNA/SQUARNA.py i={} a step3=1 > outp3.tmp".format("datasets/{}/sto/{}.sto".format(dataset,fam))
+    command = "SQUARNA i={} a step3=1 > outp3.tmp".format("datasets/{}/sto/{}.sto".format(dataset,fam))
     os.system(command)
     with open("outp3.tmp") as file:
         lines = file.readlines()
@@ -213,7 +213,7 @@ def PredictSQUARNAs1(dataset, fam):
 
 def PredictSQUARNAs2(dataset, fam):
 
-    command = "python SQUARNA/SQUARNA.py i={} a step3=2 > outp3.tmp".format("datasets/{}/sto/{}.sto".format(dataset,fam))
+    command = "SQUARNA i={} a step3=2 > outp3.tmp".format("datasets/{}/sto/{}.sto".format(dataset,fam))
     os.system(command)
     with open("outp3.tmp") as file:
         lines = file.readlines()
@@ -222,7 +222,7 @@ def PredictSQUARNAs2(dataset, fam):
 
 def PredictSQUARNAs3i(dataset, fam):
 
-    command = "python SQUARNA/SQUARNA.py i={} a step3=i > outp3.tmp".format("datasets/{}/sto/{}.sto".format(dataset,fam))
+    command = "SQUARNA i={} a step3=i > outp3.tmp".format("datasets/{}/sto/{}.sto".format(dataset,fam))
     os.system(command)
     with open("outp3.tmp") as file:
         lines = file.readlines()
@@ -231,7 +231,7 @@ def PredictSQUARNAs3i(dataset, fam):
 
 def PredictSQUARNAs3u(dataset, fam):
 
-    command = "python SQUARNA/SQUARNA.py i={} a step3=u > outp3.tmp".format("datasets/{}/sto/{}.sto".format(dataset,fam))
+    command = "SQUARNA i={} a step3=u > outp3.tmp".format("datasets/{}/sto/{}.sto".format(dataset,fam))
     os.system(command)
     with open("outp3.tmp") as file:
         lines = file.readlines()

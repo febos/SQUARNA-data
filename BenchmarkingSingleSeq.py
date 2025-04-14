@@ -347,6 +347,40 @@ def PredictKnotty(seq):
         
     return [dbn,] 
 
+def PredictVFold2D(seq, mode = "cl", top = 1):
+
+    vfoldpath = "~/software/Vfold2D_v2.5/"
+
+    inpf = os.path.expanduser(os.path.join(vfoldpath,"inp.tmp"))
+    with open(inpf,'w') as inp:
+        inp.write(seq+'\n')
+        inp.write('.'*len(seq)+'\n')
+
+    os.system('cd {}; ./vfold2d_{}.o {}'.format(vfoldpath, mode, "inp.tmp"))
+    with open(os.path.expanduser(os.path.join(vfoldpath,"OUTPUT","inp.sym"))) as outp:
+        lines = outp.readlines()
+        dbns = [x.split()[0] for x in lines[1:] if x.strip()][:top]
+        
+    return dbns 
+
+def PredictVFold2Dcl(seq):
+    return PredictVFold2D(seq, mode = "cl", top = 1)
+
+def PredictVFold2Dcl5(seq):
+    return PredictVFold2D(seq, mode = "cl", top = 5)
+
+def PredictVFold2Dmc(seq):
+    return PredictVFold2D(seq, mode = "mc", top = 1)
+
+def PredictVFold2Dmc5(seq):
+    return PredictVFold2D(seq, mode = "mc", top = 5)
+
+def PredictVFold2Dpk(seq):
+    return PredictVFold2D(seq, mode = "pk", top = 1)
+
+def PredictVFold2Dpk5(seq):
+    return PredictVFold2D(seq, mode = "pk", top = 5)
+
 
 def PredictHotKnots(seq):
 
@@ -633,7 +667,10 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest150",  "SQUARNA"),):     
+    for dataset, tool in (("SRtest150",  "VFold2Dmc"),
+                          ("SRtest150",  "VFold2Dmc5"),
+                          ("SRtest150",  "VFold2Dpk"),
+                          ("SRtest150",  "VFold2Dpk5"),):     
 
         if NL:
             dataset += "NL"
@@ -664,6 +701,12 @@ if __name__ == "__main__":
                            "MXfold2":PredictMXfold2,
                            "SPOT-RNA":PredictSPOTRNA,
                            "SQUARNA": PredictSQUARNA,
+                           "VFold2Dcl":PredictVFold2Dcl,
+                           "VFold2Dcl5":PredictVFold2Dcl5,
+                           "VFold2Dmc":PredictVFold2Dmc,
+                           "VFold2Dmc5":PredictVFold2Dmc5,
+                           "VFold2Dpk":PredictVFold2Dpk,
+                           "VFold2Dpk5":PredictVFold2Dpk5,
                            "SQUARNA5": PredictSQUARNA5,
                            "SQUARNAnb": PredictSQUARNAnb,
                            "SQUARNAnb5": PredictSQUARNAnb5,

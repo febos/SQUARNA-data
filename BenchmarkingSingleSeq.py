@@ -360,6 +360,9 @@ def PredictVFold2D(seq, mode = "cl", top = 1):
     with open(os.path.expanduser(os.path.join(vfoldpath,"OUTPUT","inp.sym"))) as outp:
         lines = outp.readlines()
         dbns = [x.split()[0] for x in lines[1:] if x.strip()][:top]
+
+        if len(dbns[0]) != len(seq):
+            dbns = ['.'*len(seq),]
         
     return dbns 
 
@@ -667,9 +670,7 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest150",  "VFold2Dmc"),
-                          ("SRtest150",  "VFold2Dmc5"),
-                          ("SRtest150",  "VFold2Dpk"),
+    for dataset, tool in (("SRtest150",  "VFold2Dpk"),
                           ("SRtest150",  "VFold2Dpk5"),):     
 
         if NL:

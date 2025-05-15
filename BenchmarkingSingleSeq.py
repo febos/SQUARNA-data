@@ -672,6 +672,8 @@ if __name__ == "__main__":
 
     for dataset, tool in (("S01testclean",  "RNAfold"),
                           ("S01testclean",  "RNAsubopt5"),
+                          ("S01testclean",  "IterativeHFold"),
+                          ("S01testclean",  "IterativeHFold5"),
                           ):     
 
         if NL:

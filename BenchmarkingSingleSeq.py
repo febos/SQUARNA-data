@@ -670,8 +670,11 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest150",  "VFold2Dpk"),
-                          ("SRtest150",  "VFold2Dpk5"),):     
+    for dataset, tool in (("S01testclean",  "ShapeKnots"),
+                          ("S01testclean",  "ShapeKnots5"),
+                          ("S01testclean",  "SQUARNA"),
+                          ("S01testclean",  "SQUARNA5"),
+                          ):     
 
         if NL:
             dataset += "NL"

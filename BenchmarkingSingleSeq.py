@@ -670,10 +670,14 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("S01testclean",  "RNAfold"),
-                          ("S01testclean",  "RNAsubopt5"),
-                          ("S01testclean",  "IterativeHFold"),
-                          ("S01testclean",  "IterativeHFold5"),
+    for dataset, tool in (("S0trainclean",  "RNAfold"),
+                          ("S0trainclean",  "RNAsubopt5"),
+                          ("S0trainclean",  "ShapeKnots"),
+                          ("S0trainclean",  "ShapeKnots5"),
+                          ("S0trainclean",  "IterativeHFold"),
+                          ("S0trainclean",  "IterativeHFold5"),
+                          ("S0trainclean",  "SQUARNA"),
+                          ("S0trainclean",  "SQUARNA5"),
                           ):     
 
         if NL:

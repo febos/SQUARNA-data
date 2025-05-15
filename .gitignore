@@ -11,6 +11,7 @@ SQUARNA
 
 #temp
 *.tmp
+*.dat
 tmp
 
 # Distribution / packaging

@@ -274,14 +274,13 @@ if __name__ == "__main__":
 
             t0 = time.time()
             
-            for i in range(0,len(lines)-3,4):
+            for i in range(0,len(lines)-4,5):
 
                 name = lines[i].strip()
                 print(name,end='')
                 seq = lines[i+1].strip().upper()
-                dbn = lines[i+2].strip()
-                react = lines[i+3].strip()
-
+                react = lines[i+2].strip()
+                dbn = lines[i+4].strip()
 
                 if dataset.startswith("S01"):
                     reactfile = {"RNAfold":reactfiles20[i//4],

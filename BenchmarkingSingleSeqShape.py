@@ -381,14 +381,14 @@ if __name__ == "__main__":
     dtst  = "S01"
     tl    = "ShapeKnots"
 
-    for dataset, tool in (("S0train",  "RNAfold"),
-                          ("S0train",  "RNAsubopt5"),
-                          ("S0train",  "ShapeKnots"),
-                          ("S0train",  "ShapeKnots5"),
-                          ("S0train",  "Shapify"),
-                          ("S0train",  "Shapify5"),
-                          ("S0train",  "SQUARNA"),
-                          ("S0train",  "SQUARNA5"),
+    for dataset, tool in (("S01train",  "RNAfold"),
+                          ("S01train",  "RNAsubopt5"),
+                          ("S01train",  "ShapeKnots"),
+                          ("S01train",  "ShapeKnots5"),
+                          ("S01train",  "Shapify"),
+                          ("S01train",  "Shapify5"),
+                          ("S01train",  "SQUARNA"),
+                          ("S01train",  "SQUARNA5"),
                           ):
 
         with open('datasets/{}.fas'.format(dataset)) as file:

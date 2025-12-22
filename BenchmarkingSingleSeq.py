@@ -569,7 +569,7 @@ def PredictShapeKnots5(seq):
     return PredictShapeKnots(seq, top = 5)
 
 
-def PredictSQUARNA(seq, conf = "def.conf", top = 1):
+def PredictSQUARNA(seq, conf = "def.conf", top = 1, rfam = False):
 
     with open("inp.tmp","w") as inp:
         inp.write(">seq"+'\n')
@@ -581,11 +581,13 @@ def PredictSQUARNA(seq, conf = "def.conf", top = 1):
         conf = "1000.conf"
     print(', '+conf)
 
-    if conf in ('def.conf','500.conf','1000.conf'):
-        os.system("SQUARNA i=inp.tmp toplim={} > outp2.tmp".format(top))
-    else:
-        os.system("SQUARNA i=inp.tmp c={} toplim={} > outp2.tmp".format(conf, top))
+    rfam = "rfam" if rfam else ""
 
+    if conf in ('def.conf','500.conf','1000.conf'):
+        os.system("SQUARNA {} i=inp.tmp toplim={} > outp2.tmp".format(rfam, top))
+    else:
+        os.system("SQUARNA {} i=inp.tmp c={} toplim={} > outp2.tmp".format(rfam, conf, top))
+    
     cnt = 0
     flag = False
     res = []
@@ -603,6 +605,7 @@ def PredictSQUARNA(seq, conf = "def.conf", top = 1):
     return res[:top]
 
 
+
 def PredictRibonanzaNet(seq):
 
     with open("benchmarks/rbnz.txt") as inp:
@@ -610,6 +613,12 @@ def PredictRibonanzaNet(seq):
         seqdbn = dict([line.split() for line in lines])
     return [seqdbn[seq],]
 
+
+def PredictSQUARNArfam(seq):
+    return PredictSQUARNA(seq, rfam = True)
+
+def PredictSQUARNArfam5(seq):
+    return PredictSQUARNA(seq, rfam = True, top = 5) 
 
 def PredictSQUARNA5(seq):
     return PredictSQUARNA(seq, top = 5)
@@ -670,12 +679,8 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest150",  "SQUARNA"),
-                          ("SRtest150",  "SQUARNA5"),
-                          ("S01testclean",  "SQUARNA"),
-                          ("S01testclean",  "SQUARNA5"),
-                          ("S01trainclean",  "SQUARNA"),
-                          ("S01trainclean",  "SQUARNA5"),
+    for dataset, tool in (("SRtest150",  "SQUARNArfam"),
+                          ("SRtest150",  "SQUARNArfam5"),
                           ):     
 
         if NL:
@@ -730,6 +735,8 @@ if __name__ == "__main__":
                            "SQUARNAE5": PredictSQUARNAE5,
                            "SQUARNAEnb": PredictSQUARNAEnb,
                            "SQUARNAEnb5": PredictSQUARNAEnb5,
+                           "SQUARNArfam": PredictSQUARNArfam,
+                           "SQUARNArfam5": PredictSQUARNArfam5,
                            "ShapeKnots": PredictShapeKnots,
                            "Fold": PredictFold,
                            "ProbKnot": PredictProbKnot,

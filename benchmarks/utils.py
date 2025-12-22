@@ -2,6 +2,7 @@
 import numpy as np
 from multiprocessing import Pool
 import sys
+import RNA
 
 # Gapped values
 GAPS = {'-', '.', '~'}
@@ -297,6 +298,11 @@ def BPMatrix(seq, weights, rxs, rlefts, rrights, interchainonly = False):
         
         for j in range(i + inc4, len(seq)):
             scoremat[i, j] = bps[seq[i] + seq[j]] * boolmat[i, j]
+
+    fc = RNA.fold_compound(seq)
+    fc.pf()
+    bppm = np.array(fc.bpp())[1:,1:]
+    scoremat = scoremat * (bppm/np.max(bppm))
 
     return boolmat, scoremat
 

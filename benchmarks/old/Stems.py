@@ -50,7 +50,7 @@ def PrintMatrix(seq, matrix, dbn1='', dbn2=''):
 
 def YieldStems(seq, reactivities = None, restraints = None, 
                bpweights = {}, interchainonly = False,
-               minlen = 2, minbpscore = 0, bpp = True):
+               minlen = 2, minbpscore = 0):
     """Returns a list of stems based on a (possibly aligned) sequence"""
 
     # turn seq into UPPERCASE & replace T with U
@@ -79,7 +79,7 @@ def YieldStems(seq, reactivities = None, restraints = None,
     # Build the BP matrices based on the unaligned seq and restraints
     bpboolmatrix, bpscorematrix = BPMatrix(shortseq, bpweights, rxs,
                                            rlefts, rrights,
-                                           interchainonly, bpp = bpp)
+                                           interchainonly, bpp = False)
 
     # Annotate stems from the matrices and restraint bps
     # using the maxlen definition for stems (diff = 0)
@@ -110,11 +110,11 @@ def YieldStems(seq, reactivities = None, restraints = None,
 def mpYieldStems(args):
     """multiprocessing (single-parameter) version of YieldStems"""
     #Unpack args
-    seq, reacts, rests, bpweights, interchainonly, minlen, minbpscore, bpp = args
+    seq, reacts, rests, bpweights, interchainonly, minlen, minbpscore = args
     #Call YieldStems
     return YieldStems(seq, reacts, rests,
                       bpweights, interchainonly,
-                      minlen, minbpscore, bpp)
+                      minlen, minbpscore)
 
 
 def MatrixToDBNs(mat, score, depth, verbose = False):
@@ -197,7 +197,7 @@ def Metrics(ref, pred):
 def SQRNdbnali(objs, defrests = None, defreacts = None, defref = None,
                bpweights = {}, interchainonly = False,
                minlen = 2, minbpscore = 0,
-               threads = 1, verbose = False, bpp = True):
+               threads = 1, verbose = False):
     """Returns a predicted dbn for a set of aligned sequences"""
 
     # Placeholder LENxLEN matrix of zeros 
@@ -212,7 +212,7 @@ def SQRNdbnali(objs, defrests = None, defreacts = None, defref = None,
                    bpweights,
                    interchainonly,
                    minlen,
-                   minbpscore,bpp) for obj in objs]
+                   minbpscore) for obj in objs]
 
         # Sum up the stem scores over all sequences
         for stems in pool.imap(mpYieldStems, inputs):

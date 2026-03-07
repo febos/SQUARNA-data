@@ -197,6 +197,14 @@ def PredictRNAsubopt5(seq, top = 5):
     return dbns[:top]
 
 
+def PredictEFold(seq):
+
+    os.system("efold {} -o outp2.tmp".format(seq))
+    with open("outp2.tmp") as outp:
+        dbn = outp.readlines()[1].strip()
+    return [dbn,]
+
+
 def PredictIPknot(seq):
 
     inpf = "inp.tmp"
@@ -679,8 +687,8 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest150",  "SQUARNArfam"),
-                          ("SRtest150",  "SQUARNArfam5"),
+    for dataset, tool in (("SRtest150",  "eFold"),
+                          ("SRtest150",  "SQUARNArfam"),
                           ):     
 
         if NL:
@@ -712,6 +720,7 @@ if __name__ == "__main__":
                            "MXfold2":PredictMXfold2,
                            "SPOT-RNA":PredictSPOTRNA,
                            "SQUARNA": PredictSQUARNA,
+                           'eFold': PredictEFold,
                            "VFold2Dcl":PredictVFold2Dcl,
                            "VFold2Dcl5":PredictVFold2Dcl5,
                            "VFold2Dmc":PredictVFold2Dmc,

@@ -199,7 +199,7 @@ def PredictRNAsubopt5(seq, top = 5):
 
 def PredictEFold(seq):
 
-    os.system("efold {} -o outp2.tmp".format(seq))
+    os.system("conda run -n rbnz efold {} -o outp2.tmp".format(seq))
     with open("outp2.tmp") as outp:
         dbn = outp.readlines()[1].strip()
     return [dbn,]
@@ -687,8 +687,7 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest150",  "eFold"),
-                          ("SRtest150",  "SQUARNArfam"),
+    for dataset, tool in (("SRtest",  "IterativeHFold"),
                           ):     
 
         if NL:

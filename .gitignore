@@ -13,6 +13,8 @@ SQUARNA
 *.tmp
 *.dat
 tmp
+squarna_cmscan*
+logfile.txt
 
 # Distribution / packaging
 .Python

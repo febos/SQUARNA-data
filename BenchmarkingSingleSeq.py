@@ -401,6 +401,9 @@ def PredictHotKnots(seq):
     #    inp.write(seq+'\n')
 
     os.system('cd ~/software/HotKnots_v2.0/bin; ./HotKnots -s {} > outp2.tmp'.format(seq))
+    #os.system(
+    #'docker exec hotknots32 bash -c "cd /HotKnots/bin && xvfb-run ./HotKnots -s {} > /HotKnots/bin/outp2.tmp"'.format(seq)
+    #)
     with open(os.path.expanduser("~/software/HotKnots_v2.0/bin/outp2.tmp")) as outp:
         lines = outp.readlines()
         try:
@@ -687,7 +690,16 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest",  "IterativeHFold"),
+    for dataset, tool in (("SRtest",  "HotKnots"),
+                          ("SRtest",  "CentroidFold"),
+                          ("SRtest",  "CentroidFoldG6"),
+                          ("SRtest",  "Fold"),
+                          ("SRtest",  "ProbKnot"),
+                          ("SRtest",  "CParty"),
+                          ("SRtest",  "Hfold"),
+                          ("SRtest",  "Hfold5"),
+                          ("SRtest",  "CParty5"),
+                          ("SRtest",  "IterativeHFold5"),
                           ):     
 
         if NL:

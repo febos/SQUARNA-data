@@ -691,7 +691,9 @@ if __name__ == "__main__":
     tl    = "CONTRAfold"
 
     for dataset, tool in (("SRtest",  "CONTRAfold"),
-                          ):     
+                          ("SRtest",  "Knotty"),
+                          ("SRtest",  "EternaFold"),
+                          ("SRtest",  "RibonanzaNet"),):     
 
         if NL:
             dataset += "NL"

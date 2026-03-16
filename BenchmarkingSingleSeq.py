@@ -690,16 +690,7 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest",  "HotKnots"),
-                          ("SRtest",  "CentroidFold"),
-                          ("SRtest",  "CentroidFoldG6"),
-                          ("SRtest",  "Fold"),
-                          ("SRtest",  "ProbKnot"),
-                          ("SRtest",  "CParty"),
-                          ("SRtest",  "Hfold"),
-                          ("SRtest",  "Hfold5"),
-                          ("SRtest",  "CParty5"),
-                          ("SRtest",  "IterativeHFold5"),
+    for dataset, tool in (("SRtest",  "CONTRAfold"),
                           ):     
 
         if NL:

@@ -681,7 +681,26 @@ def PredictSQUARNAnb(seq):
 
 def PredictSQUARNAnb5(seq):
     return PredictSQUARNA(seq, conf = "nobpp.conf", top = 5)
-     
+
+
+def PreidictUFold(seq):
+
+    
+
+    if len(seq) > 600 or set(seq.upper()) != {'A','C','G','U'}:
+        return ['.'*len(seq),]
+
+    with open(os.path.expanduser("~/software/UFold/data/input.txt"),'w') as inp:
+        inp.write('>seq\n')
+        inp.write(seq+'\n')
+
+    os.system('cd ~/software/UFold; conda run -n UFold python ufold_predict.py')
+
+    with open(os.path.expanduser("~/software/UFold/results/input_dot_ct_file.txt")) as outp:
+        lines = outp.readlines()
+        dbn = lines[2].strip()
+    return [dbn,]
+
 
 if __name__ == "__main__":
 
@@ -690,10 +709,8 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest",  "CONTRAfold"),
-                          ("SRtest",  "Knotty"),
-                          ("SRtest",  "EternaFold"),
-                          ("SRtest",  "RibonanzaNet"),):     
+    for dataset, tool in (("SRtest",  "UFold"),
+                          ("SRtest",  "Knotty"),):     
 
         if NL:
             dataset += "NL"
@@ -717,6 +734,7 @@ if __name__ == "__main__":
                 dbn = lines[i+2].strip()
 
                 structs = {"RNAfold":PredictRNAfold,
+                           "UFold":PreidictUFold,
                            "RibonanzaNet":PredictRibonanzaNet,
                            "IPknot": PredictIPknot,
                            "CentroidFold":PredictCentroidFold,

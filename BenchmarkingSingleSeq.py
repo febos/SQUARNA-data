@@ -709,9 +709,22 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest",  "UFold"),
-                          ("SRtest",  "Knotty"),):     
-
+    for dataset, tool in (("SRtest",  "SQUARNAnb"),
+                          ("SRtest",  "SQUARNAnb5"),
+                          ("SRtest",  "SQUARNAN"),
+                          ("SRtest",  "SQUARNANnb"),
+                          ("SRtest",  "SQUARNAH"),
+                          ("SRtest",  "SQUARNAH5"),
+                          ("SRtest",  "SQUARNAHnb"),
+                          ("SRtest",  "SQUARNAHnb5"),
+                          ("SRtest",  "SQUARNAG"),
+                          ("SRtest",  "SQUARNAG5"),
+                          ("SRtest",  "SQUARNAGnb"),
+                          ("SRtest",  "SQUARNAGnb5"),
+                          ("SRtest",  "SQUARNAE"),
+                          ("SRtest",  "SQUARNAE5"),
+                          ("SRtest",  "SQUARNAEnb"),
+                          ("SRtest",  "SQUARNAEnb5"),):
         if NL:
             dataset += "NL"
 

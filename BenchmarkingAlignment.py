@@ -338,8 +338,7 @@ if __name__ == "__main__":
                           ("S01Aliclean","SQUARNAs3i"),
                           ("S01Aliclean","SQUARNAs3u"),):'''
 
-    for dataset, tool in (("RNAStralignExt", "SQUARNAs3i"),
-                          ("RNAStralignExt", "SQUARNAs3u"),
+    for dataset, tool in (("SubAli", "SQUARNAs3u"),
                           ):
                 
         outname = "{}_{}".format(dataset,tool)

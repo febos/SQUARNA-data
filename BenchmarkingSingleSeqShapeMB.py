@@ -169,7 +169,7 @@ def NoLone(dbn):
     return ''.join([dbn[i] if i not in lone_pos_set else '.' for i in range(len(dbn))])
 
 
-def PredictRNAfold(seq, react):
+def PredictRNAfold(seq, react, m, b):
 
     inpf = "inp.tmp"
     with open(inpf,'w') as inp:
@@ -179,7 +179,7 @@ def PredictRNAfold(seq, react):
         for k,rval in enumerate(react.split()):
             inp.write("{} {}\n".format(k+1,rval))
 
-    os.system("~/software/ViennaRNA-2.7.1/src/bin/RNAfold --shape=inp.dat --noPS < inp.tmp > outp2.tmp")
+    os.system('~/software/ViennaRNA-2.7.1/src/bin/RNAfold --shape=inp.dat --shapeMethod="Dm{}b{}" --noPS < inp.tmp > outp2.tmp'.format(m,b))
     with open("outp2.tmp") as outp:
         dbn = outp.readlines()[2].split()[0]
     return [dbn,]       
@@ -381,25 +381,11 @@ if __name__ == "__main__":
     dtst  = "S01"
     tl    = "ShapeKnots"
 
-    for dataset, tool in (("Ribonanza2A3",  "RNAfold"),
-                          ("Ribonanza2A3",  "RNAsubopt5"),
-                          ("Ribonanza2A3",  "ShapeKnots"),
-                          ("Ribonanza2A3",  "ShapeKnots5"),
-                          ("Ribonanza2A3",  "SQUARNA"),
-                          ("Ribonanza2A3",  "SQUARNA5"),
-                          ("RibonanzaDMS",  "RNAfold"),
-                          ("RibonanzaDMS",  "RNAsubopt5"),
-                          ("RibonanzaDMS",  "ShapeKnots"),
-                          ("RibonanzaDMS",  "ShapeKnots5"),
-                          ("RibonanzaDMS",  "SQUARNA"),
-                          ("RibonanzaDMS",  "SQUARNA5"),
-                          ("ribo2",  "RNAfold"),
-                          ("ribo2",  "SQUARNA5"),
-                          ):
+    for dataset, tool, M, B in [("Ribonanza2A3",  "RNAfold", m/10, -b/10) for m in range(0,31) for b in range(-20,21)]:
 
         with open('datasets/{}.fas'.format(dataset)) as file:
 
-            outname = "{}_{}".format(dataset,tool)
+            outname = "{}_{}_{}_{}".format(dataset,tool,M,B)
             title = '\t'.join("NAME LEN TIME RANK TP FP FN PRC RCL FS SEQ DBN PRED".split())
             outp1 = open(outname+'.fas','w')
             outp2 = open(outname+'.tsv','w')
@@ -432,7 +418,7 @@ if __name__ == "__main__":
                            "SQUARNAsk": PredictSQUARNAsk,
                            "SQUARNAsk5": PredictSQUARNAsk5,
                            "SQUARNAskN": PredictSQUARNAskN,
-                           }[tool](seq, react)
+                           }[tool](seq, react, M, B)
 
                 t1 = time.time()-t0
 

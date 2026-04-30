@@ -179,7 +179,7 @@ def PredictRNAfold(seq, react):
         for k,rval in enumerate(react.split()):
             inp.write("{} {}\n".format(k+1,rval))
 
-    os.system("~/software/ViennaRNA-2.7.1/src/bin/RNAfold --shape=inp.dat --noPS < inp.tmp > outp2.tmp")
+    os.system("~/software/ViennaRNA-2.7.0/src/bin/RNAfold --shape=inp.dat --noPS < inp.tmp > outp2.tmp")
     with open("outp2.tmp") as outp:
         dbn = outp.readlines()[2].split()[0]
     return [dbn,]       
@@ -195,7 +195,7 @@ def PredictRNAsubopt5(seq, react, top = 5):
         for k,rval in enumerate(react.split()):
             inp.write("{} {}\n".format(k+1,rval))
 
-    os.system("~/software/ViennaRNA-2.7.1/src/bin/RNAsubopt --shape=inp.dat --sorted < inp.tmp > outp2.tmp")
+    os.system("~/software/ViennaRNA-2.7.0/src/bin/RNAsubopt --shape=inp.dat --sorted < inp.tmp > outp2.tmp")
     with open("outp2.tmp") as outp:
         dbns = [x.split()[0] for x in outp.readlines()[2:]]
     return dbns[:top]     
@@ -331,7 +331,7 @@ def PredictSQUARNA(seq, react, conf = "def.conf", top = 1):
     if conf in ('def.conf','500.conf','1000.conf'):
         os.system("SQUARNA i=inp.tmp toplim={} > outp2.tmp".format(top))
     else:
-        os.system("SQUARNA i=inp.tmp c={} toplim={} > outp2.tmp".format(conf,top))
+        os.system("SQUARNA i=inp.tmp c={} toplim={} > outp2.tmp".format(conf, top))
 
     cnt = 0
     flag = False
@@ -381,20 +381,10 @@ if __name__ == "__main__":
     dtst  = "S01"
     tl    = "ShapeKnots"
 
-    for dataset, tool in (("Ribonanza2A3",  "RNAfold"),
-                          ("Ribonanza2A3",  "RNAsubopt5"),
-                          ("Ribonanza2A3",  "ShapeKnots"),
-                          ("Ribonanza2A3",  "ShapeKnots5"),
-                          ("Ribonanza2A3",  "SQUARNA"),
-                          ("Ribonanza2A3",  "SQUARNA5"),
-                          ("RibonanzaDMS",  "RNAfold"),
-                          ("RibonanzaDMS",  "RNAsubopt5"),
-                          ("RibonanzaDMS",  "ShapeKnots"),
-                          ("RibonanzaDMS",  "ShapeKnots5"),
-                          ("RibonanzaDMS",  "SQUARNA"),
-                          ("RibonanzaDMS",  "SQUARNA5"),
-                          ("ribo2",  "RNAfold"),
-                          ("ribo2",  "SQUARNA5"),
+    for dataset, tool in (("S01test",  "SQUARNA"),
+                          ("S01test",  "SQUARNA5"),
+                          ("S01train",  "SQUARNA"),
+                          ("S01train",  "SQUARNA5"),
                           ):
 
         with open('datasets/{}.fas'.format(dataset)) as file:
@@ -408,14 +398,13 @@ if __name__ == "__main__":
 
             t0 = time.time()
             
-            for i in range(0,len(lines)-3,4):
+            for i in range(0,len(lines)-4,5):
 
                 name = lines[i].strip()
                 print(name,end='')
                 seq = lines[i+1].strip().upper()
-                dbn = lines[i+2].strip()
-                react = lines[i+3].strip()
-                #print(react)
+                react = lines[i+2].strip()
+                dbn = lines[i+4].strip()                 
 
                 structs = {"RNAfold":PredictRNAfold,
                            "ShapeKnots": PredictShapeKnots,
@@ -442,7 +431,7 @@ if __name__ == "__main__":
 
                 # Clean <3nt hairpins and non-canonical pairs
                 structs = [CombinePairsToDBN([(v,w) for v,w in GetPairs(_)
-                                              if w-v >= 4 and (seq[v]+seq[w]).upper().replace('T','U') in {'GC','CG',
+                                              if w-v >= 4 and seq[v]+seq[w] in {'GC','CG',
                                                                                 'GU','UG',
                                                                                 'AU','UA'}],
                                              len(seq))

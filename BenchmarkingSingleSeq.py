@@ -175,7 +175,7 @@ def PredictRNAfold(seq):
         inp.write('>seq\n')
         inp.write(seq+'\n')
 
-    os.system("~/software/ViennaRNA-2.7.0/src/bin/RNAfold --noPS < inp.tmp > outp2.tmp")
+    os.system("~/software/ViennaRNA-2.7.1/src/bin/RNAfold --noPS < inp.tmp > outp2.tmp")
     with open("outp2.tmp") as outp:
         dbn = outp.readlines()[2].split()[0]
     return [dbn,]
@@ -191,7 +191,7 @@ def PredictRNAsubopt5(seq, top = 5):
         add = "--deltaEnergy=0.1"
     else:
         add = ""
-    os.system("~/software/ViennaRNA-2.7.0/src/bin/RNAsubopt --sorted {} < inp.tmp > outp2.tmp".format(add))
+    os.system("~/software/ViennaRNA-2.7.1/src/bin/RNAsubopt --sorted {} < inp.tmp > outp2.tmp".format(add))
     with open("outp2.tmp") as outp:
         dbns = [x.split()[0] for x in outp.readlines()[2:]]
     return dbns[:top]
@@ -709,22 +709,13 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest",  "SQUARNAnb"),
-                          ("SRtest",  "SQUARNAnb5"),
-                          ("SRtest",  "SQUARNAN"),
-                          ("SRtest",  "SQUARNANnb"),
-                          ("SRtest",  "SQUARNAH"),
-                          ("SRtest",  "SQUARNAH5"),
-                          ("SRtest",  "SQUARNAHnb"),
-                          ("SRtest",  "SQUARNAHnb5"),
-                          ("SRtest",  "SQUARNAG"),
-                          ("SRtest",  "SQUARNAG5"),
-                          ("SRtest",  "SQUARNAGnb"),
-                          ("SRtest",  "SQUARNAGnb5"),
-                          ("SRtest",  "SQUARNAE"),
-                          ("SRtest",  "SQUARNAE5"),
-                          ("SRtest",  "SQUARNAEnb"),
-                          ("SRtest",  "SQUARNAEnb5"),):
+    for dataset, tool in (("Ribonanzaclean",  "RNAfold"),
+                          ("Ribonanzaclean",  "RNAsubopt5"),
+                          ("Ribonanzaclean",  "ShapeKnots"),
+                          ("Ribonanzaclean",  "ShapeKnots5"),
+                          ("Ribonanzaclean",  "SQUARNA"),
+                          ("Ribonanzaclean",  "SQUARNA5"),
+                          ):
         if NL:
             dataset += "NL"
 

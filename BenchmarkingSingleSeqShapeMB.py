@@ -316,7 +316,7 @@ def PredictShapify5(seq, react):
         
     return dbns
 
-def PredictSQUARNA(seq, react, conf = "def.conf", top = 1):
+def PredictSQUARNA(seq, react, M, B, conf = "def.conf", top = 1):
 
     with open("inp.tmp","w") as inp:
         inp.write(">seq"+'\n')
@@ -329,9 +329,9 @@ def PredictSQUARNA(seq, react, conf = "def.conf", top = 1):
         conf = "1000.conf"
     print(', '+conf)
     if conf in ('def.conf','500.conf','1000.conf'):
-        os.system("SQUARNA i=inp.tmp toplim={} > outp2.tmp".format(top))
+        os.system("SQUARNA i=inp.tmp toplim={} M={} B={} > outp2.tmp".format(top,M,B))
     else:
-        os.system("SQUARNA i=inp.tmp c={} toplim={} > outp2.tmp".format(conf,top))
+        os.system("SQUARNA i=inp.tmp c={} toplim={} M={} B={} > outp2.tmp".format(conf,top,M,B))
 
     cnt = 0
     flag = False
@@ -350,8 +350,8 @@ def PredictSQUARNA(seq, react, conf = "def.conf", top = 1):
     return res[:top]
 
 
-def PredictSQUARNA5(seq, react):
-    return PredictSQUARNA(seq, react, top = 5)
+def PredictSQUARNA5(seq, react, M, B):
+    return PredictSQUARNA(seq, react, M, B, top = 5)
 
 def PredictSQUARNAN(seq, react, reactfile):
     return PredictSQUARNA(seq, react, reactfile, top = 10**6)
@@ -381,7 +381,8 @@ if __name__ == "__main__":
     dtst  = "S01"
     tl    = "ShapeKnots"
 
-    for dataset, tool, M, B in [("Ribonanza2A3",  "RNAfold", m/10, -b/10) for m in range(0,31) for b in range(-20,21)]:
+    for dataset, tool, M, B in [("S01",  tool, m/10, -b/10) for m in range(13,24) for b in range(1,12)
+                                                            for tool in ("SQUARNA", "SQUARNA5")]:
 
         with open('datasets/{}.fas'.format(dataset)) as file:
 

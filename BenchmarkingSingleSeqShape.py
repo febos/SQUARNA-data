@@ -353,8 +353,8 @@ def PredictSQUARNA(seq, react, conf = "def.conf", top = 1):
 def PredictSQUARNA5(seq, react):
     return PredictSQUARNA(seq, react, top = 5)
 
-def PredictSQUARNAN(seq, react, reactfile):
-    return PredictSQUARNA(seq, react, reactfile, top = 10**6)
+def PredictSQUARNAN(seq, react):
+    return PredictSQUARNA(seq, react, conf = "nussinov.conf")
 
 def PredictSQUARNAalt(seq, react, reactfile):
     return PredictSQUARNA(seq, react, reactfile, conf = "alt.conf")
@@ -381,8 +381,8 @@ if __name__ == "__main__":
     dtst  = "S01"
     tl    = "ShapeKnots"
 
-    for dataset, tool in (("S01",  "SQUARNA"),
-                          ("S01",  "SQUARNA5"),
+    for dataset, tool in (("S01",  "RNAfold"),
+                          ("S01",  "SQUARNA"),
                           ):
 
         with open('datasets/{}.fas'.format(dataset)) as file:

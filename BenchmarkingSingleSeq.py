@@ -683,9 +683,7 @@ def PredictSQUARNAnb5(seq):
     return PredictSQUARNA(seq, conf = "nobpp.conf", top = 5)
 
 
-def PreidictUFold(seq):
-
-    
+def PredictUFold(seq):
 
     if len(seq) > 600 or set(seq.upper()) != {'A','C','G','U'}:
         return ['.'*len(seq),]
@@ -709,12 +707,26 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("S01clean",  "RNAfold"),
-                          ("S01clean",  "RNAsubopt5"),
-                          ("S01clean",  "ShapeKnots"),
-                          ("S01clean",  "ShapeKnots5"),
-                          ("S01clean",  "SQUARNA"),
-                          ("S01clean",  "SQUARNA5"),
+    for dataset, tool in (("SRtest",  "SQUARNA"),
+                          ("SRtest",  "SQUARNA5"),
+                          ("SRtest",  "SQUARNAE"),
+                          ("SRtest",  "SQUARNAE5"),
+                          ("SRtest",  "SQUARNAEnb"),
+                          ("SRtest",  "SQUARNAEnb5"),
+                          ("SRtest",  "SQUARNAG"),
+                          ("SRtest",  "SQUARNAG5"),
+                          ("SRtest",  "SQUARNAGnb"),
+                          ("SRtest",  "SQUARNAGnb5"),
+                          ("SRtest",  "SQUARNAH"),
+                          ("SRtest",  "SQUARNAH5"),
+                          ("SRtest",  "SQUARNAHnb"),
+                          ("SRtest",  "SQUARNAHnb5"),
+                          ("SRtest",  "SQUARNAN"),
+                          ("SRtest",  "SQUARNAnb"),
+                          ("SRtest",  "SQUARNAnb5"),
+                          ("SRtest",  "SQUARNANnb"),
+                          ("SRtest",  "SQUARNArfam"),
+                          ("SRtest",  "SQUARNArfam5"),
                           ):
         if NL:
             dataset += "NL"
@@ -738,7 +750,7 @@ if __name__ == "__main__":
                 dbn = lines[i+2].strip()
 
                 structs = {"RNAfold":PredictRNAfold,
-                           "UFold":PreidictUFold,
+                           "UFold":PredictUFold,
                            "RibonanzaNet":PredictRibonanzaNet,
                            "IPknot": PredictIPknot,
                            "CentroidFold":PredictCentroidFold,

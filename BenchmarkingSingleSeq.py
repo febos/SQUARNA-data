@@ -579,6 +579,25 @@ def PredictProbKnot(seq, top = 1):
 def PredictShapeKnots5(seq):
     return PredictShapeKnots(seq, top = 5)
 
+def PredictILM(seq):
+
+    inpf = "inp.tmp"
+    with open(inpf,'w') as inp:
+        inp.write('seq :'+seq+'\n')
+
+    os.system("~/software/ilm/bin/ilm_single inp.tmp > outp2.tmp")
+
+    pairs = []
+    with open("outp2.tmp") as outp:
+        for line in outp:
+            linesplit = line.split()
+            if len(linesplit) != 2:
+                continue
+            v, w = int(linesplit[0]), int(linesplit[1])
+            if 0 < v < w:
+                pairs.append((v-1,w-1))
+    return [CombinePairsToDBN(pairs,len(seq)),]
+
 
 def PredictSQUARNA(seq, conf = "def.conf", top = 1, rfam = False):
 
@@ -707,10 +726,7 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest150",  "SQUARNA"),
-                          ("SRtest150",  "SQUARNA5"),
-                          ("SRtest150",  "SQUARNArfam"),
-                          ("SRtest150",  "SQUARNArfam5"),
+    for dataset, tool in (("SRtest",  "ILM"),
                           ):
         if NL:
             dataset += "NL"
@@ -781,6 +797,7 @@ if __name__ == "__main__":
                            "Knotty": PredictKnotty,
                            "ShapeKnots5": PredictShapeKnots5,
                            "RNAsubopt5": PredictRNAsubopt5,
+                           "ILM": PredictILM,
                            "CONTRAfold": PredictCONTRAfold,
                            "EternaFold": PredictEternaFold,
                            }[tool](seq)

@@ -605,9 +605,11 @@ def PredictSQUARNA(seq, conf = "def.conf", top = 1, rfam = False):
         inp.write(">seq"+'\n')
         inp.write(seq+'\n')
 
-    if len(seq) >= 500:
+    fastalgo = ("nussinov" in conf or "hungarian" in conf or "edmonds" in conf or "ilm" in conf) 
+
+    if len(seq) >= 500 and not fastalgo:
         conf = "500.conf"
-    if len(seq) >= 1000:
+    if len(seq) >= 1000 and not fastalgo:
         conf = "1000.conf"
     print(', '+conf)
 
@@ -683,6 +685,12 @@ def PredictSQUARNAN(seq):
 def PredictSQUARNANnb(seq):
     return PredictSQUARNA(seq, conf="nussinovnobpp.conf")
 
+def PredictSQUARNAI(seq):
+    return PredictSQUARNA(seq, conf="ilm.conf")
+
+def PredictSQUARNAInb(seq):
+    return PredictSQUARNA(seq, conf="ilmnobpp.conf")
+
 def PredictSQUARNAH(seq):
     return PredictSQUARNA(seq, conf="hungarian.conf")
 
@@ -726,7 +734,8 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest",  "ILM"),
+    for dataset, tool in (("SRtest",  "SQUARNAInb"),
+                          ("SRtest",  "SQUARNAI"),
                           ):
         if NL:
             dataset += "NL"
@@ -770,6 +779,8 @@ if __name__ == "__main__":
                            "SQUARNAnb5": PredictSQUARNAnb5,
                            "SQUARNAN": PredictSQUARNAN,
                            "SQUARNANnb": PredictSQUARNANnb,
+                           "SQUARNAI": PredictSQUARNAI,
+                           "SQUARNAInb": PredictSQUARNAInb,
                            "SQUARNAH": PredictSQUARNAH,
                            "SQUARNAH5": PredictSQUARNAH5,
                            "SQUARNAHnb": PredictSQUARNAHnb,

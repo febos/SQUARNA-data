@@ -422,7 +422,7 @@ def PredictMXfold2(seq):
         inp.write('>seq\n')
         inp.write(seq+'\n')
 
-    os.system("mxfold2 predict inp.tmp > outp2.tmp")
+    os.system("conda run -n mxfold2 mxfold2 predict inp.tmp > outp2.tmp")
     with open("outp2.tmp") as outp:
         dbn = outp.readlines()[2].split()[0]
     return [dbn,] 
@@ -479,7 +479,7 @@ def PredictSPOTRNA(seq):
             inp.write('>seq%s\n'%ii)
             inp.write(seq+'\n')
 
-    os.system('conda run -n spotrna python ~/software/SPOT-RNA/SPOT-RNA.py --inputs inp.tmp --outputs "tmp" --cpu 32')
+    os.system('conda run -n spotrna python3 ~/software/SPOT-RNA/SPOT-RNA.py --inputs inp.tmp --outputs "tmp" --cpu 32')
 
     res = []
 
@@ -734,10 +734,38 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest",  "eFold"),
-                          ("SRtest",  "EternaFold"),
-                          ("SRtest",  "Fold"),
+    for dataset, tool in (("SRtest",  "SQUARNArfam"),
+                          ("SRtest",  "SQUARNArfam5"), 
+                          ("SRtest",  "SQUARNA"),
+                          ("SRtest",  "SQUARNA5"),
+                          ("SRtest",  "SQUARNAE"),
+                          ("SRtest",  "SQUARNAE5"),
+                          ("SRtest",  "SQUARNAEnb"),
+                          ("SRtest",  "SQUARNAEnb5"),
+                          ("SRtest",  "SQUARNAG"),
+                          ("SRtest",  "SQUARNAG5"),
+                          ("SRtest",  "SQUARNAGnb"),
+                          ("SRtest",  "SQUARNAGnb5"),
+                          ("SRtest",  "SQUARNAH"),
+                          ("SRtest",  "SQUARNAH5"),
+                          ("SRtest",  "SQUARNAHnb"),
+                          ("SRtest",  "SQUARNAHnb5"),
+                          ("SRtest",  "SQUARNAI"),
+                          ("SRtest",  "SQUARNAInb"),
+                          ("SRtest",  "SQUARNAN"),
+                          ("SRtest",  "SQUARNAnb"),
+                          ("SRtest",  "SQUARNAnb5"),
+                          ("SRtest",  "SQUARNANnb"),
+                          ("SRtest",  "SPOT-RNA"),
+                          ("SRtest",  "IPknot"),
+                          ("SRtest",  "ShapeKnots"),
+                          ("SRtest",  "ShapeKnots5"),
+                          ("SRtest",  "IterativeHFold"),
+                          ("SRtest",  "IterativeHFold5"),
+                          ("SRtest",  "Knotty"),
+                          ("SRtest",  "HotKnots"),
                           ):
+
         if NL:
             dataset += "NL"
 

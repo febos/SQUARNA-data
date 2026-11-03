@@ -727,6 +727,89 @@ def PredictUFold(seq):
     return [dbn,]
 
 
+def PredictKnotFold(seq):
+
+    inpf = os.path.abspath("inp.tmp")
+    outdir = os.path.abspath("knotfold_tmp")
+    os.makedirs(outdir, exist_ok=True)
+
+    name = "seq"
+    with open(inpf, 'w') as inp:
+        inp.write('>{}\n'.format(name))
+        inp.write(seq.upper().replace('T', 'U') + '\n')
+
+    os.system("cd ~/software/KnotFold && "
+              "conda run -n knotfold python KnotFold.py -i {} -o {} --cuda".format(inpf,
+                                                                                   outdir))      
+    pairs = []
+    with open(os.path.join(outdir, "{}.bpseq".format(name))) as outp:
+        for line in outp:
+            if not line.strip():
+                continue
+            x, _, z = line.split()
+            x, z = int(x), int(z)
+            if z and x < z:
+                pairs.append((x-1, z-1))
+    return [CombinePairsToDBN(pairs, len(seq)),]
+
+
+def PredictRNADiffFold(seq):
+ 
+    inpf = os.path.abspath("inp.tmp")
+    outdir = os.path.abspath("rnadifffold_tmp")
+    os.system("rm -rf {}".format(outdir))   # avoid picking up a stale .ct
+  
+    with open(inpf, 'w') as inp:
+        inp.write('>seq\n')
+        inp.write(seq + '\n')
+      
+    os.system("conda run -n RNADiffFold rnadifffold-predict {} {}".format(inpf, outdir))
+
+    # header-less CT: idx base idx-1 idx+1 partner idx
+    pairs = []
+    with open(os.path.join(outdir, "seq.ct")) as outp:
+        for line in outp:
+            parts = line.split()
+            if len(parts) < 5:
+                continue
+            i, j = int(parts[0]) - 1, int(parts[4]) - 1
+            if j > i:
+                pairs.append((i, j))
+    return [CombinePairsToDBN(pairs, len(seq)),]
+
+
+def PredictSPOTRNA2(seq):
+
+    import shutil
+
+    # Use a fresh work dir each time. run_spotrna2.sh reuses any existing
+    # <id>_features/{.a2m,.bla,.pssm,.dca}, so a leftover dir would silently
+    # give this sequence the previous sequence's MSA and DCA.
+    workdir = os.path.abspath("spotrna2_tmp")
+    shutil.rmtree(workdir, ignore_errors = True)
+    os.makedirs(workdir)
+
+    # seq_id is the basename up to the first dot, so keep the name dot-free
+    name = "seq"
+    inpf = os.path.join(workdir, name + ".fasta")
+    with open(inpf, 'w') as inp:
+        inp.write('>{}\n'.format(name))
+        inp.write(seq + '\n')
+
+    # The script rewrites inpf in place, which is fine because it's a temp copy.
+    # stdin from /dev/null stops it waiting at the "download nt database?" prompt.
+    os.system("cd ~/software/SPOT-RNA2; "
+              "conda run -n spotrna2 ./run_spotrna2.sh {} < /dev/null > {} 2>&1"
+              .format(inpf, os.path.join(workdir, "log.txt")))
+
+    bpseq = os.path.join(workdir, "{0}_outputs/{0}.bpseq".format(name))
+    if not os.path.exists(bpseq):
+        print("SPOT-RNA2 failed, see", os.path.join(workdir, "log.txt"))
+        return ['.' * len(seq),]
+
+    return [BPSEQtoDBN(bpseq),]
+
+
 if __name__ == "__main__":
 
     NL      =  False
@@ -734,10 +817,7 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest",  "IterativeHFold"),
-                          ("SRtest",  "IterativeHFold5"),
-                          ("SRtest",  "Knotty"),
-                          ("SRtest",  "HotKnots"),
+    for dataset, tool in (("SRtest",  "SPOTRNA2"),
                           ):
 
         if NL:
@@ -814,6 +894,9 @@ if __name__ == "__main__":
                            "ILM": PredictILM,
                            "CONTRAfold": PredictCONTRAfold,
                            "EternaFold": PredictEternaFold,
+                           "KnotFold": PredictKnotFold,
+                           "RNADiffFold": PredictRNADiffFold,
+                           "SPOTRNA2": PredictSPOTRNA2,
                            }[tool](seq)
 
                 t1 = time.time()-t0

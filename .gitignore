@@ -13,6 +13,9 @@ SQUARNA
 *.tmp
 *.dat
 tmp
+knotfold_tmp
+rnadifffold_tmp
+spotrna2_tmp
 squarna_cmscan*
 logfile.txt
 

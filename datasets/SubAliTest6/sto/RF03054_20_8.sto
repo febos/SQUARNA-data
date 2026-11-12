@@ -1,0 +1,69 @@
+# STOCKHOLM 1.0
+#=GF AC   RF03054
+#=GF ID   Xanthine
+#=GF PI   NMT1;
+#=GF DE   Xanthine riboswitch (NMT1 RNA)
+#=GF AU   Weinberg Z; 0000-0002-6681-3624
+#=GF AU   Ontiveros-Palacios N; 0000-0001-8457-4455
+#=GF SE   Weinberg Z
+#=GF SS   Published; PMID:28977401;
+#=GF GA   36.00
+#=GF TC   36.70
+#=GF NC   35.60
+#=GF TP   Cis-reg;
+#=GF BM   cmbuild -F CM SEED
+#=GF CB   cmcalibrate --mpi CM
+#=GF SM   cmsearch --cpu 4 --verbose --nohmmonly -T 30.00 -Z 742849.287494 CM SEQDB
+#=GF DR   SO; 0005836; regulatory_region;
+#=GF DR   GO; 0002060; purine nucleobase binding;
+#=GF RN   [1]
+#=GF RM   28977401
+#=GF RT   Detection of 224 candidate structured RNAs by comparative analysis of
+#=GF RT   specific subsets of intergenic regions.
+#=GF RA   Weinberg Z, Lunse CE, Corbino KA, Ames TD, Nelson JW, Roth A, Perkins KR,
+#=GF RA   Sherlock ME, Breaker RR
+#=GF RL   Nucleic Acids Res. 2017;45:10811-10823.
+#=GF RN   [2]
+#=GF RM   32345632
+#=GF RT   A bacterial riboswitch class senses xanthine and uric acid to regulate
+#=GF RT   genes associated with purine oxidation.
+#=GF RA   Yu D, Breaker RR
+#=GF RL   RNA. 2020;26:960-968.
+#=GF RN   [3]
+#=GF RM   34125892
+#=GF RT   Insights into xanthine riboswitch structure and metal ion-mediated ligand
+#=GF RT   recognition.
+#=GF RA   Xu X, Egger M, Chen H, Bartosik K, Micura R, Ren A
+#=GF RL   Nucleic Acids Res. 2021;49:7139-7153.
+#=GF CC   Xanthine riboswitch was first reported in Proteobacteria as NMT1
+#=GF CC   non-coding RNA (ncRNA) in [1]. Later it was reported as a ncRNA that
+#=GF CC   recognised Xanthine [2]. More recently the structure of Xanthine
+#=GF CC   riboswitch was reported in 7ELP, 7ELQ, 7ELR and 7ELS PDBs [3]
+#=GF WK   NMT1_RNA_motif
+#=GF SQ   383
+
+RF03054__URS0000D671E8_398578/1-60  UCGUUGAGUAGAAGCGUUCAGC--ACGCGC-----------------------CCAGU-----------------------------------GCGCGU--UGCCCGGAAAUUGCUCAUGUC
+RF03054__URS0000D672AC_12908/1-75   AUCAAGAGUAGAAGCGUUCAGC--ACGGUGCUCUGACC---------------UUCCCCC-------------------------GGUCAG--CAGCUU--CGC-GGGUCAUUGCUCUUGAA
+RF03054__URS0000D6C27B_12908/1-68   GCCGAGAGUAGAAGCGUUCAGC--GGCAGAUGCAC------------------CAUCGAAA---------------------------GUGC----GC---CGCCCGGAAAUUGCUCUUGCA
+RF03054__URS0000D65B15_12908/1-60   CCAUUGGGUAGAAGCGUUCAAU--CAGCACC----------------------GUGAC----------------------------------GGUGCA---GAU-GGGAAAUUGCCCAUGAU
+RF03054__URS0000D69B6D_1217712/1-63 UGUCAGAGUAGAAGCGUUCAGC--AU-ACAGU---------------------CACACC-------------------------------GACUGCUA---UGU-GGGUCAUUGCUCAGAAA
+RF03054__URS0000D68F01_69328/1-54   CAUGGGAGUAGAAGCGGUCAGU--GCCUG------------------------GAAA-------------------------------------U-GG---CAU-GGGACAUUGCUCUGGCG
+RF03054__URS0000D675B9_266264/1-69  UCGAAGAGUAGAAGCGUUCAAC--CGCCCCG----------------------CCCUUUCCAGGCAC-------------------------CGGGGC---GGC-AGGAAAUUGCUCUUGAG
+RF03054__URS0000D6BB97_1244085/1-54 AGUGUGAGUAGAAGCGGUCAGU--ACGG-------------------------GUUAU-------------------------------------CCA---UAC-GGGACAUUGCUCAGUCA
+RF03054__URS0000D6BB52_12908/1-59   GCCAAGAGUAGAAGCGUUCACC--UGCA-------------------------CAGUUUGCU---------------------------------UGC---AGUCCGGAAAUUGCUCUUGAA
+RF03054__URS0000D66ABA_1221309/1-54 UUCCUGAGUAUAAGCGGUCAGU--GUGU-------------------------GGUAA-------------------------------------ACA---UGC-GGGACAUUGCUCUACAG
+RF03054__URS0000D6BB97_1269006/1-54 AGUGUGAGUAGAAGCGGUCAGU--ACGG-------------------------GUUAU-------------------------------------CCA---UAC-GGGACAUUGCUCAGUCA
+RF03054__URS0000D69BE9_12908/1-54   AACAUGAGUAUAAGCGGUCAGU--GCGG-------------------------UUUAU-------------------------------------CCG---UAC-GGGACAUUGCUCAGUAA
+RF03054__URS0000D69699_981336/1-53  UAACUGAGUAUAAGCGGUUAGU--GCGU-------------------------UCAG--------------------------------------UCG---CAU-GGGACAUUGCUCUACAG
+RF03054__URS0000D66A9D_1336753/1-55 CCCCGGAGUAGAAGCGGUCUGC--AAUC-------------------------AUCGAC------------------------------------GAU---UGC-UGGACAUUGCUCCAAUC
+RF03054__URS0000D669E6_12908/1-77   GGCGUGAGUAGAAGCGGUCAGC--CGGGCCGC------CUC------------CGAUAACGU--------------------GAGGUAACUGC-GCUC---GGU-CGGAAAUUGCUCACCUU
+RF03054__URS0000D6C6B7_1079455/1-49 CCUGCGAGUAGAAGCGGUCUGA--GC---------------------------CUCG----------------------------------------G---UUC-UGGACAUUGCUCGACGG
+RF03054__URS0000D69CEE_12908/1-64   CCCUUGAGUAGAAGCGUUCAGC--ACACAGGC---------------------CCCGC---------------------------------GCCUGUGU--UGCCCGGAAAUUGCUCAGUUU
+RF03054__URS0000D658C5_12908/1-53   ACAGUGAGUAUAAGCGGUCAGU--GCAG-------------------------GCAA--------------------------------------CUG---CGC-GGGACAUUGCUCAGCAA
+RF03054__URS0000D67781_795665/1-54  GCUCAGAGUAGAAGCGUUCAGC--CCGCG------------------------UCA--------------------------------------CGCG---AGC-AGGAAAUUGCUCUUGAG
+RF03054__URS0000D6BB97_1177153/1-54 AGUGUGAGUAGAAGCGGUCAGU--ACGG-------------------------GUUAU-------------------------------------CCA---UAC-GGGACAUUGCUCAGUCA
+#=GC SS_cons                        ::::<<<<<<----A--<<-<<..<<<<<........................_____................................._..>>>>--->>>.-a>>--->>>>>>::::
+#=GC RF                             ugcgaGAGUAGAAGCGGUCAGc..acggc........................cuaau....................................gccg...ugC.GGGACAUUGCUCuugaa
+#=GC RNA_ligand_xanthine            =============X=================================================================================================X==========
+#=GC RNA_structural_elements        ====[=P1=][=J1=][======================================P2===================================================][J][=P1=]====
+//

@@ -1,0 +1,58 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+AAOH01000001.1/357512-357676        UAAAUC---G-CGA-GAGA-U--A-GUC-UGGA-GGA-------------
+CP000879.1/1360122-1359949          UCCAUC---G-UGA-GGUG-G--A-AUC-UGAA-GGA-------------
+BAAV01019325.1/295-468              A-UACC---A-UAAAGGUA----G-GGG-UGAA-GGA-------------
+AAQL01001449.1/1974-1805            UUCACC---G-UGA-GGUG-A--A-AUC-UGAA-GGA-------------
+BAAW01000650.1/507-679              UCCAUC---G-UGA-GGUG-G--A-AUC-UGAA-GGA-------------
+
+AAOH01000001.1/357512-357676        ----------AGCCGC-U-------A-GC-AAAUCUGC-G-A--GCUGA-
+CP000879.1/1360122-1359949          ----------AGCCCA-A-------G-GC-AAAGUCUC-G-G--UCCGA-
+BAAV01019325.1/295-468              ----------AGUGGUGU-------A-GC-AAUUCCUUUG-A--GCGUA-
+AAQL01001449.1/1974-1805            ----------AGCUGU-A-------G-GC-AAACCUCU-G-A--CYUGA-
+BAAW01000650.1/507-679              ----------AGCCUA-A-------G-GC-AAAGCCUU-G-G--UCUGA-
+
+AAOH01000001.1/357512-357676        --------------------UGAACAA-AAA-C--AU--CA-UA-UGAGG
+CP000879.1/1360122-1359949          --------------------UGAACAA-GAA-C--CA--GA-UA-CAAGG
+BAAV01019325.1/295-468              --------------------CGAACAG-AAA-C--UU--GA-UA-CAAGG
+AAQL01001449.1/1974-1805            --------------------CGGACAG-AAA-C--CA--CA-UA-UAAGG
+BAAW01000650.1/507-679              --------------------GGUACAC-GAA-U--CA--CA-UU-UGAGG
+
+AAOH01000001.1/357512-357676        ---C-G-UA--GG--CU-GG---AGACGAG-C------------------
+CP000879.1/1360122-1359949          ---C-U-AA--GU--GA-AG-U-GGACGAG-U------------------
+BAAV01019325.1/295-468              ---C-U--A-AAU--GG-U----GGAUAAG-G------------------
+AAQL01001449.1/1974-1805            ---C-U-GG--GA--AA-UA-C-GGAUAAG-A------------------
+BAAW01000650.1/507-679              ---C-U-CA-AAG--CU-AU---GGGUAAG-C------------------
+
+AAOH01000001.1/357512-357676        -------------U-AGCA--CA-------------------A----GAU
+CP000879.1/1360122-1359949          -------------U-UGCA--UU-------------------A----CAA
+BAAV01019325.1/295-468              -------------U-UGCC--UU-------------------A----CAA
+AAQL01001449.1/1974-1805            -------------C-GGCA--AG-------------------A----AAC
+BAAW01000650.1/507-679              -------------U-UGCA--CG-------------------A----CAA
+
+AAOH01000001.1/357512-357676        AGC-GAAGUCA-------------------------------------UG
+CP000879.1/1360122-1359949          AAC-GAAGUCC-----------------------AACA---------GCU
+BAAV01019325.1/295-468              ACC-GAAGUCC-----------------------AAAA---------GGU
+AAQL01001449.1/1974-1805            AUC-GAAGUCCA---------------------AAAGU---------UGC
+BAAW01000650.1/507-679              AGU-AAAGCCC-----------------------UAUA----------AC
+
+AAOH01000001.1/357512-357676        UGAUCUA-A----C--GGCC-A-C----C-----------------GU-A
+CP000879.1/1360122-1359949          AUCCAGA-A----CU-UCAC-A-G----A-----------------GU-A
+BAAV01019325.1/295-468              AAACGUA-A----AA-CCAAGA-G----A-----------------GU-A
+AAQL01001449.1/1974-1805            UGGAAGU-A------------C-C----A-----------------GU-A
+BAAW01000650.1/507-679              UAUCCGA-A----AU-AGCU-A-G----A-----------------GU-A
+
+AAOH01000001.1/357512-357676        AAUGAU-GCAGUUG--U-GCA-GAGAAA-----G-U-C-A-----AUG--
+CP000879.1/1360122-1359949          AAUCUG-GCGGAUAGAU-GGG-AUGAAA-----G-U-U-A-----UUG--
+BAAV01019325.1/295-468              AAUCAA-GACGUUG--UGAAG-GANACA-----GGA-U-U-----AGU--
+AAQL01001449.1/1974-1805            AAUGUG-GCAGGUAUAU-GGA-GGGAAAG---AG-U-C-C-----GCA--
+BAAW01000650.1/507-679              AAUGUG-GCAGAUAGAU-GAG-GUGAAA-----G-U-G-C-----GUG--
+
+AAOH01000001.1/357512-357676        -CA
+CP000879.1/1360122-1359949          -CA
+BAAV01019325.1/295-468              -GA
+AAQL01001449.1/1974-1805            ---
+BAAW01000650.1/507-679              -UU
+
+

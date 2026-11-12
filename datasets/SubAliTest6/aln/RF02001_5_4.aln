@@ -1,0 +1,58 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+CP000753.1/2606725-2606536          UUAUCC---G-CGA-GGAU-U--G-GUU-UGAA-GGA-------------
+CP000232.1/476506-476674            CCCAUC---G-CGA-GGUG-G--A-AUC-CGAA-GGA-------------
+AP009389.1/2357763-2357595          GUCACC---GGUAAAGGUG-A--U-GUC-UGAA-GGA-------------
+AACY023598940.1/985-815             UUUACU---G-UGA-AGUA-G--A-AUC-UGAA-GGA-------------
+BAAV01001266.1/2173-2002            UCCAUC---G-UGA-GAUG-G--A-AUC-UGAA-GGA-------------
+
+CP000753.1/2606725-2606536          ----------AGCCGC-U-------A-GC-AAAUUUGC-G-A--GCUGA-
+CP000232.1/476506-476674            ----------AGCUGG-A-------G-AC-AAGGCCAC-G-G--CCCGA-
+AP009389.1/2357763-2357595          ----------AGCCGA-A-------G-GG-GGAACUUG-G-A--ACAUA-
+AACY023598940.1/985-815             ----------AGCUGA-A-------G-AC-GAAGUUAG-G-A--GGUAA-
+BAAV01001266.1/2173-2002            ----------AGGUCG-A-------G-GC-AAAUCUCU-G-G--UCUGA-
+
+CP000753.1/2606725-2606536          --------------------UGAACAA-GAA-C--AU--CA-UA-UGAGG
+CP000232.1/476506-476674            --------------------UGAACAG-GAA-C--CC--CA-UA-CGAGG
+AP009389.1/2357763-2357595          -------------------GCGUAAGC-GAA-C--CG--GU----GUUGG
+AACY023598940.1/985-815             --------------------CGAACAG-GAA-G--UA--GA-UA-CAAGG
+BAAV01001266.1/2173-2002            --------------------CGAACAG-AAA-U--CA--CA----UAAGG
+
+CP000753.1/2606725-2606536          ---C-G-UA--GG--CU-AG---AGGUGAG-U------------------
+CP000232.1/476506-476674            ---C-U-GU--AC--CG-CC-C-GGAUGAG-C------------------
+AP009389.1/2357763-2357595          ---C-U-GC--UC--AG-GC---GGGUAAC-C------------------
+AACY023598940.1/985-815             ---C-U-UA--UA--UG-AA---GGGGAAG-U------------------
+BAAV01001266.1/2173-2002            ---C-U-AG--UC--AU-GG---GGAUAAG-G------------------
+
+CP000753.1/2606725-2606536          -------------U-GGCA--GG-------------------GCCUCCCC
+CP000232.1/476506-476674            -------------U-GGCA--CA-------------------A----CAA
+AP009389.1/2357763-2357595          -------------U-UGCA--UA-------------------A----UAU
+AACY023598940.1/985-815             -------------U-AGCA--UU-------------------G----AGU
+BAAV01001266.1/2173-2002            -------------C-CGCC--AA-------------------A----CAG
+
+CP000753.1/2606725-2606536          CAC-GAAGU--AAGGGGAC-------AAGACGACGAAACC------ACGU
+CP000232.1/476506-476674            AGC-GAAAUCC-------------------------------------GG
+AP009389.1/2357763-2357595          GGG-AAAGCCC-----------------------GAAA----------GC
+AACY023598940.1/985-815             AAU-GAAACCC-----------------------AGUA---------AUU
+BAAV01001266.1/2173-2002            GUU-GAAGUCC-----------------------CAUA---------GCU
+
+CP000753.1/2606725-2606536          GAUCUAA-U-------GGCC-A-C----C-----------------GU-A
+CP000232.1/476506-476674            GCUACGA-AG--GGG-CGGU-A-G----A-----------------GU-A
+AP009389.1/2357763-2357595          UGGAUA-------AC-CUGA-G-A----A-----------------GU-U
+AACY023598940.1/985-815             GAUCGUA-G----UU-UAUA-U-G----A-----------------GU-A
+BAAV01001266.1/2173-2002            ACACGGA-A----CC-AUGA-A-U----A-----------------GU-A
+
+CP000753.1/2606725-2606536          AAUGAU-GUAGCAG--U-GCA-AAGAAA-----G-U-U-C-----AUG--
+CP000232.1/476506-476674            UAUGGG-GCGGGCG--C-GGG-GUAUAG-----G-U-U-A-----GCG--
+AP009389.1/2357763-2357595          AGGACG-GAUGCGU--U-CAA-GUUCAG-----G-C-A-G-----GCA--
+AACY023598940.1/985-815             AAUCUA-AUGCCUC--C-CUA-AUGAAA-----G-A-A-U-----UAU--
+BAAV01001266.1/2173-2002            UAUGUG-GCAGACACAU-GGA-GAGAAA-----G-AGU-G-----CGU--
+
+CP000753.1/2606725-2606536          -UU
+CP000232.1/476506-476674            -AU
+AP009389.1/2357763-2357595          -GA
+AACY023598940.1/985-815             -GU
+BAAV01001266.1/2173-2002            -UC
+
+

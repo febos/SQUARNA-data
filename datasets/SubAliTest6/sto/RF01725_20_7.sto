@@ -1,0 +1,71 @@
+# STOCKHOLM 1.0
+#=GF AC   RF01725
+#=GF ID   SAM-I-IV-variant
+#=GF DE   SAM-I/IV variant riboswitch
+#=GF AU   Weinberg Z; 0000-0002-6681-3624
+#=GF AU   Ontiveros-Palacios N; 0000-0001-8457-4455
+#=GF SE   Published; PMID:20230605;
+#=GF SS   Published; PMID:20230605;
+#=GF GA   41.10
+#=GF TC   41.10
+#=GF NC   41.00
+#=GF TP   Cis-reg; riboswitch;
+#=GF BM   cmbuild -F CM SEED
+#=GF CB   cmcalibrate --mpi CM
+#=GF SM   cmsearch --cpu 4 --verbose --nohmmonly -T 30.00 -Z 742849.287494 CM SEQDB
+#=GF CL   CL00012
+#=GF DR   SO; 0000035; riboswitch;
+#=GF DR   GO; 0010468; regulation of gene expression;
+#=GF DR   GO; 0046500; S-adenosylmethionine metabolic process;
+#=GF RN   [1]
+#=GF RM   18369181
+#=GF RT   The aptamer core of SAM-IV riboswitches mimics the ligand-binding site of
+#=GF RT   SAM-I riboswitches
+#=GF RA   Weinberg Z, Regulski EE, Hammond MC, Barrick JE, Yao Z, Ruzzo LR and
+#=GF RA   Breaker R
+#=GF RL   RNA 2008;14
+#=GF RN   [2]
+#=GF RM   20230605
+#=GF RT   Comparative genomics reveals 104 candidate structured RNAs from bacteria,
+#=GF RT   archaea and their metagenomes.
+#=GF RA   Weinberg Z, Wang JX, Bogue J, Yang J, Corbino K, Moy RH, Breaker RR
+#=GF RL   Genome Biol. 2010;11:R31
+#=GF RN   [3]
+#=GF RM   24753586
+#=GF RT   Structural basis for diversity in the SAM clan of riboswitches
+#=GF RA   Trausch JJ, Xu Z, Edwards A, Reyes FE, Ross PE, Knight R
+#=GF RL   PNAS 2014;111:18
+#=GF CC   SAM-I-IV variant riboswitch is part of the clan CL00012 (SAM-I, SAM-IV and
+#=GF CC   SAM-I-IV) which share a common SAM binding core. It is found upstream of a
+#=GF CC   number of genes which code for proteins involved in methionine or cysteine
+#=GF CC   biosynthesis. It has been found mostly in the order Actinomycetales [1].
+#=GF CC   PDB 4L81 and 4OQU has been reported for SAM-I-IV aptamer, which shows the
+#=GF CC   SAM binding core and an alternative PK-2 subdomain shared with SAM-IV [3].
+#=GF WK   SAM_riboswitch_(S_box_leader)
+#=GF SQ   417
+
+RF01725__URS0000D6617C_12908/1-119 UCACAACAUCACGAGA-GG-CCCG-------G-UUC----------------------------G------CCGGGU-C-CGGCA-ACC-U--GGG------ACGGAC---------------------ACCCA--AGGUGCUCAUC------------------CAC----CGGAGA-----------CGGUGGGGAUGUGGCCC-------------GAGA--------------------------------------------------------------------------------------GGGCAA---CGAAGUGUCCGCCGG
+RF01725__URS0000ABD554_12908/1-98  AUCAUACAUCUAUAGA-GA-AGG---------GUAA-------------------------------------CCUU---CACCA-ACC-A--GCC------AAGACU---------------------UGGCA-ACGGUGGUU------------------------CAAC------------------------GAUGUGGCUU-------------UUG---------------------------------------------------------------------------------------AAGCAA--CAAUAAAGUCAGAU--
+RF01725__URS0000D6CB27_12908/1-116 GUAGUACAUCACGAGC-GA-C-C---------AACU-------------------------------------G-GU-C-CGGCA-ACC-G--GGA-------UUU------------------------CCCA--CGGUGCCAUUUCGC-----------GAAAUGC----GA--------------------AAGAUGUGGUUACG--------CCA---------------------------------------------------------------------------GCA--------GGCGUAGCAA--CGGGCUGGCUCAGUUG
+RF01725__URS0000AB7C40_12908/1-95  ACCUAGCAUCAAGAGA-AG-AGU---------UGU--------------------------------------ACUC-U-CUCCA-ACC-U--GCC------CAAUCC----------------------GGCA--AGGUGGAA------------------------AAAA-----------------------UGAUGUGGCA---------------UUC---------------------------------------------------------------------------------------AGCAA--A-UAUAGGAGAUCGC-
+RF01725__URS0000AB3E0F_12908/1-96  UUUUUGUAUCUUGAGC-AG-GAU---------UUAA-------------------------------------UUCC-U-CUCCA-ACC-U--GCC------UACUCC----------------------GGCA--AGGUGGAA------------------------AAAC------------------------GAUACGGUU--------------AAUC---------------------------------------------------------------------------------------AACAA---UUUAAGGAGAAAAA-
+RF01725__URS0000AB1760_12908/1-97  GUCAGGUAUCAAGAGU-AG-GAU---------UAAA-------------------------------------UUCC-U-CUCCA-ACC-U--GCC------AACUCC----------------------GGCA--AGGUGGAA------------------------AAAG-----------------------UGAUACGGUUG--------------UU---------------------------------------------------------------------------------------CAACAA---AAAUAGGAGUAACU-
+RF01725__URS0000D665A9_12908/1-89  AAAAAGCAUGGAGAG---A-GGU---------CAAA-------------------------------------ACCU---CAGCA-ACC-U--AGA------AAGCUA----------------------ACUA--AGGUGCUU-------------------------AAA------------------------UAUGUGGUU--------------UAU----------------------------------------------------------------------------------------AACAA---AAAAUAGCUUUC---
+RF01725__URS0000D65B8C_12908/1-126 UAUCAACAUCAGGAGU-GG-UUUC-------A-UAG----------------------------U------UGAAAC-C-CACCA-ACC-G--AGCCU-AGAU-----AA------------AUCA--GGGAUC--CGGUGGUUAGAC----------------CUCU----AAAU----------------GGUAGAUGUGCCCA------------GGAAA-------------------------------------------------------------------------------------AUGGGAA--ACAUAAUAAGCCACCU
+RF01725__URS0000ABAD55_12908/1-93  UAGAAGCAUAAAGAGA-AG-GUU-----------AA-------------------------------------GACC-U-CGGCA-ACC-U--GGA------UGACUA----------------------UCCA--AGGUGCUA-------------------------GAA------------------------AAUGUGGCA--------------GAGA---------------------------------------------------------------------------------------UGCAA----CUAAGUAGUCAAAA
+RF01725__URS0000D6B115_12908/1-90  AUCUUGCAUGAAGAG--AG-G-----------GUAA---------------------------------------CC-U-CAGCA-ACC-U--AGA------AAGCAA----------------------ACAA--AGGUGCU--------------------------AGA------------------------GAUGCGGUUU-------------UUUA--------------------------------------------------------------------------------------AAACAA---AAAAUAUGCUACC--
+RF01725__URS0000D6B532_12908/1-101 AUUAAGCAUCAGGAGU-GA-AUA--------AGAAA------------------------------------UUAUU-C-UGCCA-ACC-U--GCU-----UUGAGGA---------------------AAGUA--AGGUGGAG-------------------------UAG------------------------GAUGUGGUCU-------------UAA---------------------------------------------------------------------------------------UGACAA---UUAAGUUCCUCAUCA
+RF01725__URS0000D698A2_12908/1-141 UCCAAGCAUCAGGAGU-GG-CCUU------GCGAAA----------------------------G------CGGGGU-C-CGGCA-ACC-U--GGU-----UUGGAG------------------A---AGCCA--AGGUGCCUUGGAUGC---------UGUGACAG----AAUUCUGUU------ACGGUGACCGAUGUGCGAAU----------GU-UU------------------------------------------------------------------------A------------CAUUCGAA--CAGAAUUUCUCUCGGG
+RF01725__URS0000D693CA_12908/1-116 UGAUAACAUCAGGAGA-GA-UUUC-------U-AAG----------------------------U------AGAAAU-C-CACCA-ACC-G--AGC------UAAAA-----------------------GCUA--CGGUGGUUAGUU---------------CCAUU----AAAC----------------GGAGGAUGUGCCUU-------------GAAA--------------------------------------------------------------------------------------AAGGAA--AAAGUGGAACCGCCUG
+RF01725__URS0000AB92B4_12908/1-103 ACGUUGCAUGAAGAG--AG-GGC---------AGAC-------------------------------------GCCC---CGCCA-ACC-U--GCC------UGACAC----------------------GGCA--AGGUGGUUUCCU----------------UGAA----AA-------------------AGGCAUGAGACC--------------AUAG---------------------------------------------------------------------------------------UGUAA---ACACAGUGUCCAUG-
+RF01725__URS0000AB5324_12908/1-105 ACUCAGCAUCAAGAGA-AG-GGC---------CUCG-------------------------------------GCCC-G-CACCA-ACC-U--GCC------AACACC---------------------CGGCA--AGGUGGUCGC-------------------CCG-AA-AG--------------------GGGAUGCGGCCA-------------AAC---------------------------------------------------------------------------------------CGGCAA---CUAAAGGGCAGGCC-
+RF01725__URS0000AB24B3_12908/1-93  AAUAAGCAUAAAGAGA-AG-GUU-----------AA-------------------------------------GACC-U-CGGCA-ACC-U--GGA------UGACUA----------------------UCCA--AGGUGCUA-------------------------GAA------------------------AAUGUGGCA--------------GAAA---------------------------------------------------------------------------------------UGCAA----CUAAAUAGUCAAAA
+RF01725__URS0000AB5FEC_12908/1-93  UAAGAACAUAAAGAGA-AG-GUU-----------AA-------------------------------------GACC-U-CGGCA-ACC-U--GGA------AGACUA----------------------UCCA--AGGUGCUU-------------------------GAA------------------------GAUGUGGCA--------------GAAA---------------------------------------------------------------------------------------UGCAA----CUAAGUAGUCAAAU
+RF01725__URS0000ABAE58_12908/1-96  AAUGUGUAUCUAGAGC-AG-GAU---------UAAA-------------------------------------UUCC-U-CUCCA-ACC-U--GCC------UACUCC----------------------GGCA--AGGUGGAA------------------------AAAU------------------------GAUGCGGUU--------------AACC---------------------------------------------------------------------------------------AACAA---UUAAUGGAGUUAUA-
+RF01725__URS0000D67F6B_12908/1-89  UAUUUGCAUAUAGAG--AG-G-----------GAAA---------------------------------------CC-U-CAGCA-ACC-U--AGA------AUGCCA----------------------ACUA--AGGUGCUU-------------------------UUU------------------------GAUGUGGUU--------------UUAC---------------------------------------------------------------------------------------AACAA---AAAAUGGCUUUUU--
+RF01725__URS0000D687A7_12908/1-90  UAAAAGCAUUAAGAGA-GG-GUA-----------AU-------------------------------------UACC-U-CAGCA-ACC-U--GGA------AGGCU-----------------------ACCA--AGGUGCUA------------------------AGAA------------------------GAUGUGGCUU--------------U----------------------------------------------------------------------------------------AAGCAA---AAAAGAGCCA--AU-
+#=GC SS_cons                       :::::(((((,,,,<-.<<.<<<.........____.....................................>>>>.>.><<<-.-<<.<..<<<......_AAAAA......................>>>-..>>>->>>,,,....................,,,,,,,......................,)))))-<<<<.............____......................................................................................>>>>::...:::::aaaaa:::::
+#=GC RF                            aaaaagCAUcAAGAGa.gG.guc.........uaAa.....................................gacC.c.CgcCA.ACC.u..ggc......uaacca......................gccA..aGGUGgcu.......................a.aAa.......................agAUGcGGccc.............aaaa......................................................................................gggCAA...aaaAaggaguuaaa.
+#=GC RNA_ligand_SAM                ========X===X=======================================================================X======================================================XXX========================================================X======================================================================================================================================
+#=GC RNA_structural_elements       =====[P1=][J1][===============================P2================================][==============================P3============================][===========================P4======================][=P1]=[=====================================================P5======================================================]====================
+//

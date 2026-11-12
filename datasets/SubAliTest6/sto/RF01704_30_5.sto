@@ -1,0 +1,74 @@
+# STOCKHOLM 1.0
+#=GF AC   RF01704
+#=GF ID   Glutamine-II
+#=GF PI   Downstream-peptide;
+#=GF DE   Glutamine-II riboswitch (downstream peptide RNA)
+#=GF AU   Weinberg Z; 0000-0002-6681-3624
+#=GF AU   Ontiveros-Palacios N; 0000-0001-8457-4455
+#=GF SE   Published; PMID:20230605;
+#=GF SS   Published; PMID:20230605;
+#=GF GA   33.00
+#=GF TC   33.10
+#=GF NC   32.40
+#=GF TP   Cis-reg; riboswitch;
+#=GF BM   cmbuild -F CM SEED
+#=GF CB   cmcalibrate --mpi CM
+#=GF SM   cmsearch --cpu 4 --verbose --nohmmonly -T 30.00 -Z 742849.287494 CM SEQDB
+#=GF DR   GO; 0070406; glutamine binding;
+#=GF DR   SO; 0000035; riboswitch;
+#=GF RN   [1]
+#=GF RM   20230605
+#=GF RT   Comparative genomics reveals 104 candidate structured RNAs from bacteria,
+#=GF RT   archaea and their metagenomes.
+#=GF RA   Weinberg Z, Wang JX, Bogue J, Yang J, Corbino K, Moy RH, Breaker RR
+#=GF RL   Genome Biol. 2010;11:R31.
+#=GF RN   [2]
+#=GF RM   31216023
+#=GF RT   Structure and ligand binding of the glutamine-II riboswitch.
+#=GF RA   Huang L, Wang J, Watkins AM, Das R, Lilley DMJ
+#=GF RL   Nucleic Acids Res. 2019;47:7666-7675.
+#=GF CC   Glutamine-II riboswich also known as downstream-peptide was first reported
+#=GF CC   in a metagenomic analysis of conserved ncRNAs [1] The structure of
+#=GF CC   Glutamine-II riboswitch has been reported in PDB:6QN3 [2] The structure
+#=GF CC   comprises three coaxial helical domains, the central one of which is a
+#=GF CC   pseudoknot (PK). The major groove of the PK provides the binding site for
+#=GF CC   L-glutamine
+#=GF WK   Downstream-peptide_motif
+#=GF **   seedtax: Bacteria; Viruses; unclassified sequences
+#=GF SQ   628
+
+RF01704__AACY022493650.1/604-550      GUCCGUUCAUCCC-----------------AAGU-------------------------GGGACGCA---UGACGCUCU-ACCAUGGAACGG-GGGUAGAGU
+RF01704__AACY020145739.1/221-168      GUCCGUUCAUCCC-----------------GCAA-------------------------GGGACGCA--UGACACCCAA--GCAUGGAACGGGGC--UUGGA
+RF01704__AACY020731433.1/637-694      UUUCGUUCACCCUC----------------AUUU------------------------GAGGGCGCAG-UUCGAGUCAU-ACCAUGGAACGG-GGG-AUGGC
+RF01704__AACY022164825.1/422-484      AAUCGUCCGAUCUA----------------CCAUCU-------------------GA-UAGACCGCAG-UAGGACUCAA-GCCAUAGGACGG-GGACUUGAG
+RF01704__AACY021880003.1/342-400      CAACGUUCACCUUG---------------CUUCU-----------------------GCAAGGCGCAG-AUC--ACCAG-GCCAAGGAACGG-GGACCUGGA
+RF01704__AACY023156751.1/638-581      CAACGUUCAUCCAA----------------UUUA----------------------U-UUGGACGCAU-GAC--AUGAG-AAUAGGGAACGGGAU-UCUCAU
+RF01704__AACY020522066.1/2224-2280    UCACGUUGAGCCC-----------------CUUG-------------------------GGGCUGCAG-UUCGUUCCAC-GCCAGGCAACGG-GGGCGUGGG
+RF01704__AACY021567067.1/287-349      AAUCGUCCGAUCUA----------------CCAUCU-------------------GA-UAGACCGCAG-UACGACUCAA-GCCAUAGGACGG-GGACUUGAG
+RF01704__CP000551.1/1075404-1075342   UAACGUUCAUCCA---------------AGUUUAUA-------------------UCUCUGGACGCA---UGAAAUGGG-AGUAGGGAACGGGAU-UCUCAU
+RF01704__CP000435.1/1642629-1642569   CAUCGUUCACCUCG---------------UUUUU-----------------------GCGAGGCGCAG-AUCGGCCCAA-GCCAAGGAACGG-GGACUUGGG
+RF01704__AACY022447983.1/152-214      AAACGUUCAACUUG---------------CAUUUA---------------------CGCAAGCCGCAG-AUCGACUUAA-GCCAAGGAACGG-GGACUUAAG
+RF01704__AACY022727901.1/367-305      UUACGUUCAUCCA---------------AGUUUAUA-------------------UCUCUGGACGCA---UGAAAUGGG-AGUAGGGAACGGGAU-UCUCAU
+RF01704__AACY021806590.1/388-449      AAACGUUCAACUUG---------------CGUUU----------------------AGCAAGCCGCAA-AUCGACUUAA-GCCAUGGAACGG-GGACUUAAG
+RF01704__AACY021483025.1/393-449      GUCCGUUCAUUCUC----------------UUAU------------------------GAGAACGCA---UGAAACCAC-AUCAUGGAACGG-GGGUGUGGU
+RF01704__AACY022811576.1/261-199      UUACGUUCAUCCA---------------AGUUUAUA-------------------UCUCUGGACGCA---UGAAAUGGG-AGUAGGGAACGGGAU-UCUCAU
+RF01704__AACY021290041.1/74-12        AAUCGUCCGAUCUA----------------CCAUCU-------------------GA-UAGACCGCAG-UACGACUCAA-GCCAUAGGACGG-GGACUUGAG
+RF01704__AACY021153216.1/140-83       UUUCGUUCACCCUC----------------AUUU------------------------GAGGGCGCAG-UUCGAGUCAU-ACCAUGGAACGG-GGG-AUGGC
+RF01704__AACY023452725.1/1148-1063    GUACGUUCAUCG-CAUUCGC--CUACCAGGACAAGUUACCA--------GUAGUGAAUGACGACGCAG---GCAACCUA-CUCAUGGAACGG-GGGGUAGGU
+RF01704__BX548175.1/599397-599336     AAACGUUCACCCUG---------------AUCAU----------------------UGCAGGGCGCAG-UUCGAGCCAA-GCCAUGGAACGG-GGACUUGGA
+RF01704__AACY021915618.1/324-381      GUCCGUUCAUCCAU----------------UUUU----------------------C-AUGGACGCA---UGAAACCUA-AGCAUGGAACGGGGC-UUAGGU
+RF01704__AACY020302472.1/1556-1619    AAGCGUUCACUCCA--------------CCACUUG---------------------CGUGGAGCGCAG-UUCGAUCCAG-GCCAAGGAACGG-GGACCUGGA
+RF01704__AACY020044163.1/355-301      GUCCGUUCAUUCC-----------------GCAA-------------------------GGAACGCA---UGACGGUCU-ACCAUGGAACGG-GGGUAGACU
+RF01704__AACY022928932.1/106-157      GUACGUUCACCC------------------UUCG--------------------------GGGCGCAU-AUCUA-CCAU--GCAUGGAACGGGGC--AUGGA
+RF01704__AACY022455268.1/733-794      CAGCGUUCACUUCG---------------CAUUC----------------------CGCGGAGCGCAG-CUCGACUCAG-GCCAUGGAACGG-GGGUCUGGG
+RF01704__AACY021843998.1/733-794      AAACGUUCAACUUG---------------CGUAU----------------------AGCAAGCCGCAA-AUCGACUUAA-GCCAUGGAACGG-GGACUUAAG
+RF01704__CP000576.1/1338899-1338837   AAUCGUCCGAUCUA----------------CCAUCU-------------------GA-UAGACCGCAG-UACGACUCAA-GCCAUAGGACGG-GGACUUGAG
+RF01704__AACY023461790.1/1468-1530    GUCCGUUCAUCCC-----------------GAAAGAAA--------------AAGUA--GGGACGCA--UGACACCCAA--GCAUGGAACGGGGC--UUGGU
+RF01704__AAUA01000001.1/589598-589524 CGACGUUCACUCCGCGG--------CCCACAGAUCGUG---------------AGUC-CGGAGCGCAG-UUCGUUUCAG-GCCAUGGAACGG-GGGCUUGAG
+RF01704__AACY021943446.1/23-85        AAACGUUCAACUCG---------------CUACCU---------------------UGCGAGCCGCAU-CUCGAUUUAA-GCCAAGGAACGG-GGACUUAAA
+RF01704__AACY020372119.1/841-777      AGACGUUCACCUUGC-------------UUCUUGA---------------------AGCAAGGCGCAG-UUCGACUCAG-GCCAUGGAACGG-GGACCUGAG
+#=GC SS_cons                          :::AAAAA:<<<<<...............______.....................__>>>>>-----.-----<<<<<.<<<___aaaaa_.>>->>>>>>
+#=GC RF                               aaaCGUUCAcCCcg................uUuu......................a.cgGGgCGCAG.UUcGAccCAg.GcCAUGGAACGG.GgACcUGgg
+#=GC RNA_ligand_L-glutamine           ===X============================================================X=========================XX==========
+#=GC RNA_structural_elements          =========[=====================P1=============================]===========[============P2============]
+//

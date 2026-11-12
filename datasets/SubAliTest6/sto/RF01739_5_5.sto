@@ -1,0 +1,51 @@
+# STOCKHOLM 1.0
+#=GF AC   RF01739
+#=GF ID   glnA
+#=GF DE   Glutamine riboswitch
+#=GF AU   Weinberg Z; 0000-0002-6681-3624
+#=GF AU   Ontiveros-Palacios N; 0000-0001-8457-4455
+#=GF SE   Published; PMID:20230605;
+#=GF SS   Published; PMID:20230605;
+#=GF GA   41.00
+#=GF TC   41.00
+#=GF NC   40.90
+#=GF TP   Cis-reg; riboswitch;
+#=GF BM   cmbuild -F CM SEED
+#=GF CB   cmcalibrate --mpi CM
+#=GF SM   cmsearch --cpu 4 --verbose --nohmmonly -T 30.00 -Z 742849.287494 CM SEQDB
+#=GF DR   SO; 0000035; riboswitch;
+#=GF DR   GO; 0070406; glutamine binding;
+#=GF RN   [1]
+#=GF RM   20230605
+#=GF RT   Comparative genomics reveals 104 candidate structured RNAs from bacteria,
+#=GF RT   archaea and their metagenomes.
+#=GF RA   Weinberg Z, Wang JX, Bogue J, Yang J, Corbino K, Moy RH, Breaker RR
+#=GF RL   Genome Biol. 2010;11:R31.
+#=GF RN   [2]
+#=GF RM   21282981
+#=GF RT   Bacterial aptamers that selectively bind glutamine.
+#=GF RA   Ames TD, Breaker RR
+#=GF RL   RNA Biol. 2011;8:82-89.
+#=GF RN   [3]
+#=GF RM   26655897
+#=GF RT   Structural and Dynamic Basis for Low-Affinity, High-Selectivity Binding of
+#=GF RT   L-Glutamine by the Glutamine Riboswitch.
+#=GF RA   Ren A, Xue Y, Peselis A, Serganov A, Al-Hashimi HM, Patel DJ
+#=GF RL   Cell Rep. 2015;13:1800-1813.
+#=GF CC   Glutamine riboswitch was first reported in a metagenomic comparative
+#=GF CC   analysis [1], it was later reported that this ncRNA selectively bind
+#=GF CC   glutamine [2] and its structure was later reported in PDB: 5DDP, 5DDQ,
+#=GF CC   5DDR and 5DDO [3] Previously known as glnA RNA.
+#=GF WK   GlnA_RNA_motif
+#=GF SQ   940
+
+RF01739__AACY021669684.1/506-562   AUCGUUCAACUC------------------------AUUGU--------------------------------------------------GAGUCGG-AAGUAGGCA------------------UUACUAG--------------------------------------------------------------------------------UGCUGAAGGAACGCAUG
+RF01739__AACY023521111.1/1206-1153 AACGUUCAUCCC------------------------GUUAG--------------------------------------------------GGGACGG-AAGUAAGC--------------------AAUCA---------------------------------------------------------------------------------AGCUGAAGGAACGCACU
+RF01739__AACY023516001.1/608-548   AUCGUUCAAUUUAA---------------------GGUUUU----------------------------------------------ACUUAAAUCGG-AAGUAAGUC-------------------UUU-U---------------------------------------------------------------------------------GACUGAAGGAACGCAUG
+RF01739__AACY020424567.1/1235-1287 AUCGUUCAUCUUC-----------------------GAGA--------------------------------------------------GAAGACGG-AAGUAGAC--------------------GAA-A----------------------------------------------------------------------------------GUUGAAGGAACGCGCC
+RF01739__AACY021958614.1/234-287   UGCGUUGAACCU------------------------UUUGU--------------------------------------------------AGGUCGC-AAGUAAGCC-------------------AGA-G---------------------------------------------------------------------------------GGCUGAAGCAACGGGAA
+#=GC SS_cons                       ::(((((,<<<<<......................______..............................................__.>>>>>,,A.,,,,,<<<....................______.................................................................................>>>,,,,)))))a:::
+#=GC RF                            AUCGUUCAuCccc.......................uuaa..................................................gggGaCGG.AAGUAgGc....................gaa.A..................................................................................gCcGAAGGAACGCAuc
+#=GC RNA_ligand_glnA               ==X=============================================================================================XX==========================================================================================================================X===XX====
+#=GC RNA_structural_elements       ==[P1=]=[==========================================P2=========================================]==[======[======================================================P3=======================================================]====[=P1]]===
+//

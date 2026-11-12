@@ -1,0 +1,58 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+CP001634.1/548743-548581            UCACUG---G-UAA-CGGU-G--A-AUC-UGAA-GGA-------------
+ABDH01009837.1/515-311              UCCAUC---G-UGA-GGUG-G--A-AUC-UGAA-GGA-------------
+AAOX01000004.1/98159-97985          UCCAUG---G-CGA-CGUG-G--A-AUC-UGAA-GGA-------------
+CP000142.2/3351784-3351673          UCCACC---G-CGA-GGUG-G--A-AUC-UGAA-GGA-------------
+CP000790.1/2079720-2079547          UUCACU---G-UGA-GGUG-A--A-AUC-UGAA-GGA-------------
+
+CP001634.1/548743-548581            ----------AGCCUA-A-------G-GC-AAAAUCCG-G-A--ACUGA-
+ABDH01009837.1/515-311              ----------AGCCGG-A-------G-GC-AAAGUUCC-G-G--GCCGA-
+AAOX01000004.1/98159-97985          ----------AGCCCU-A-------G-GC-AAAUCCUC-G-G--UCUGA-
+CP000142.2/3351784-3351673          ----------AGCCGC-A-------G-GC-AAACUUCC-G-G--CUCGA-
+CP000790.1/2079720-2079547          ----------AGCAAA-U-------G-GC-AAAACUUG-G-U--UGUGA-
+
+CP001634.1/548743-548581            -------------------ACGAAAGU-GAA-C--CA--GU----GUUGG
+ABDH01009837.1/515-311              --------------------CGAACAG-GAA-U--CG--CA-UA-UAAGG
+AAOX01000004.1/98159-97985          --------------------GGUACAC-GAA-U--CA--CA-UU-UGAGG
+CP000142.2/3351784-3351673          --------------------CGAACAG-GAA-U--CGCCGUGUACGGAAC
+CP000790.1/2079720-2079547          --------------------CGAACAG-AAA-U--CU--GA-UA-GUAGG
+
+CP001634.1/548743-548581            ---C-C-GG--UA--GA-GU---GGGUAAC-C------------------
+ABDH01009837.1/515-311              ---C-A-AU--AC--AA-GG-C-GGACGAG-U------------------
+AAOX01000004.1/98159-97985          ---U-G-GA-CUG--UU-UC-A-GGACGAG-U------------------
+CP000142.2/3351784-3351673          CGUACGCA------------------------------------------
+CP000790.1/2079720-2079547          ---U-C-AC--UA--CA-AC-UUGGGCAAC-C------------------
+
+CP001634.1/548743-548581            -------------U-UGCC--GU-------------------G----AAU
+ABDH01009837.1/515-311              -------------U-UGCC--AA-------------------A----CAA
+AAOX01000004.1/98159-97985          -------------U-UGCA--AA-------------------A----CAA
+CP000142.2/3351784-3351673          --------------------------------------------------
+CP000790.1/2079720-2079547          -------------U-AGCC--AU-------------------A----GAU
+
+CP001634.1/548743-548581            GGG-UAAGCCC-----------------------GAGC----------UC
+ABDH01009837.1/515-311              AAC-GAAGUCCAAAAGACCGGG-AAGGAAGAGAAGAGAUUCUGGUUUUAC
+AAOX01000004.1/98159-97985          AAC-AAAGUCC-----------------------AAAA---------UAU
+CP000142.2/3351784-3351673          --------------------------------------------------
+CP000790.1/2079720-2079547          AGA-AUAGCCCA---------------------AUGCC----------UC
+
+CP001634.1/548743-548581            CA-----------AC-UCUA-C-A----G-----------------GU-U
+ABDH01009837.1/515-311              UGCCCGA-A----CC-UUGU-A-A----U-----------------GU-A
+AAOX01000004.1/98159-97985          CCCCGGA-U----GG-AACA-G-A----C-----------------AU-A
+CP000142.2/3351784-3351673          --------------------------------------------------
+CP000790.1/2079720-2079547          GACGGGA-AG--UG--UGUA-G-U----G-----------------AU-A
+
+CP001634.1/548743-548581            GGGAUG-GCAGGAU--U-CGG-AUGAAA-----G-C-U-G-----UAU--
+ABDH01009837.1/515-311              AAUGCG-GCGGCCACAU-GGG-AUGAAG-----G-U-U-A-----UUG--
+AAOX01000004.1/98159-97985          AAUGUG-GCAGAUAUAU-GAG-GAGAAA-----G-U-G-G-----AUG--
+CP000142.2/3351784-3351673          ----CG-GUG-GUG--U-GGG-AGGACG-----G-C-G-G-----GGG--
+CP000790.1/2079720-2079547          AAUCAG-GCACGG---C-CAA-GGGAAA-----G-A-G-C-----AAC--
+
+CP001634.1/548743-548581            -GU
+ABDH01009837.1/515-311              -AC
+AAOX01000004.1/98159-97985          -AA
+CP000142.2/3351784-3351673          -UA
+CP000790.1/2079720-2079547          -GU
+
+

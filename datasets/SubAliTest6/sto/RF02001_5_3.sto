@@ -1,0 +1,60 @@
+# STOCKHOLM 1.0
+#=GF AC   RF02001
+#=GF ID   group-II-D1D4-3
+#=GF DE   Group II catalytic intron D1-D4-3
+#=GF AU   Weinberg Z; 0000-0002-6681-3624
+#=GF AU   Gardner PP; 0000-0002-7808-1213
+#=GF SE   Weinberg Z
+#=GF SS   Predicted; Weinberg Z
+#=GF GA   32.00
+#=GF TC   32.00
+#=GF NC   31.90
+#=GF TP   Intron;
+#=GF BM   cmbuild -F CM SEED
+#=GF CB   cmcalibrate --mpi CM
+#=GF SM   cmsearch --cpu 4 --verbose --nohmmonly -T 23.96 -Z 549862.597050 CM SEQDB
+#=GF CL   CL00102
+#=GF DR   SO; 0000603; group_II_intron;
+#=GF DR   GO; 0000373; Group II intron splicing;
+#=GF RN   [1]
+#=GF RM   11377794
+#=GF RT   The ins and outs of group II introns.
+#=GF RA   Bonen L, Vogel J
+#=GF RL   Trends Genet 2001;17:322-331.
+#=GF RN   [2]
+#=GF RM   11726522
+#=GF RT   Control of branch-site choice by a group II intron.
+#=GF RA   Chu VT, Adamidi C, Liu Q, Perlman PS, Pyle AM
+#=GF RL   EMBO J 2001;20:6866-6876.
+#=GF RN   [3]
+#=GF RM   12870716
+#=GF RT   Group II introns: structure and catalytic versatility of large natural
+#=GF RT   ribozymes.
+#=GF RA   Lehmann K, Schmidt U
+#=GF RL   Crit Rev Biochem Mol Biol 2003;38:249-303.
+#=GF CC   Group II introns are found in rRNA, tRNA and mRNA of organelles in fungi,
+#=GF CC   plants and protists, and also in mRNA in bacteria. They are large
+#=GF CC   self-splicing ribozymes and have 6 structural domains (usually designated
+#=GF CC   dI to dVI. This model and alignment represents only domains V and VI. A
+#=GF CC   subset of group II introns also encode essential splicing proteins in
+#=GF CC   intronic ORFs. The length of these introns can therefore be up to 3kb.
+#=GF CC   Splicing occurs in almost identical fashion to nuclear pre-mRNA splicing
+#=GF CC   with two transesterification steps. The 2' hydroxyl of a bulged adenosine
+#=GF CC   in domain VI attacks the 5' splice site, followed by nucleophilic attack
+#=GF CC   on the 3' splice site by the 3' OH of the upstream exon. Protein machinery
+#=GF CC   is required for splicing in vivo, and long range intron-intron and
+#=GF CC   intron-exon interactions are important for splice site positioning. Group
+#=GF CC   II introns are further sub-classified into groups IIA and IIB which differ
+#=GF CC   in splice site consensus, distance of bulged A from 3' splice site, some
+#=GF CC   tertiary interactions, and intronic ORF phylogeny [1].
+#=GF WK   Group_II_intron
+#=GF SQ   406
+
+RF02001__CP001634.1/548743-548581   UCACUG---G-UAA-CGGU-G--A-AUC-UGAA-GGA-----------------------AGCCUA-A-------G-GC-AAAAUCCG-G-A--ACUGA--------------------ACGAAAGU-GAA-C--CA--GU----GUUGG---C-C-GG--UA--GA-GU---GGGUAAC-C-------------------------------U-UGCC--GU-------------------G----AAUGGG-UAAGCCC-----------------------GAGC----------UCCA-----------AC-UCUA-C-A----G-----------------GU-UGGGAUG-GCAGGAU--U-CGG-AUGAAA-----G-C-U-G-----UAU---GU
+RF02001__ABDH01009837.1/515-311     UCCAUC---G-UGA-GGUG-G--A-AUC-UGAA-GGA-----------------------AGCCGG-A-------G-GC-AAAGUUCC-G-G--GCCGA---------------------CGAACAG-GAA-U--CG--CA-UA-UAAGG---C-A-AU--AC--AA-GG-C-GGACGAG-U-------------------------------U-UGCC--AA-------------------A----CAAAAC-GAAGUCCAAAAGACCGGG-AAGGAAGAGAAGAGAUUCUGGUUUUACUGCCCGA-A----CC-UUGU-A-A----U-----------------GU-AAAUGCG-GCGGCCACAU-GGG-AUGAAG-----G-U-U-A-----UUG---AC
+RF02001__AAOX01000004.1/98159-97985 UCCAUG---G-CGA-CGUG-G--A-AUC-UGAA-GGA-----------------------AGCCCU-A-------G-GC-AAAUCCUC-G-G--UCUGA---------------------GGUACAC-GAA-U--CA--CA-UU-UGAGG---U-G-GA-CUG--UU-UC-A-GGACGAG-U-------------------------------U-UGCA--AA-------------------A----CAAAAC-AAAGUCC-----------------------AAAA---------UAUCCCCGGA-U----GG-AACA-G-A----C-----------------AU-AAAUGUG-GCAGAUAUAU-GAG-GAGAAA-----G-U-G-G-----AUG---AA
+RF02001__CP000142.2/3351784-3351673 UCCACC---G-CGA-GGUG-G--A-AUC-UGAA-GGA-----------------------AGCCGC-A-------G-GC-AAACUUCC-G-G--CUCGA---------------------CGAACAG-GAA-U--CGCCGUGUACGGAACCGUACGCA----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CG-GUG-GUG--U-GGG-AGGACG-----G-C-G-G-----GGG---UA
+RF02001__CP000790.1/2079720-2079547 UUCACU---G-UGA-GGUG-A--A-AUC-UGAA-GGA-----------------------AGCAAA-U-------G-GC-AAAACUUG-G-U--UGUGA---------------------CGAACAG-AAA-U--CU--GA-UA-GUAGG---U-C-AC--UA--CA-AC-UUGGGCAAC-C-------------------------------U-AGCC--AU-------------------A----GAUAGA-AUAGCCCA---------------------AUGCC----------UCGACGGGA-AG--UG--UGUA-G-U----G-----------------AU-AAAUCAG-GCACGG---C-CAA-GGGAAA-----G-A-G-C-----AAC---GU
+#=GC SS_cons                        <<<<<<..._.___.>>>>.>..>.---.----.---.......................-<<<<<.-.......-.<<.---<<<<<.<.<..<<<<-.....................-------.---.<..<<..<<.<-.----<...<.<.-<..<<..<<.<<...<<<<--<.<...............................<.<___..__..................._....__>>>>.--->>>>.......................----.........----------.-....>>.>>>>.>.-....>.................>>.-->>>>>.>>>>>>-..>.>>>.>>----.....>.>.-.-.....>>>...>>
+#=GC RF                             uccacc...G.UGA.ggug.g..a.aUC.UGAA.GGA.......................Agccgc.a.......g.gC.AAAacucc.g.a..cCcGA.....................cGAACAg.aAA.c..cg..ca.UA.uaAGG...C.g.uu..gc..gc.gu...GGgcgAG.c...............................u.uGCa..aa...................a....cAaagC.aAAgcCC.......................aAuA.........uauugacgGA.A....ac.gcgc.a.u....c.................GU.AaAugcg.gCgGguA..u.gga.guGAAA.....G.u.u.a.....gug...gc
+//

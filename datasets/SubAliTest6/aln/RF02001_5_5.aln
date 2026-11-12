@@ -1,0 +1,58 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+CP001734.1/1042026-1042197          UCCACC---G-CGA-GGUG-G--G-AUC-UGAA-GGA-------------
+CP001132.1/626861-627040            GUCGUC---G-CGA-GGCG-G--G-GUC-UGGA-GGA-------------
+CP003058.1/139321-139493            GACAUC---G-UGA-GGUG-G--A-AUC-UGAA-GGA-------------
+ABVL01000012.1/116365-116534        GCGACC---G-UGA-GGUC-G--U-GGC-UGAA-AGA-------------
+CP000262.1/122926-123085            ACUAUC---G-UGA-G-UA-G--U-GGG-GAGA-GGA-------------
+
+CP001734.1/1042026-1042197          ----------AGCCGC-A-------G-GC-AAAACGCU-G-G--CCUGA-
+CP001132.1/626861-627040            ----------AGCCCA-A-------U-CC-GAGGCUGC-G-G--GGCGA-
+CP003058.1/139321-139493            ----------AGGGGC-A-------G-GC-AAAUUUCU-G-A--CCUGA-
+ABVL01000012.1/116365-116534        ----------AGUCGC-A-------G-GC-AAAACUCC-G-A--CCGCA-
+CP000262.1/122926-123085            ----------AGGGAG-A---------GU-GAAAUCGU-G-G--CUCUA-
+
+CP001734.1/1042026-1042197          --------------------CGAACAG-GAA-U--CG--CA-UA-CGAGG
+CP001132.1/626861-627040            --------------------UGAACAA-AAA-C--CG--GA-UA-UGAGG
+CP003058.1/139321-139493            --------------------CAAAGAG-AAU-C--CG--CA----UAAGG
+ABVL01000012.1/116365-116534        --------------------GGAAGAC-AAA-C--UG--GC--AGAGAGG
+CP000262.1/122926-123085            --------------------CAAACAG-AAA-C--GU--GA-UAUCAAGG
+
+CP001734.1/1042026-1042197          ---C-G-GC--CA--UG-CC---GGGUAAG-G------------------
+CP001132.1/626861-627040            ---C-G-UG-AUG--CA-UC-CGGGACGAG-C------------------
+CP003058.1/139321-139493            ---C-CAAU--UU--GA-GA-U-GGAUAAG-G------------------
+ABVL01000012.1/116365-116534        ---C-C-GG--GC--GU-GG-G-CGACGAG-C------------------
+CP000262.1/122926-123085            ---C-G-UA--UA--UA-GC---GGAUGAGUC------------------
+
+CP001734.1/1042026-1042197          -------------A-GUCC--AU-------------------U----AUC
+CP001132.1/626861-627040            -------------G-GGCA--CG-------------------U----GAC
+CP003058.1/139321-139493            -------------U-CGCC--AA-------------------A----CAG
+ABVL01000012.1/116365-116534        -------------G-UGCG--AG-------------------G----AAC
+CP000262.1/122926-123085            --------------------------------------------------
+
+CP001734.1/1042026-1042197          UUC-AAAGCCC-----------------------UGUA---------CUU
+CP001132.1/626861-627040            CGC-GAAGCCCUCC-----------------AUCCAUC----------UG
+CP003058.1/139321-139493            AUU-AAAGUCC-----------------------CAUA---------GCG
+ABVL01000012.1/116365-116534        CGC-GAAGUCC-----------------------GAAG----------UC
+CP000262.1/122926-123085            --U-AAAGUCCA---------------------AAAAA----------GU
+
+CP001734.1/1042026-1042197          GUACGGA-A----AG-CAUG-G-A----C-----------------GU-A
+CP001132.1/626861-627040            CGGUUGU-UG--GGA-UGCACU-U----U-----------------GU-A
+CP003058.1/139321-139493            AUUUGGA-A----UC-CCAA-A-G----G-----------------GU-A
+ABVL01000012.1/116365-116534        CAUCCAG-A----C--ACGU-C-A----G-----------------GU-A
+CP000262.1/122926-123085            AGUAGUA-A----CC-UAUA-G-G----C-----------------GU-A
+
+CP001734.1/1042026-1042197          UAUGCG-GCGGGCAUA--AAC-GUGAAG-----G-U-G-G-----GUG--
+CP001132.1/626861-627040            AAUCCG-G----CG----GCA-GCGCAGAAAGUG-A-C-G-----UGU--
+CP003058.1/139321-139493            GAUGCG-GCAGGUGAAG-GGA-GAAAAA-----G-A-G-U-----GCG--
+ABVL01000012.1/116365-116534        GAGCCA-GGCGGCG--C-GGA-GGGAGA-----G-U-U-C-----AGG--
+CP000262.1/122926-123085            AAU-AU-GAGAGUA-A--ACG-AGAAAA-----GAUGU-A-----CAC--
+
+CP001734.1/1042026-1042197          -CG
+CP001132.1/626861-627040            ---
+CP003058.1/139321-139493            -UU
+ABVL01000012.1/116365-116534        -UU
+CP000262.1/122926-123085            -CU
+
+

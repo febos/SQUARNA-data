@@ -1,0 +1,58 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+ABRD01002738.1/3759-3927            GUGAGG---G-UGA-CCGA-G--C-GUG-GGGA-GGA-------------
+AACY023777304.1/705-876             GCCACC---G-UGA-GGUG-G--A-AUC-UGAA-GGA-------------
+AP008955.1/811288-811460            UCUACC---G-UGA-GGUG-G--A-AUC-UGGA-GGA-------------
+CR522870.1/2858976-2858808          UUGUUG---G-UAA-CGGC-A--GGGUC-UAAA-GGA-------------
+ABLK01000531.1/2332-2161            UCCCGG---G-UGA-CUGG-G--A-GUC-UGAA-GGA-------------
+
+ABRD01002738.1/3759-3927            ----------AGCGUG-G-------A-UC-GAAACUGC-G-G--GCCGA-
+AACY023777304.1/705-876             ----------AGCCGC-A-------G-GC-AAAGCGCU-G-G--UUCGA-
+AP008955.1/811288-811460            ----------AGCCGG-C-------G-GC-AAAGUCCC-G-A--CCUGA-
+CR522870.1/2858976-2858808          ----------AGCGAU-A-------G-G--AAGUGAGUGG-U--ACAUA-
+ABLK01000531.1/2332-2161            ----------AGCCGGAU-------G-GC-AAAGCGCU-G-G--CCUGA-
+
+ABRD01002738.1/3759-3927            --------------------UGGACAA-GAA-C--CG--GA-UA-UGAGG
+AACY023777304.1/705-876             --------------------CGAACAG-GAA-G--UG--CA-UA-UGAGG
+AP008955.1/811288-811460            --------------------GGUACAC-GAA-U--CC--AA-UU-UGAGG
+CR522870.1/2858976-2858808          -------------------GCGCAAGC-GAA-C--CU--GA----UUCGG
+ABLK01000531.1/2332-2161            --------------------CGAACAG-GAA-G--CG--GA-UA-CGAGG
+
+ABRD01002738.1/3759-3927            ---C-G-GU--GC--CG-AC-CAGGGCGAG-C------------------
+AACY023777304.1/705-876             ---C-G-GC--CA--UG-CU---GGGUGAG-G------------------
+AP008955.1/811288-811460            ---C-U-GU--UG--UA-UU-C-GGGCGAG-U------------------
+CR522870.1/2858976-2858808          ---C-G-AU--GC--GG-GA---GGGUAAA-C------------------
+ABLK01000531.1/2332-2161            ---C-G-UG--GC--GA-CU---GGGUAAG-G------------------
+
+ABRD01002738.1/3759-3927            -------------G-GGCA--AC-------------------G----AAC
+AACY023777304.1/705-876             -------------A-GGCA--AA-------------------U----AUC
+AP008955.1/811288-811460            -------------C-UGCU--GA-------------------A----CAA
+CR522870.1/2858976-2858808          -------------G-UGCA--AA-------------------A----UAG
+ABLK01000531.1/2332-2161            -------------U-GUCC--CA-------------------A----UUC
+
+ABRD01002738.1/3759-3927            CGC-GAAGCUC------------------------------------UUG
+AACY023777304.1/705-876             UUC-AAAGCCC-----------------------AAAU---------CUG
+AP008955.1/811288-811460            GAC-GAAGCCC-----------------------UAUA---------CAG
+CR522870.1/2858976-2858808          CGU-AAAGCCC-----------------------AAUA---------CUU
+ABLK01000531.1/2332-2161            ACC-GAAGCCC-----------------------GAAA----------CU
+
+ABRD01002738.1/3759-3927            UGACCAA-GA--GG--CGGU-G-G----C-----------------GU--
+AACY023777304.1/705-876             ACACGGA-A----AG-CAUG-G-U----C-----------------GU-A
+AP008955.1/811288-811460            CCAAGG-------AA-UACA-G-C----A-----------------GUAA
+CR522870.1/2858976-2858808          GGUCAG-------UC-CCGU-A-U----C-----------------GU-G
+ABLK01000531.1/2332-2161            UGCACCG-A----CG-UUGC-U-A----C-----------------GU-A
+
+ABRD01002738.1/3759-3927            AAUCCC-GCGGUCG--U-GCA-GGGAAA-----G-G-A-G-----UGC--
+AACY023777304.1/705-876             GAUGCG-ACGGAUAUA--AGC-GUGAAA-----G-U-G-A-----GUG--
+AP008955.1/811288-811460            ACUUGG-GCAGGUACAU-GGG-AUGAAA-----G-U-U-A-----UCG--
+CR522870.1/2858976-2858808          UUUGAG-GAUGCGA--UUGCU-CACAGG-------G-A-G-----UUC--
+ABLK01000531.1/2332-2161            GAUCCG-ACAGGCAUG--AGC-GUGAAG-----G-U-G-G-----GUG--
+
+ABRD01002738.1/3759-3927            -GU
+AACY023777304.1/705-876             -UG
+AP008955.1/811288-811460            -CU
+CR522870.1/2858976-2858808          -GC
+ABLK01000531.1/2332-2161            -CG
+
+

@@ -240,7 +240,7 @@ def PredictSQUARNAs3u(dataset, fam):
 
 def PredictRNAalifold(dataset, fam):
 
-    command = "~/software/ViennaRNA-2.7.0/src/bin/RNAalifold --noPS {} > outp3.tmp".format("datasets/{}/aln/{}.aln".format(dataset,fam))
+    command = "~/software/ViennaRNA-2.7.1/src/bin/RNAalifold --noPS {} > outp3.tmp".format("datasets/{}/aln/{}.aln".format(dataset,fam))
     os.system(command)
     with open("outp3.tmp") as file:
         lines = file.readlines()
@@ -338,7 +338,12 @@ if __name__ == "__main__":
                           ("S01Aliclean","SQUARNAs3i"),
                           ("S01Aliclean","SQUARNAs3u"),):'''
 
-    for dataset, tool in (("SeqSim", "SQUARNAs3u"),
+    for dataset, tool in (("SubAliTest", "SQUARNAs1"),
+                          ("SubAliTest", "CentroidAlifold"),
+                          ("SubAliTest", "SQUARNAs3u"),
+                          ("SubAliTest", "RscapeNested"),
+                          ("SubAliTest", "RscapeTotal"),
+                          ("SubAliTest", "IPknot"),
                           ):
                 
         outname = "{}_{}".format(dataset,tool)

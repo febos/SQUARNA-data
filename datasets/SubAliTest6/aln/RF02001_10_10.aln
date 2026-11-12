@@ -1,0 +1,103 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+AP006840.1/1937585-1937416          UCCGUC---G-UGA-GGCG-G--A-AUC-UGAA-GGA-------------
+AACY020536917.1/279-445             GGUCCC---G-CGA-GGGG-C--G-GCC-UGGA-GGA-------------
+AACY024108825.1/674-847             GGAACC---G-CGA-GGUU-C--UUAGCACGAA-AGA-------------
+ABDH01030818.1/366-586              UCCAUC---G-CGA-GGAG-G--A-AUC-UGAA-GGACUGGAACC-----
+CP000921.1/536987-537157            ACUAUC---G-UGA-GGUA-G--C-AGG-GAGA-GGA-------------
+ABBF01000617.1/20621-20450          AUGAGG---G-CGA-CCGA-A--U-GUG-GGGA-GGA-------------
+CP001634.1/159638-159476            UCACUG---G-UAA-CGGU-G--A-AUC-UGAA-GGA-------------
+AAQK01002312.1/431-602              AAAACA---G-CAA-UGU--U--U-AGG-GGGA-GGA-------------
+AE015928.1/3258439-3258267          UCCCUC---G-CGA-GUUG-G--A-AUC-UGAA-AGA-------------
+CP000926.1/1829108-1828938          UCGCGG---G-UGA-CUGC-G--A-AUC-UGAA-GGA-------------
+
+AP006840.1/1937585-1937416          ----------AGCCGG-A-------G-GC-AAAGCCAC-G-A--CCCGA-
+AACY020536917.1/279-445             ----------AGCCUG-A-------GCGC-AAAGGUGC-G-A--GCCGA-
+AACY024108825.1/674-847             ----------AGGCCG-U-------A-GC-AAAGGCAC-G-A--CCGUA-
+ABDH01030818.1/366-586              --CGUAGGGUUCCCAG-A-------G-GC-AAAGUCCC-G-G--GCCGA-
+CP000921.1/536987-537157            ----------AGGGAU-A-------G--C-GAAAUCGU-G-G--CUCUA-
+ABBF01000617.1/20621-20450          ----------AGCGUG-G-------A-GCGUAAAUCGU-G-A--GCCGA-
+CP001634.1/159638-159476            ----------AGCCUA-A-------G-GC-AAAAUCCG-G-A--ACUGA-
+AAQK01002312.1/431-602              ----------AGUGGAGU-------A-GC-AAAACCGUUG-A--GCCUA-
+AE015928.1/3258439-3258267          ----------AGCUGG-C-------G-GC-AAAUAUCU-G-G--UCUGA-
+CP000926.1/1829108-1828938          ----------AGCCCG-A-------G-GC-AAAAUGCU-G-G--CCUGA-
+
+AP006840.1/1937585-1937416          --------------------GGAACAC-GAA-C--CC--CA-UA-GGAGG
+AACY020536917.1/279-445             --------------------CGGACAG-AAA-U--CG--CA-UA-GAAGG
+AACY024108825.1/674-847             --------------------AGAACAU-GAA-A--CG--GC--AGCGAGG
+ABDH01030818.1/366-586              --------------------CGAACAG-AAA-C--CG--CA-UA-UGAGG
+CP000921.1/536987-537157            --------------------CGAACAG-GAA-C--GU--GA-UAGUAAGG
+ABBF01000617.1/20621-20450          --------------------UGAACAA-GAA-C--UG--CA-UA-GAAGG
+CP001634.1/159638-159476            -------------------ACGAAAGU-GAA-C--CA--GU----GUUGG
+AAQK01002312.1/431-602              --------------------CGAACAG-AAA-C--UG--GA-UA-CGAGG
+AE015928.1/3258439-3258267          --------------------CGAACAG-AAA-C--UU--CA-UA-UAAGG
+CP000926.1/1829108-1828938          --------------------CGUAAAG-GAA-G--CG--GA-UA--GAGG
+
+AP006840.1/1937585-1937416          ---C-U-GU--GC--CG-CU-C-GGGUGAG-C------------------
+AACY020536917.1/279-445             ---C-C-UG--GU--CC-CC---GGGUGAG-U------------------
+AACY024108825.1/674-847             ---C-A-UG--GC--GU-GG-G-CGAUGAGAAUGCGAG------------
+ABDH01030818.1/366-586              ---C-A-AU--GC--AA-GG-C-GGACGAG-U------------------
+CP000921.1/536987-537157            ---C-G-UA--UA--UA-GC---GGAUAAG-G------------------
+ABBF01000617.1/20621-20450          ---C-G-CU--GC--CGAGC-A-GGGCGAA-C------------------
+CP001634.1/159638-159476            ---C-C-GG--UA--GA-GU---GGGUAAC-C------------------
+AAQK01002312.1/431-602              ---C-U--A-AAU--GG----C-GGGCGAG-A------------------
+AE015928.1/3258439-3258267          ---C-A--U-AUG--AC-CG-U-GGGUAAG-G------------------
+CP000926.1/1829108-1828938          ---C-G-GC--GC--AG-CG---GGGUGAG-A------------------
+
+AP006840.1/1937585-1937416          -------------U-GGCC--GA-------------------A----CAC
+AACY020536917.1/279-445             -------------C-AGCA--CA-------------------A----GAU
+AACY024108825.1/674-847             -------CAUCCG-------------------------------------
+ABDH01030818.1/366-586              -------------U-UGCA--AC-------------------A----CAA
+CP000921.1/536987-537157            -------------G-GGCC--UC-------------------A----AAC
+ABBF01000617.1/20621-20450          -------------G-GGCC--CA-------------------U----AAC
+CP001634.1/159638-159476            -------------U-UGCC--GA-------------------G----AAU
+AAQK01002312.1/431-602              -------------U-UGCA--GA-------------------G----CAA
+AE015928.1/3258439-3258267          -------------U-UGCU--GA-------------------A----CAA
+CP000926.1/1829108-1828938          -------------A-AGCA--AA-------------------U----AUC
+
+AP006840.1/1937585-1937416          AGC-AAAACCCG--------------------AA--------------GC
+AACY020536917.1/279-445             GAC-GAAACCC-----------------------UACA----------GG
+AACY024108825.1/674-847             --C-GAAAUCC------------------------AAA----------AG
+ABDH01030818.1/366-586              AAC-GAAGUCCAAAAGGCCGGG-GAGGAAGAAAACAGACUCCGGUUUUAC
+CP000921.1/536987-537157            UCU-AAAGUCCA---------------------AAAAG----------GU
+ABBF01000617.1/20621-20450          CGC-GAAGCUC------------------------------------UCG
+CP001634.1/159638-159476            GGG-UAAGCCC-----------------------GAGC----------UC
+AAQK01002312.1/431-602              AUC-GAAGCCC-----------------------AAAA---------GGU
+AE015928.1/3258439-3258267          ACC-AAAGCCCU---------------------AUAGC----------UA
+CP000926.1/1829108-1828938          UUC-AAAGCCC-----------------------AAUA---------CUU
+
+AP006840.1/1937585-1937416          UGCCAAA-G----GG-CGGU-G-C----G-----------------GU-A
+AACY020536917.1/279-445             UGCA---------GG-GGAC-A-G----G-----------------GU-A
+AACY024108825.1/674-847             UCACCGA-AA--GAC-ACGU-U-G----U-----------------GU-A
+ABDH01030818.1/366-586              UGCCCGA-A----CC-UUGC-A-G----U-----------------GU-A
+CP000921.1/536987-537157            AGUCGUA-A----CC-UAUA-U-G----C-----------------GU-A
+ABBF01000617.1/20621-20450          UGACCAA-G----GC---G--A-AGCGGC-----------------GU-A
+CP001634.1/159638-159476            CA-----------AC-UCUA-C-A----G-----------------GU-U
+AAQK01002312.1/431-602              AAACGUA-AC--G---CCAAGA-G----A-----------------GU-A
+AE015928.1/3258439-3258267          UUCGGAA-A----CG-GUUG-G------U-----------------GU-A
+CP000926.1/1829108-1828938          GCACGGA-A----CG-CUGU-G-A----C-----------------GU-A
+
+AP006840.1/1937585-1937416          GAUGGG-GCGGGUG--C-GGG-GUGAAG-----G-U-C-A-----GCG--
+AACY020536917.1/279-445             AAUGCG-GCGGUUG--U-GCA-CCGAAA-----G-U-U-C-----AUG--
+AACY024108825.1/674-847             GAGCCG-UGCGGCA--C-GGG-CCGAAA-----G-U-U-C-----GUA--
+ABDH01030818.1/366-586              GAUGCG-GCGGCUAUAU-GGG-AUGAAG-----G-U-U-A-----UCG--
+CP000921.1/536987-537157            AAUCAC-GAGAGUA-A--ACG-AGGAAA-----G---A-U-----GUA--
+ABBF01000617.1/20621-20450          GAUGCG-GCGGUUG--U-GCG-AUGAAG-----G-AGU-G-----CGU--
+CP001634.1/159638-159476            UGGAUG-GCAGGAU--U-CGG-AUGAAA-----G-C-U-G-----UAU--
+AAQK01002312.1/431-602              AAUCCA-GAGGCUG--UG-CG-GUGAAA-----G-A-C-U-----UGU--
+AE015928.1/3258439-3258267          AAUGGA-GCAGACAUA--AGA-UAGAAA-----G-U-U-A-----AUA--
+CP000926.1/1829108-1828938          GAUCCG-ACAGGCAUA--AGC-AGGAAG-----G-U-C-G-----CGC--
+
+AP006840.1/1937585-1937416          -UU
+AACY020536917.1/279-445             -UC
+AACY024108825.1/674-847             -CA
+ABDH01030818.1/366-586              -GA
+CP000921.1/536987-537157            -CG
+ABBF01000617.1/20621-20450          -UC
+CP001634.1/159638-159476            -GU
+AAQK01002312.1/431-602              -GU
+AE015928.1/3258439-3258267          -CC
+CP000926.1/1829108-1828938          -GA
+
+

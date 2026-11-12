@@ -1,0 +1,105 @@
+# STOCKHOLM 1.0
+#=GF AC   RF00174
+#=GF ID   Cobalamin
+#=GF DE   Cobalamin riboswitch
+#=GF AU   Barrick JE
+#=GF AU   Breaker RR; 0000-0002-2165-536X
+#=GF AU   Moxon SJ; 0000-0003-4644-1816
+#=GF AU   Gardner PP; 0000-0002-7808-1213
+#=GF AU   Ontiveros-Palacios N; 0000-0001-8457-4455
+#=GF SE   Barrick JE, Breaker RR
+#=GF SS   Predicted; PFOLD
+#=GF GA   31.50
+#=GF TC   31.50
+#=GF NC   31.40
+#=GF TP   Cis-reg; riboswitch;
+#=GF BM   cmbuild -F CM SEED
+#=GF CB   cmcalibrate --mpi CM
+#=GF SM   cmsearch --cpu 4 --verbose --nohmmonly -T 25.00 -Z 742849.287494 CM SEQDB
+#=GF CL   CL00101
+#=GF DR   SO; 0000035; riboswitch;
+#=GF DR   GO; 0031419; cobalamin binding;
+#=GF RN   [1]
+#=GF RM   12787499
+#=GF RT   Riboswitches control fundamental biochemical pathways in Bacillus subtilis
+#=GF RT   and other bacteria.
+#=GF RA   Mandal M, Boese B, Barrick JE, Winkler WC, Breaker RR
+#=GF RL   Cell 2003;113:577-586.
+#=GF RN   [2]
+#=GF RM   12923257
+#=GF RT   Regulation of the vitamin B12 metabolism and transport in bacteria by a
+#=GF RT   conserved RNA structural element.
+#=GF RA   Vitreschak AG, Rodionov DA, Mironov AA, Gelfand MS
+#=GF RL   RNA 2003;9:1084-1097.
+#=GF RN   [3]
+#=GF RM   14704351
+#=GF RT   Coenzyme B12 riboswitches are widespread genetic control elements in
+#=GF RT   prokaryotes.
+#=GF RA   Nahvi A, Barrick JE, Breaker RR
+#=GF RL   Nucleic Acids Res 2004;32:143-150.
+#=GF RN   [4]
+#=GF RM   28483920
+#=GF RT   Cobalamin riboswitches exhibit a broad range of ability to discriminate
+#=GF RT   between methylcobalamin and adenosylcobalamin.
+#=GF RA   Polaski JT, Webster SM, Johnson JE Jr, Batey RT
+#=GF RL   J Biol Chem. 2017;292:11650-11658.
+#=GF RN   [5]
+#=GF RM   23064232
+#=GF RT   B12 cofactors directly stabilize an mRNA regulatory switch.
+#=GF RA   Johnson JE Jr, Reyes FE, Polaski JT, Batey RT
+#=GF RL   Nature. 2012;492:133-137.
+#=GF RN   [6]
+#=GF RM   23064646
+#=GF RT   Structural insights into ligand binding and gene expression control by an
+#=GF RT   adenosylcobalamin riboswitch.
+#=GF RA   Peselis A, Serganov A
+#=GF RL   Nat Struct Mol Biol. 2012;19:1182-1184.
+#=GF RN   [7]
+#=GF RM   32544228
+#=GF RT   Crystal structure of an atypical cobalamin riboswitch reveals RNA
+#=GF RT   structural adaptability as basis for promiscuous ligand binding.
+#=GF RA   Chan CW, Mondragon A
+#=GF RL   Nucleic Acids Res. 2020;48:7569-7583.
+#=GF CC   Riboswitches are metabolite binding domains within certain messenger RNAs
+#=GF CC   that serve as precision sensors for their corresponding targets.
+#=GF CC   Allosteric rearrangement of mRNA structure is mediated by ligand binding,
+#=GF CC   and this results in modulation of gene expression [1]. This family
+#=GF CC   represents a cobalamin riboswitch (B12-element) which is widely
+#=GF CC   distributed in 5' UTRs of vitamin B(12)-related genes in bacteria.
+#=GF CC   Cobalamin in the form of adenosylcobalamin (Ado-CBL) is known to repress
+#=GF CC   expression of genes for vitamin B(12) biosynthesis and be transported by a
+#=GF CC   post-transcriptional regulatory mechanism, which involves direct binding
+#=GF CC   of Ado-CBL to 5' UTRs [2]. Cobalamin riboswitch structure was reported in
+#=GF CC   PDB:4GMA [5], 4GXY [6] and 6VMY [7]. Cobalamin riboswitch forms a
+#=GF CC   junctional structure that form a pocket that recognise adenosylcobalamin
+#=GF CC   and is flanked by structural elements that connects by long-range
+#=GF CC   interactions. 
+#=GF WK   Cobalamin_riboswitch
+#=GF SQ   433
+
+RF00174__AAYB01000001.1/493900-494118 GCAAACAGUACCCGUGAUGGU---UCCCAAAGCGCC------------GAAAAUGCGU----CUGGGAUG------AAAA--GGGAA-U-AC-G-G-UGAGGAAGAGCC------------AAAGCGCGCCAAAUCCGU-AACUGCCC-CC-GCAACUGUGA--GC-GG---------CGAGCGACCCCGAUGAUC----------------------------ACCACUGAGC-AAAC-----------------------------------------------------------GC-UCGGGAAGGG--AUCG--G-GC--AAGCAGCGAC------------------------------------------------------------------CCGCGAAGUCAGGAGACCUGCCAUCAAAGGGCGUCGAAA
+RF00174__AAYH02000045.1/230243-230450 UAUCUUUGUCCCAGUUUUGGUU--UCACCUCUCCCGGU--------UCUGUUGGAGAU----GAGUGAUG-----AAAAA--GGGAA-U-CA-G-G-UGC-------------------------------AAAUCCUG-AACAGA-C-CC-GCUGCUGUAA--GU-CCUU-----CCAAAAUCUUUGAAUAUUCUAC------------------------AAGCCACUGUCCGCCCG---------------------------------------------------------GCGG-AUGGGAAGGC---AUU--C-AA--AGAG------------------------------------------------------------------------GGAU-AAGUCAGAAGACCUGCCAAGACAACAUAGUUUUA
+RF00174__AE007869.2/877627-877854     GGAUAACAUGUCCGUGAUGGUU--CCUUCCG----------------------GGCGUU-CCGGAAGGUG------AAAA--GGGAA-C-AC-G-A-UAGGGACA---------------------AAUCCUCAUUCGU-GGCUGCCC-CC-GCAACUGUGA--GC-GG----------AGAGCCUGAAACGAAAU----------------------------GCCACUGGCAAGCCAUCUCGCCUCCAUC--------------------------------AAGGGGGAAGGCAAUG-CCGGGAAGGU---GUU--U-CA--GGUUUUGAC-------------------------------------------------------------------CCGU-AAGCCAGGAGACCUGCCAUCACGGAAAUAUCCAU
+RF00174__AM263198.1/1122851-1123039   UUAAAUAGGUCUUAAGUUGGU---GAAAUGU----------------------AUUUG----CAUUUCUG------AAAG--AGGAA-U-UC-G-G-UGC-------------------------------AAUGCCGA-AACUGCCC-CC-GCAACUGUAA--GG-UG----------GACAAGAAUUGAGAAA-----------------------------ACCACUGUGCGUUUAA--------------------------------------------------------UCGU-AUGGGAAGGU---UCA--A-UU--CUUGGAUGA-------------------------------------------------------------------AGCC-AAGUCAGGAUACUCGCCAAAUAAGACGGAAGCAA
+RF00174__AF010496.1/105318-105540     CCACUCAGGGCGGGCGCUGGUU--UCUGUCC----------------------UAUG------ACAGGCG------AAGA--GGGAA-U-GU-G-A-AGGGAAUUGCGACGGC-----UUUGCCGCGAAACCCGACCGC-AGCCGCCC-CC-GCGACCGUGA--CC-GG----------AGAGGGCGCCCCGAG------------------------------GCCACUGGC--ACCA------------------------------------------------------------G-CCGGGAAGGC---GGG--G-CG--ACCGUGAGGGGACCCCC---------------------------------------------------CCUCGCAUCCGC-AAGCCGGGAGACCUGCCAGCGCAUGGAUUUCGGG
+RF00174__AAYC01000005.1/102065-102275 GCGCAAGGGGGUUCAGCUGGUU--CCUGG------------------------GGAAA----CCUGGGCG------AAGA--GGGAA-U-GU-GAC-AGCUGGAAUU----------------AUCUGGCAAAAAGCAC-AGCCGCCC-CC-GCGACCGUGA--CC-GG----------AUGAGACCGCC----AU----------------------------GCCACUGGG--ACAC------------------------------------------------------------C-CCGGGAAGGC---AGG--A-GG--GUCGACAGAGCGCACGC---------------------------------------------------UCUGGCAUCCGC-AAGCCGGGAGACCUGCCAGCAAGAGGAGAUUUCA
+RF00174__AAMY01000005.1/65948-65728   ACUAGAUAUGGUAGCCACGGU---CUCUCGAGU-----------------CGUCGUAC----CGAGAGCU------AAGA--GGGAA-G-CU-G-G-UGCGCCUCGGUCC----------AUGAUCCGGGCAAGGCCAG-CGCUGCCC-CC-GCAACUGUAA--GC-GG----------CGAGCCGAGUCCAAUUGA-------------------------GUGUCACUGGAACCGCAG--------------------------------------------------------GGUU-CCGGGAAGGC--CGGA--C-GG--ACGCUACGAC------------------------------------------------------------------CCGC-AAGUCAGGAGAUCUGCCGUGGCGGAAAGAACGUC
+RF00174__CP000699.1/3500758-3500555   AAAGCGCACGGCGCGACAGGU---UCCCGGA----------------------AACG--------GGAUC------AA-A--GGGAA-U-UC-G-G-AAGCGGGAU------------------CGUCCCGCAAGCCGA-AGCUGCCC-CC-GCAACUGUGA--UC-GG----------CGAGCGAUCGUCCAUCCC-------------------------GCGUCACUGGAUGCUCCG--------------------------------------------------------GCAU-CCGGGAAGGCC-GGAC--G-AG--ACGCGACGAC------------------------------------------------------------------CCGA-GAGCCAGGAGACCUGCCCGUCGCGGUCGUUCCAU
+RF00174__CP000031.1/3058882-3059104   CCGCAUGUCCGCCCUGUUGGUG--UCCGGGC----------------------AACC--------GGAUG------AAAA--GGGAA-U-GC-G-C-CAGCGGUUCCGGGACAU--GAUCCCGGGCAGCCGUCAAGCGC-AGCCGCCC-CC-GCGACCGUGA--CC-GG----------AGAGGGUGCCC----AA----------------------------GCCACUGGCC-AAAU-----------------------------------------------------------GG-CCGGGAAGGC----GG--G-AC--AUCCGCCAGAGCAGCGC---------------------------------------------------UCUGACAUCCGC-AAGCCGGGAGACCUGCCAGCACCCGAACUGCAAC
+RF00174__AAXE02000101.1/25986-25780   UACCUUUGCCACAGUUUUGGUU--UCACGGCUCCCAA---------CCGCUACGGGAG----GCGUGAUG------AAAA--GGGAA-U-CA-G-G-UGC-------------------------------GAAUCCUG-AACAGA-C-CC-GCUGCUGUAA--GU-UCCUC----UCCAAAUCUUUGAAUACGCUAC------------------------AAGCCACUGUCCGUCAC----------------------------------------------------------CGG-AUGGGAAGGC---AUU--C-AA--AGACG-----------------------------------------------------------------------GAAC-AAGUCAGAAGACCUGCCAAAACAAACAUAGUUUU
+RF00174__AAOE01000043.1/7099-6916     GUUGGCGAUGUCACUGACGGUU--UAAGACA----------------------AGCUG----UACUUGUC---------U--GGGAA-U-CC-G-G-UUA-------------------------------AAUUCCGG-AGCUGCCC-CC-GCAACUGUAA--UG-GU----------CAGGACGAUGUCUGUUU----------------------------GCCACUGAAAAUUAU-----------------------------------------------------------UU-UCGGGAAGGC---GAC--A-UC--GAGCCGUA--------------------------------------------------------------------GCCA-GAGCCAGGAGACCGGCCGUCGUGCAUCUCGCAUC
+RF00174__AAYC01000003.1/275906-275695 CGCCUACCUGUUUUCGAUGGUU--CCUCAGGGC-----------------AGAAUGCU----GAGAGGAUG----AAAAA--GGGAA-C-AC-G-G-UGAGGUGUAGCC------------AACAGGCGCUGAAUCCGU-GACUGCCC-CC-GCAACUGUAA--GC-GG----------AUAGCGACGCCAAGCA-----------------------------CCCACUGGCC-GUAA-----------------------------------------------------------GG-CUGGGAAGGA---UGG--C-GC--AGCCAAGAC-------------------------------------------------------------------CCGC-AAGUCAGGAGACCUGCCAUCGUGAAUUCAACCAA
+RF00174__AE016853.1/3679925-3680122   UUUACCAUGCCGGCCGUCGGU---UUCCG------------------------AGAG--------GAACU------AACA--GGGAA-U-UC-G----CCAGCUUUGUU-------------UCAAAGGCCAAAA-CGA-AACUGCCC-CC-GCAACUGUAG--GC-AU----------CGAGCCUGCUCCAAGAC---------------------------UGCCACUGGAU--UCA----------------------------------------------------------GAU-CCGGGAAGGC--CGGA--G-CA--UGGUGAUGAC------------------------------------------------------------------AUGC-CAGUCAGGAGACCUGCCGACCCGAUUCAACCAAC
+RF00174__CP000924.1/1954621-1954430   GAAUACAAAAAAUCUUAUGGU---CUUGAG-----------------------------------AAGUU------AAAA--GGGAA-A-GC-G-G-UGA-------------------------------AAAUCCGC-UGCAGCCC-CC-GCUACUGUGA--GC-GA----------GGAUGAAGCCCUAAUAA----------------------------GCCACUGCUUGGCACUCAAGA---------------------------------------------GAUGUGCCGG-GUGGGAAGGC---AGG--G-UG--GAAGAUGAA-------------------------------------------------------------------UCGC-GAGCCAGGAGACCUGCCAUAAGAUUUCGGAAGUU
+RF00174__CP000139.1/5040129-5040331   GUAUCUUUGCAGUGCAUCGGU---UCAUUUAUCUCC------------CCUCCGAGGU----GAAUGAUU------AAAA--GGGAA-U-CAAG-G-UGA-------------------------------GAAUCCUG-AACAGU-C-CC-GCUGCUGUAU--GU-UUCA------CUAAACGCAUAAGCAAAAUGCC---------------------AAUAACCACUGGGA-UAAU-----------------------------------------------------------UU-CCGGGAAGGU---GCU--U-AU--AGCGG-----------------------------------------------------------------------AAAC-GAGUCAGAAGACCUGCCUGUGCAUUUAUCAAAUC
+RF00174__CP000494.1/6305642-6305855   ACCUACUGUGAUGGUGACGGU---GCCCC------------------------CUGAC----CGGGGCUC------AAAA--GGGAA-U-GC-G-G-UGCCGGACGUCCUUA-------ACGGAUCGUUCGAAGGCCGC-AGCUGCCC-CC-GCAACUGUAA--GC-GG----------CGAAUCUCACGUCAGAU----------------------------GCCACUGGGAAUUCUC--------------------------------------------------------GGUC-CUGGGAAGGC--GGCG--U-UG--AGGUGACGAC------------------------------------------------------------------CCGC-GAGCCAGGAGACCUGCCGUCAGCCGUGGUCACAC
+RF00174__CP001090.1/30663-30472       UGAAUAUGCACGAAUCACGGUG--CCCGC----------------------------------AAGGGUG------AAAA--GGGAA-GAGG-G-G-UGACGCUCU------------------GACGAGCUAUUCCCC-CGCGGA-C-CC-GCCGCUGUAA--GC-GA----------UGACGA-AGGGCAACAA---------------------------CGUCACUGAUCAUUUA-----------------------------------------------------------GA-UUGGGAAGAC---GCC--C-----GGAGGAUGAC------------------------------------------------------------------UCGC-AAGUCAGAAGACCUGCCGCUGAUUGUUGUUACUC
+RF00174__CP000521.1/3325202-3325407   UGCGUUCAAAUGGAAGCAAGU---GUAAGCA----------------------AUUGA----UGCUUU-----------A--GGGAA-G-CU-G-G-UGA-------------------------------AAGUCCGG-CACUGCCC-CC-GCAACGGUAA--CA-AU---------GUAAAGCAUAUUUUUAAGUCGAAAU-------------CGACUUACACCACUGCA---GUA----------------------------------------------------------G-U-GUGGGAAGGU---GAA--U-AU--GUCCAUAAAUGAAUU--------------------------------------------------------AUGGCGCUG-AAGUCCGGAGACCUACUUGUUUCAUCUAUCUACC
+RF00174__AALY01000002.1/134769-134967 AGCAUUGUCGCCCCUGAUGGUU--GCCCGGG----------------------ACGAA---UCCGGGCUG------AAAA--GGGAA-C-GC-G-G-UGCGGGUC--------------------UGACCCAAUUCCGC-GGCUGCCC-UC-GCAACUGUAA--GC-GG----------CGAAUGUCUCGCACCAU----------------------------GCCACUGGCC--CUC----------------------------------------------------------GGG-CUGGGAAGGC---GCG--A-CC--CAUGAUGAC-------------------------------------------------------------------CCGC-AAGCCAGGAGACCUGCCAUCCAGGGCGCUGUCCG
+RF00174__CP000489.1/1319736-1319935   AUUUUACCGUCAGAUCAAGGUG--CCGGG------------------------GAAAU----CUCCGGGU------AAAA--GGGAA-U-UC-G-G-UGAGGCUG---------------------UCGCCAAAUCCGA-AGCUGCCC-CC-GCAACUGUAG--GC-GG----------AGAGCCUGUCCGACAU-----------------------------GCCACUGGCGCGGAUU-------------------------------------------------------UCGCG-CCGGGAAAGC---UGG--A-CC--AGGUAAAGAU------------------------------------------------------------------CCGC-AAGUCAGGAAACCUGCCUGGAUCAAUCACCUGUU
+#=GC SS_cons                          ::::::::::::::[[[[[[[,..<<<____......................_____....___>>>,,......,,,(..((,,,.<.<<.<.<.___...............................____>>>>.>AA<<<__.__.>>>,<<<---..<<.<<..........------<<<<<<-----............................<<<-<<<<<<_____.........................................................._>>.>>>>--->>>...>>>..>.>>..----------..................................................................>>>>.--aa>>>,,,,)))]]]]]]]:::::::::::::
+#=GC RF                               uuaaauuauucuggcgacGGU...cccccuu......................aaagu....cggggguu......AAaa..GGGAA.c.cc.G.G.UGc...............................aAauCCgg.gGCuGcCC.CC.gCaACUGUAA..gc.Gg..........gaagcaccccccaauau............................GCCACUGgcccguaa..........................................................ggg.cCGGGAAGGC...ggg..g.gg..aagcgaugAc..................................................................cCgc.gAGCCAGGAGACCuGCCgucgaaaauaguaucac
+#=GC RNA_motif_k_turn                 =================================================================================================================================================X====================.XX..........XXXXX===========================================================================================================================================..==XXXXXXXX..................................................................XX=====================================
+#=GC RNA_ligand_AdoCbl                ===================================================================================XXX====================================================================XX=================================================================================================================================================================================================================================================================XX=X=X=====================
+#=GC RNA_structural_elements          ==============[P1=5p]==[====================P2================================][P3=]====[=========================P4========================]==[====P5====][P6]=====[==============================================================================================P7+P8+P9+P10+P11==================================================================================================================================]====[P6]==[P3][P1=3p]=============
+//

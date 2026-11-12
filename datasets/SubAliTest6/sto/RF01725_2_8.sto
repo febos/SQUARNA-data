@@ -1,0 +1,53 @@
+# STOCKHOLM 1.0
+#=GF AC   RF01725
+#=GF ID   SAM-I-IV-variant
+#=GF DE   SAM-I/IV variant riboswitch
+#=GF AU   Weinberg Z; 0000-0002-6681-3624
+#=GF AU   Ontiveros-Palacios N; 0000-0001-8457-4455
+#=GF SE   Published; PMID:20230605;
+#=GF SS   Published; PMID:20230605;
+#=GF GA   41.10
+#=GF TC   41.10
+#=GF NC   41.00
+#=GF TP   Cis-reg; riboswitch;
+#=GF BM   cmbuild -F CM SEED
+#=GF CB   cmcalibrate --mpi CM
+#=GF SM   cmsearch --cpu 4 --verbose --nohmmonly -T 30.00 -Z 742849.287494 CM SEQDB
+#=GF CL   CL00012
+#=GF DR   SO; 0000035; riboswitch;
+#=GF DR   GO; 0010468; regulation of gene expression;
+#=GF DR   GO; 0046500; S-adenosylmethionine metabolic process;
+#=GF RN   [1]
+#=GF RM   18369181
+#=GF RT   The aptamer core of SAM-IV riboswitches mimics the ligand-binding site of
+#=GF RT   SAM-I riboswitches
+#=GF RA   Weinberg Z, Regulski EE, Hammond MC, Barrick JE, Yao Z, Ruzzo LR and
+#=GF RA   Breaker R
+#=GF RL   RNA 2008;14
+#=GF RN   [2]
+#=GF RM   20230605
+#=GF RT   Comparative genomics reveals 104 candidate structured RNAs from bacteria,
+#=GF RT   archaea and their metagenomes.
+#=GF RA   Weinberg Z, Wang JX, Bogue J, Yang J, Corbino K, Moy RH, Breaker RR
+#=GF RL   Genome Biol. 2010;11:R31
+#=GF RN   [3]
+#=GF RM   24753586
+#=GF RT   Structural basis for diversity in the SAM clan of riboswitches
+#=GF RA   Trausch JJ, Xu Z, Edwards A, Reyes FE, Ross PE, Knight R
+#=GF RL   PNAS 2014;111:18
+#=GF CC   SAM-I-IV variant riboswitch is part of the clan CL00012 (SAM-I, SAM-IV and
+#=GF CC   SAM-I-IV) which share a common SAM binding core. It is found upstream of a
+#=GF CC   number of genes which code for proteins involved in methionine or cysteine
+#=GF CC   biosynthesis. It has been found mostly in the order Actinomycetales [1].
+#=GF CC   PDB 4L81 and 4OQU has been reported for SAM-I-IV aptamer, which shows the
+#=GF CC   SAM binding core and an alternative PK-2 subdomain shared with SAM-IV [3].
+#=GF WK   SAM_riboswitch_(S_box_leader)
+#=GF SQ   417
+
+RF01725__URS0000AB6F36_12908/1-97  AUUUUACAUCUAUAGA-GA-AGG---------GUGA-------------------------------------CCUU---CACCA-ACC-A--GCC------AGACUU----------------------GGCA-ACGGUGGUU------------------------CAAC------------------------GAUGUGGCUU-------------UUG---------------------------------------------------------------------------------------AAGCAA--CAAUAAAGUCAGAU--
+RF01725__URS0000D6D1A8_12908/1-100 AUAGUACAUCAGGAGU-GA-AUA--------AGAAA------------------------------------UUAUU-C-CGCCA-ACC-U--GCU------UGAGGA----------------------AGUA--AGGUGGCA-------------------------GAG------------------------AAUGUGGUCU-------------UAAU--------------------------------------------------------------------------------------UGACAA---UUUGGUUCCUCGUUG
+#=GC SS_cons                       :::::(((((,,,,<-.<<.<<<.........____.....................................>>>>.>.><<<-.-<<.<..<<<......_AAAAA......................>>>-..>>>->>>,,,....................,,,,,,,......................,)))))-<<<<.............____......................................................................................>>>>::...:::::aaaaa:::::
+#=GC RF                            aaaaagCAUcAAGAGa.gG.guc.........uaAa.....................................gacC.c.CgcCA.ACC.u..ggc......uaacca......................gccA..aGGUGgcu.......................a.aAa.......................agAUGcGGccc.............aaaa......................................................................................gggCAA...aaaAaggaguuaaa.
+#=GC RNA_ligand_SAM                ========X===X=======================================================================X======================================================XXX========================================================X======================================================================================================================================
+#=GC RNA_structural_elements       =====[P1=][J1][===============================P2================================][==============================P3============================][===========================P4======================][=P1]=[=====================================================P5======================================================]====================
+//

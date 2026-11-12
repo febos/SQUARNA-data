@@ -1,0 +1,103 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+AE015927.1/793388-793201            AAUAGUAAAUGAAAUUUAGGUG--UCCACUUUG-----------------
+CP000283.1/2565817-2565610          AGAAUACUCGCCUGUCACGGU---CUUUCGAGUCGUAU--------GUGC
+M10112.1/56-246                     CUGUAGCAUCCACUUGCCGGU---CCUGU---------------------
+AAYH02000045.1/230243-230450        UAUCUUUGUCCCAGUUUUGGUU--UCACCUCUCCCGGU--------UCUG
+CP000958.1/1840255-1840065          UACGGCCGUUCGUUCGCCGGU---GCCCU---------------------
+CP000250.1/112481-112284            AGUACGGUCGCGCCCGACGGU---UCCCG---------------------
+AAVM02000011.1/57485-57689          UAUCUUUGCCGCCGAAAUGGU---UCGGAAUCCGU-------------AG
+ABKL02000008.1/4023-4214            UAAAUAUAUAAUAUUAUAGGU---UCUUCAA-------------------
+CP001090.1/30663-30472              UGAAUAUGCACGAAUCACGGUG--CCCGC---------------------
+CP000491.1/325972-326167            ACUACACGGUCGGGUGACGGU---UUCCGAU-------------------
+
+AE015927.1/793388-793201            -UAAAAAU----GAUGGAUG------AAAA--GGGAA-U-GU-G-G-UUC
+CP000283.1/2565817-2565610          ACGCGAUC----CGAGAGCU------AAGA--GGGAA-G-CC-G-G-UGC
+M10112.1/56-246                     ---------------GAGUU------AAUA--GGGAA-U-CC-A-G-UGC
+AAYH02000045.1/230243-230450        UUGGAGAU----GAGUGAUG-----AAAAA--GGGAA-U-CA-G-G-UGC
+CP000958.1/1840255-1840065          ---UCGG--------GGCCG------AAGA--GGGAA-C-AC-A-G-GGC
+CP000250.1/112481-112284            ---CAAG--------GGAUC------AAUA--GGGAA-U-GC-G-G-UGA
+AAVM02000011.1/57485-57689          CCAACGGA----CGACGAUU------AAUA--GGGAA-U-CG-G-G-UGC
+ABKL02000008.1/4023-4214            ---GCA---------AGAUU------AAUA--GGGAA-A-AA-G-G-UUA
+CP001090.1/30663-30472              -------------AAGGGUG------AAAA--GGGAA-GAGG-G-G-UGA
+CP000491.1/325972-326167            ---UUCG--------GAAUG------AAAA--GGGAA-C-GC-A-G-UGC
+
+AE015927.1/793388-793201            -------------------------------AAUUCCAC-AGCAGCCC-C
+CP000283.1/2565817-2565610          -------------------------------AAAGCCGG-CGCUGCCC-C
+M10112.1/56-246                     -------------------------------GAAUCUGG-AGCUGA-C-G
+AAYH02000045.1/230243-230450        -------------------------------AAAUCCUG-AACAGA-C-C
+CP000958.1/1840255-1840065          GCCC----------------------CCCGCGCCGCUGU-GGCUGCCC-C
+CP000250.1/112481-112284            GGGUCGCG---------------CGCGAUCCGAUUCCGC-GGCUGCCC-C
+AAVM02000011.1/57485-57689          -------------------------------AAAUCCCG-AACAGU-C-C
+ABKL02000008.1/4023-4214            -------------------------------AAUUCCUU-UACAGCCC-C
+CP001090.1/30663-30472              CGCUCU------------------GACGAGCUAUUCCCC-CGCGGA-C-C
+CP000491.1/325972-326167            GGACCAG-----------------CCGGUCCCAUGCUGC-GGCUGCCC-C
+
+AE015927.1/793388-793201            C-GCUACUGUAA--UA-GA----------UGACAAGCCUUUAGUA-----
+CP000283.1/2565817-2565610          C-GCAACUGUAA--GC-GG---------CGAGCUGACGUCCGAUAGU---
+M10112.1/56-246                     C-GCAGCGGUAA--GG-AA----------AGGUGCGAUGAUUGCGUUAU-
+AAYH02000045.1/230243-230450        C-GCUGCUGUAA--GU-CCUU-----CCAAAAUCUUUGAAUAUUCUAC--
+CP000958.1/1840255-1840065          C-GCAACUGUAG--AC-AGC--------GAGCCGAGCUCCCCCUCA----
+CP000250.1/112481-112284            C-GCAACUGUGA--GC-GG---------CGAGCCUUUCGCCACAC-----
+AAVM02000011.1/57485-57689          C-GCUGCUGUGA-AGC-UC----------AGUUCAAUGUCUUAUAAAUGA
+ABKL02000008.1/4023-4214            C-GCUACUGUGA--UG-C-----------AGACGAAACUUUUGUUA----
+CP001090.1/30663-30472              C-GCCGCUGUAA--GC-GA----------UGACGA-AGGGCAACAA----
+CP000491.1/325972-326167            C-GCAACUGUAG--GC-GG----------AUAGCCUUUGCCAACG-----
+
+AE015927.1/793388-793201            ------------------------ACCACUCUUU----A-----------
+CP000283.1/2565817-2565610          -----------------------CGCCACUGGGCCCAUU-----------
+M10112.1/56-246                     ---------------------GCGGACACU--CGCCAUU-----------
+AAYH02000045.1/230243-230450        ----------------------AAGCCACUGUCCGCCCG-----------
+CP000958.1/1840255-1840065          -----------------------UGCCACUGGU---UUC-----------
+CP000250.1/112481-112284            ------------------------GCCACUGGGCCUCGU-----------
+AAVM02000011.1/57485-57689          ACU-------------AAUUUGACGCCACUGAU--GUUC-----------
+ABKL02000008.1/4023-4214            ------------------------GCCACUAUGAUGAUAUUUUU------
+CP001090.1/30663-30472              -----------------------CGUCACUGAUCAUUUA-----------
+CP000491.1/325972-326167            ------------------------GCCACUGGGU-GCGA-----------
+
+AE015927.1/793388-793201            -----------------------------------------------AAA
+CP000283.1/2565817-2565610          ----------------------------------------------GGAC
+M10112.1/56-246                     ------------------------------------------------CG
+AAYH02000045.1/230243-230450        ----------------------------------------------GCGG
+CP000958.1/1840255-1840065          -------------------------------------------------A
+CP000250.1/112481-112284            ------------------------------------------------GC
+AAVM02000011.1/57485-57689          -----------------------------------------------U-A
+ABKL02000008.1/4023-4214            ------------------------------------------UAUAUCUC
+CP001090.1/30663-30472              ------------------------------------------------GA
+CP000491.1/325972-326167            ------------------------------------------------CC
+
+AE015927.1/793388-793201            -GGAGGAAGGU---AAA--G-GU--UAGAAUGAU----------------
+CP000283.1/2565817-2565610          -CCGGGAAGGC--AGGA--C-UG--ACGCUAAGAC---------------
+M10112.1/56-246                     -GUGGGAAGUC---AUC--A-UC--UCUUAGUAUCUUAGA----------
+AAYH02000045.1/230243-230450        -AUGGGAAGGC---AUU--C-AA--AGAG---------------------
+CP000958.1/1840255-1840065          -CCGGGAAGGC--CGGG--A-GC--CGGCGCCGAC---------------
+CP000250.1/112481-112284            -CUGGGAAGGC---GGC--G-AA--AGGCACGGAC---------------
+AAVM02000011.1/57485-57689          -UCGGGAAGGC---AAA--U-AA--GACAA--------------------
+ABKL02000008.1/4023-4214            -AUGGGAAGGA---AGA--G-GA--UUAGGAAGAA---------------
+CP001090.1/30663-30472              -UUGGGAAGAC---GCC--C-----GGAGGAUGAC---------------
+CP000491.1/325972-326167            -CCGGGAAGGC---GGC--G-AC--AGGCGACGAC---------------
+
+AE015927.1/793388-793201            --------------------------------------------------
+CP000283.1/2565817-2565610          --------------------------------------------------
+M10112.1/56-246                     ----------------------------------------------UACC
+AAYH02000045.1/230243-230450        --------------------------------------------------
+CP000958.1/1840255-1840065          --------------------------------------------------
+CP000250.1/112481-112284            --------------------------------------------------
+AAVM02000011.1/57485-57689          --------------------------------------------------
+ABKL02000008.1/4023-4214            --------------------------------------------------
+CP001090.1/30663-30472              --------------------------------------------------
+CP000491.1/325972-326167            --------------------------------------------------
+
+AE015927.1/793388-793201            -UCUU-AAGCCAGGAGACCUGCCUAGAUUGUUAAAAUCCU
+CP000283.1/2565817-2565610          -CCGC-GAGCCAGGAGACCUACCGCGACAGUCGCAAUCGU
+M10112.1/56-246                     CCUCC-AAGCCCGAAGACCUGCCGGCCAACGUCGCAUCUG
+AAYH02000045.1/230243-230450        -GGAU-AAGUCAGAAGACCUGCCAAGACAACAUAGUUUUA
+CP000958.1/1840255-1840065          -CUGU-CAGCCAGGAGACCUGCCGGCCAGAAAGUGCGUGC
+CP000250.1/112481-112284            -CCGC-GAGCCAGGAGACCUGCCGUCGUUCGUGGUCACAC
+AAVM02000011.1/57485-57689          -GAGU-CAGUCAGAAGACCUGCCACUUCACGUAAAACGUU
+ABKL02000008.1/4023-4214            --GCU-AAGUCAGGAGACCUGCCUAAAAUAUUAAAGUAAU
+CP001090.1/30663-30472              -UCGC-AAGUCAGAAGACCUGCCGCUGAUUGUUGUUACUC
+CP000491.1/325972-326167            -CCGC-GAGCCAGGAGACCUGCCGUCAGCCGUUGUCACGC
+
+

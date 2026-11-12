@@ -1,0 +1,103 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+AB255435.1/19885-20054              UUCAUC---G-CGA-GGUG-A--A-AUC-UGAA-GGA-------------
+ABSQ01051720.1/490-662              UCCCGG---G-UGA-CCGG-G--A-AUC-UGAA-GGA-------------
+CP001791.1/2260887-2260719          UCCACC---G-UGA-GGUG-G--A-AUC-UGAA-GGA-------------
+BA000004.3/833541-833713            UCUGGG---G-UGA-CCCA-G--A-AUC-UGAG-GGA-------------
+ABDH01003400.1/483-263              UCCAUC---G-CGA-GGUG-G--A-AUC-UGAA-GGACUGGAACC-----
+AACY022757771.1/211-38              GUUACC---G-UAA-GGUA-A--G-GUG-GGAA-GGA-------------
+AAFY01010928.1/586-750              UUAAUC---G-CAA-GGUU-U--G-GUC-UGGA-GGA-------------
+AAYG02000023.1/36749-36621          UCUAUC---G-UAA-GGUA-G--A-AUC-UGAA-GGA-------------
+ABDH01016325.1/179-1                UCCGUU---G-CGA-GGCG-G--A-AUC-CGAA-GGA-------------
+AAFX01078006.1/394-564              GAAGCC---G-UGA-GGCC-A--G-ACC-GAAA-GAA-------------
+
+AB255435.1/19885-20054              ----------AGCCGG-A-------U-GC-AAAAUGCU-G-G--CCUGA-
+ABSQ01051720.1/490-662              ----------AGCCGU-A-------G-GC-AAACAUUU-G-U--UGUGA-
+CP001791.1/2260887-2260719          ----------AGCCGG-C-------G-AC-AAACUCCU-G-U--ACCGA-
+BA000004.3/833541-833713            ----------AGUCGG-C-------G-GC-AAACCUCC-G-C--UUCUA-
+ABDH01003400.1/483-263              --CGUAGGGUUCCCAG-A-------G-GC-AAAAUCCC-G-G--GCCGA-
+AACY022757771.1/211-38              ----------AGCCGA-A-------G-GC-AAAACCUU-G-G--UCUGA-
+AAFY01010928.1/586-750              ----------AGCCGC-U-------A-GC-AAAUUUGC-G-A--GCUGA-
+AAYG02000023.1/36749-36621          ----------AGCUGU-A-------A-GC-AAACUCUU-G-G--UCCGA-
+ABDH01016325.1/179-1                ----------AGCCGG-A-------G-GC-AAAGUUCC-G-G--GCCGA-
+AAFX01078006.1/394-564              ----------GGGUGU-A---------GC-AAAGACAC-G-A--CCGCA-
+
+AB255435.1/19885-20054              --------------------CGGACAG-GAA-G--CG--GU----UAAGG
+ABSQ01051720.1/490-662              --------------------CGCACAG-AAA-C--CG--GA-UA-UAAGG
+CP001791.1/2260887-2260719          --------------------GGAACAC-GAA-C--CA--UA----UCAGG
+BA000004.3/833541-833713            --------------------GGAACAC-GAA-C--UU--CA-UA-GGAGU
+ABDH01003400.1/483-263              --------------------CGAACAG-AAA-U--CG--CA-UA-UAAGG
+AACY022757771.1/211-38              --------------------GGAACAC-GAA-C--CA--CA-UA-GGAGG
+AAFY01010928.1/586-750              --------------------UGAACAA-GAA-C--AU--CA-UA-UGAGG
+AAYG02000023.1/36749-36621          --------------------CGGACAG-AAA-U--CA--CA-UA-UGAGG
+ABDH01016325.1/179-1                --------------------CGAACAG-GAA-C--CG--CA-UA-UAAGG
+AAFX01078006.1/394-564              --------------------CGAACAG-AAA-C--AG--GC-GG-CGAGG
+
+AB255435.1/19885-20054              ---C-G-GC--GC--AG-CA---GGGUAAG-G------------------
+ABSQ01051720.1/490-662              ---C-C-UG-UUC--UC-CU---GGGUAAC-U------------------
+CP001791.1/2260887-2260719          ---C-A-CA-AAU--GG-GG-C-GGAUGAG-U------------------
+BA000004.3/833541-833713            ---U-U-GG--GU--AU-AC-UUGGAAGAG-G------------------
+ABDH01003400.1/483-263              ---C-A-UU--GC--AA-GG-C-GGACGAG-U------------------
+AACY022757771.1/211-38              ---C-GAAG-AAG--CU-GU---GGGCGAG-A------------------
+AAFY01010928.1/586-750              ---C-G--U--AG--GC-UA-G-AGGUGAG-U------------------
+AAYG02000023.1/36749-36621          ---CUAGACAGAUGUACAAUCCAUCU------------------------
+ABDH01016325.1/179-1                ---C-A-AA-AGC--AA-GG-C-GGACGAG-U------------------
+AAFX01078006.1/394-564              ---C-C-GG--GC--GC-GG-G-CGAUGAG-C------------------
+
+AB255435.1/19885-20054              -------------G-GGCA--CA-------------------A----AUC
+ABSQ01051720.1/490-662              -------------G-ACCA--CU-------------------G----AAU
+CP001791.1/2260887-2260719          -------------C-UGCU--AU-------------------A----CAA
+BA000004.3/833541-833713            -------------U-UGCG--AA-------------------A----CAA
+ABDH01003400.1/483-263              -------------U-UGCU--AA-------------------G----CAA
+AACY022757771.1/211-38              -------------G-GGCG--UU-------------------G----GUA
+AAFY01010928.1/586-750              -------------U-GGCA--CA-------------------U----GAC
+AAYG02000023.1/36749-36621          --------------------------------------------------
+ABDH01016325.1/179-1                -------------U-UGCA--UA-------------------A----CAA
+AAFX01078006.1/394-564              -------------G-GGCG--GG-------------------G----AAC
+
+AB255435.1/19885-20054              ACC-AAAGCCC-----------------------GAUA---------CUC
+ABSQ01051720.1/490-662              CAG-GAAGCCC-----------------------GAUA---------GUC
+CP001791.1/2260887-2260719          GAU-AAAGUCC-----------------------AAU-----------AC
+BA000004.3/833541-833713            AUC-AAAGUCC------------------------------------UUA
+ABDH01003400.1/483-263              AAC-GAAGUCCCAAAGGUCGAA-GAGGAAGAGAACAGACUUUGACCGUAC
+AACY022757771.1/211-38              CUC-GAAACCC-----------------------AAAU---------ACC
+AAFY01010928.1/586-750              GAC-GAAACCA-------------------------------------CG
+AAYG02000023.1/36749-36621          --------------------------------------------------
+ABDH01016325.1/179-1                AAC-GAAGUCCUAAAAGCCGG--ACUGUUAUAACGACCUCCG--GUUUGC
+AAFX01078006.1/394-564              CGC-GAAAUCC------------------------AUC----------UG
+
+AB255435.1/19885-20054              ACACGAA-A----CG-CUGU-G-A----C-----------------GU-A
+ABSQ01051720.1/490-662              AUUCGGA-A----AG-GAGGGG-G----G-----------------GU-A
+CP001791.1/2260887-2260719          UGCCCGA-A----CC-CCAC-A-G----U-----------------GU-A
+BA000004.3/833541-833713            CUGCCGA-AG--GGU-AUAU-C-A----A-----------------GU-A
+ABDH01003400.1/483-263              UGCCCGA-A----CC-UUGC-A-G----U-----------------GU-A
+AACY022757771.1/211-38              AUUCAG-------AC-AGCGAU-U----C-----------------GU-A
+AAFY01010928.1/586-750              UGAUCUA-A----UG-GCC--A-C----C-----------------GU-A
+AAYG02000023.1/36749-36621          ----------------------------------------------GU-C
+ABDH01016325.1/179-1                UGCCCGA-A----CC-UUGC-A-A----U-----------------GU-A
+AAFX01078006.1/394-564              UCACCGA-AA--GAC-GCGC-A-A----G-----------------GU-A
+
+AB255435.1/19885-20054              AAGCCG-ACAGGCAUA--AGC-AGGAAA-----G-U-C-G-----CGU--
+ABSQ01051720.1/490-662              AAUCCG-GCGCAA---U-GAA-UGGAAA-----GAU-U-U-----ACU--
+CP001791.1/2260887-2260719          AAUAUG-GCGGCGA--U-AGG-ACGAAG-----G-A-G-A-----CAG--
+BA000004.3/833541-833713            AAUGAA-GAGAAGACAU-GGA-GGGGAA-----G-A-A-U-----GUG--
+ABDH01003400.1/483-263              AAUGCG-GCGGCUGGAU-GGG-AUGAAG-----G-U-U-A-----UCG--
+AACY022757771.1/211-38              GAUGUG-GCAGAUAUAU-GAG-GUGAAG-----G-U-C-A-----UGC--
+AAFY01010928.1/586-750              AAUGAU-GCAGCAG--U-GCA-AAGAAA-----G-U-U-C-----AUG--
+AAYG02000023.1/36749-36621          UGUUUG-CCG--UG--C-AAA-AAAACA-----G-A-U-A-----ACA--
+ABDH01016325.1/179-1                AAUGCG-GC------------------------G---G------------
+AAFX01078006.1/394-564              GAGCCU-GGCGGCA--C-GGG-UCGAAA-----G-U-A-C-----AUG--
+
+AB255435.1/19885-20054              -GA
+ABSQ01051720.1/490-662              -AC
+CP001791.1/2260887-2260719          -UG
+BA000004.3/833541-833713            -UG
+ABDH01003400.1/483-263              -GA
+AACY022757771.1/211-38              -GU
+AAFY01010928.1/586-750              -UU
+AAYG02000023.1/36749-36621          -AA
+ABDH01016325.1/179-1                ---
+AAFX01078006.1/394-564              -UU
+
+

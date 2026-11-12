@@ -1,0 +1,58 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+CP000113.1/8100727-8100516          AUCCCCGCUCGCGUCCUCGGUG--UCGCCGU-------------------
+CP000853.1/2361990-2361812          CAAAUUAAAUAGUUUUAAGGU---CUUUAGA-------------------
+AAYA01000018.1/10947-10743          CAAGGAAAUCGCAUGUCCGGU---UCCGGAGUU-----------------
+AARL02000087.1/606-794              UUAAAUAGGUCUUAUGUUGGU---GGAAUGU-------------------
+CP000482.1/1300492-1300304          AGUUGAAUACCGGAUCAAGGC---GCCCG---------------------
+
+CP000113.1/8100727-8100516          ---GGAGCC--ACGGUGACU------CA-A--GGGAA-C-CC-G-G-UGU
+CP000853.1/2361990-2361812          ---AUAU-------AAAGUU------AAAA--GAGAA-A-GA-G-G-UUC
+AAYA01000018.1/10947-10743          -UUCACGC----UUCGGAGG-----AAAGA--GGGAA-U-GC-A-G-UGC
+AARL02000087.1/606-794              ---AUGUG----CAUUUCUG------AAAG--AGGAA-U-UC-G-G-UGC
+CP000482.1/1300492-1300304          ---AGAG--------GGCUU------GAUA--GGGAA-GAGG-G-G-UGA
+
+CP000113.1/8100727-8100516          -------------------------------GAAUCCGG-GACUGC-C-C
+CP000853.1/2361990-2361812          -------------------------------AAUUCCUC-UACAGCCC-C
+AAYA01000018.1/10947-10743          GGCACGC-----------------GAGUGCCUACCCUGC-AGCUGCCC-C
+AARL02000087.1/606-794              -------------------------------GAUGCCGA-AACUGCCC-C
+CP000482.1/1300492-1300304          GCUCCG-------------------AAGAGCGAUUCCCC-CGCGGA-C-C
+
+CP000113.1/8100727-8100516          C-GCAGCGGUGA--GC-AGG--------AACGAACGCCGUCACGUG----
+CP000853.1/2361990-2361812          C-GCUACUGUAA--UC-AG----------GUAUGAAAUCUUCAAA-----
+AAYA01000018.1/10947-10743          C-GCAACUGUAA--GC-GG----------CAAGCAGGGCUGAUAU-----
+AARL02000087.1/606-794              C-GCAACUGUAA--GG-UG----------GACAAAAAUAGAUAUA-----
+CP000482.1/1300492-1300304          C-GCCGCUGUAA--GC-GA----------UGACAA-AGGGCAACA-----
+
+CP000113.1/8100727-8100516          -----------------------AAGCACUGGCCCGAAG-----------
+CP000853.1/2361990-2361812          ------------------------UCCACUGG---GAAA-----------
+AAYA01000018.1/10947-10743          ------------------------GCCACUGGA--GAAA-----------
+AARL02000087.1/606-794              ------------------------ACCACUGUACGUUUUA----------
+CP000482.1/1300492-1300304          ------------------------GCCACUGGUU-UUUU-----------
+
+CP000113.1/8100727-8100516          ----------------------------------------------CGGG
+CP000853.1/2361990-2361812          --------------------------------------------------
+AAYA01000018.1/10947-10743          -------------------------------------------------U
+AARL02000087.1/606-794              ----------------------------------------------AUGU
+CP000482.1/1300492-1300304          ------------------------------------------------GA
+
+CP000113.1/8100727-8100516          -CUGGGAAGC----GAC--G-GC--AAGUAGGUGGGUGCUCCGU------
+CP000853.1/2361990-2361812          -CCGGGAAGGG---AAG--A-UA--GUAAGUCGAU---------------
+AAYA01000018.1/10947-10743          -CCGGGAAGGC---CAG--U-CCAGAUGCGAUGAC---------------
+AARL02000087.1/606-794              -AUGGGAAGGU---GCU--A-UU--GUUGGAUGA----------------
+CP000482.1/1300492-1300304          -CUGGGAAGGC---GCC--C-----GGAGGAUGAC---------------
+
+CP000113.1/8100727-8100516          -----------------------------------------GCACCCGCG
+CP000853.1/2361990-2361812          --------------------------------------------------
+AAYA01000018.1/10947-10743          --------------------------------------------------
+AARL02000087.1/606-794              --------------------------------------------------
+CP000482.1/1300492-1300304          --------------------------------------------------
+
+CP000113.1/8100727-8100516          CCUGC-GAGUCCGAAAACCUGCCGAAGACCCGUGCCCUUG
+CP000853.1/2361990-2361812          -CUGU-AAGUCAGGAGAACUGCCUUAAAAAUAAGAAUCAC
+AAYA01000018.1/10947-10743          -CCGC-GAGCCAGGAGACCUGCCGGACUGGCGCCUCAGGA
+AARL02000087.1/606-794              -AGCC-AAGUCAGGAUACUCGCCAAAUAAGCCGGAAGCAA
+CP000482.1/1300492-1300304          -UCGC-AAGCCAGAAGACCUGCCUGAUCUCUGCACUCAAU
+
+

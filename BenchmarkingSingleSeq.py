@@ -180,6 +180,18 @@ def PredictRNAfold(seq):
         dbn = outp.readlines()[2].split()[0]
     return [dbn,]
 
+def PredictRNAPKplex(seq):
+
+    inpf = "inp.tmp"
+    with open(inpf,'w') as inp:
+        inp.write('>seq\n')
+        inp.write(seq+'\n')
+
+    os.system("~/software/ViennaRNA-2.7.1/src/bin/RNAPKplex < inp.tmp > outp2.tmp")
+    with open("outp2.tmp") as outp:
+        dbn = outp.readlines()[2].split()[0]
+    return [dbn,]
+
 def PredictRNAsubopt5(seq, top = 5):
 
     inpf = "inp.tmp"
@@ -817,8 +829,7 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("S01clean",  "SQUARNA"),
-                          ("S01clean",  "SQUARNA5"),
+    for dataset, tool in (("SRtest",  "RNAPKplex"),
                           ):
 
         if NL:
@@ -893,6 +904,7 @@ if __name__ == "__main__":
                            "ShapeKnots5": PredictShapeKnots5,
                            "RNAsubopt5": PredictRNAsubopt5,
                            "ILM": PredictILM,
+                           "RNAPKplex": PredictRNAPKplex,
                            "CONTRAfold": PredictCONTRAfold,
                            "EternaFold": PredictEternaFold,
                            "KnotFold": PredictKnotFold,

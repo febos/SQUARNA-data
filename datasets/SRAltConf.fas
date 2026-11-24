@@ -1,0 +1,136 @@
+>V. vulnificus add adenine riboswitch, apoB, 10.1038/nature12378
+GCUUCAUAUAAUCCUAAUGAUAUGGUUUGGGAGUUUCUACCAAGAGCCUUAAACUCUUGAUUAUGAAGUCUGUCGCUUUAUCCGAAAUUUUAUAAAGAGAAGACUCAUGAAU
+(((((.......((.........))....)))))......((((((.......))))))...((((.((((.((.((((((..........)))))).))))))))))....
+>V. vulnificus add adenine riboswitch, apoA, 10.1038/nature12378
+GCUUCAUAUAAUCCUAAUGAUAUGGUUUGGGAGUUUCUACCAAGAGCCUUAAACUCUUGAUUAUGAAGUCUGUCGCUUUAUCCGAAAUUUUAUAAAGAGAAGACUCAUGAAU
+..((((.....(((((((.......)))))))........((((((.......))))))....))))((((.((.((((((..........)))))).))))))........
+>V. vulnificus add adenine riboswitch, holo, 10.1038/nature12378
+GCUUCAUAUAAUCCUAAUGAUAUGGUUUGGGAGUUUCUACCAAGAGCCUUAAACUCUUGAUUAUGAAGUCUGUCGCUUUAUCCGAAAUUUUAUAAAGAGAAGACUCAUGAAU
+.(((((((...(((((((.....[[)))))))........((((((]].....))))))..))))))).......((((((..........))))))...............
+>B. subtilis pbuE adenine, aptamer, 10.1126/science.1225722
+UUGUAUAACCUCAAUAAUAUGGUUUGAGGGUGUCUACCAGGAACCGUAAAAUCCUGAUUACAAAAUUUGUUUAUGACAUUUUUUGUAAUCAGGAUUUUUUUU
+(((((...((((((.........))))))........(((((.........)))))..))))).......................................
+>B. subtilis pbuE adenine, terminator, 10.1126/science.1225722
+UUGUAUAACCUCAAUAAUAUGGUUUGAGGGUGUCUACCAGGAACCGUAAAAUCCUGAUUACAAAAUUUGUUUAUGACAUUUUUUGUAAUCAGGAUUUUUUUU
+........((((((.........))))))..................((((((((((((((((((..((((...))))..))))))))))))))))))....
+>E. coli S15 leader, hairpins, 10.1016/S0300-9084(96)80003-4
+CUGGGAUCGCUGAAUUAGAGAUCGGCGUCCUUUCAUUCUAUAUACUUUGGAGUUUUAAAAUGUCUCUAAGUACU
+..((((.(((((..........)))))))))...........(((((.((((...........)))))))))..
+>E. coli S15 leader, pseudoknot, 10.1016/S0300-9084(96)80003-4
+CUGGGAUCGCUGAAUUAGAGAUCGGCGUCCUUUCAUUCUAUAUACUUUGGAGUUUUAAAAUGUCUCUAAGUACU
+..((((.(((((..[[[[[[[.)))))))))...............................]]]]]]].....
+>Leptomonas spliced-leader RNA, form 1, 10.1073/pnas.91.8.3373
+GGGAACUAAAACAAUUUUUGAAGAACAGUUUCUGUACUUCAUUGGUAUGUAGAGACUUC
+....(((((.........(((((.((((...)))).)))))))))).............
+>Leptomonas spliced-leader RNA, form 2, 10.1073/pnas.91.8.3373
+GGGAACUAAAACAAUUUUUGAAGAACAGUUUCUGUACUUCAUUGGUAUGUAGAGACUUC
+..........................((((((((((((.....)))))..)))))))..
+>Designed bistable RNA 1, 1', 10.1016/S0022-2836(02)01243-3
+UGUACCGGAAGGUGCGAAUCUUCCG
+((((((....)))))).........
+>Designed bistable RNA 1, 1'', 10.1016/S0022-2836(02)01243-3
+UGUACCGGAAGGUGCGAAUCUUCCG
+.....((((((((....))))))))
+>Designed bistable RNA 2, 2', 10.1016/S0022-2836(02)01243-3
+ACAGGUUCGCCUGUGUUGCGAACCUGCGGGUUCG
+(((((....)))))....((((((....))))))
+>Designed bistable RNA 2, 2'', 10.1016/S0022-2836(02)01243-3
+ACAGGUUCGCCUGUGUUGCGAACCUGCGGGUUCG
+.(((((((((.......)))))))))........
+>Designed bistable RNA 3, 3', 10.1016/S0022-2836(02)01243-3
+GGCGUUUUCGCCUUCGGGCGAUUUUUAUCGCU
+((((....))))....((((((....))))))
+>Designed bistable RNA 3, 3'', 10.1016/S0022-2836(02)01243-3
+GGCGUUUUCGCCUUCGGGCGAUUUUUAUCGCU
+((((...(((((....))))).......))))
+>Designed bistable RNA 4, 4', 10.1016/S0022-2836(02)01243-3
+GGCGUUUUCGCCUUUUGGCGAUUUUUAUCGCC
+((((....))))....((((((....))))))
+>Designed bistable RNA 4, 4'', 10.1016/S0022-2836(02)01243-3
+GGCGUUUUCGCCUUUUGGCGAUUUUUAUCGCC
+((((...(((((....))))).......))))
+>Designed bistable RNA 5, 5', 10.1016/S0022-2836(02)01243-3
+GUCGUUCUCGACUUCGGUCGAUUCUUAUCGAU
+((((....))))....((((((....))))))
+>Designed bistable RNA 5, 5'', 10.1016/S0022-2836(02)01243-3
+GUCGUUCUCGACUUCGGUCGAUUCUUAUCGAU
+((((...(((((....))))).......))))
+>E. coli thiM TPP: Winkler, translation, 10.1038/nature01145
+GGAACCAAACGACUCGGGGUGCCCUUCUGCGUGAAGGCUGAGAAAUACCCGUAUCACCUGAUCUGGAUAAUGCCAGCGUAGGGAAGUCACGGACCACCAGGUCAUUGCUUCUUCACGUUAUGGCAGGAGCAAACUAUGCAAGUCGACCUGCUGGAUCCAGCGCAA
+................(((((.(((((.....)))))........)))))......((((..((((......))))..))))[[[[....((((((...((((..((]]]]((((.....))).)....)).............))))...))).))).......
+>E. coli thiM TPP: Winkler, TPP translation inhibition, 10.1038/nature01145
+GGAACCAAACGACUCGGGGUGCCCUUCUGCGUGAAGGCUGAGAAAUACCCGUAUCACCUGAUCUGGAUAAUGCCAGCGUAGGGAAGUCACGGACCACCAGGUCAUUGCUUCUUCACGUUAUGGCAGGAGCAAACUAUGCAAGUCGACCUGCUGGAUCCAGCGCAA
+..........((((..(((((.(((((.....)))))........)))))......((((..((((......))))..))))..))))..((((((...((((..((((((((((.....))).))))))).............))))...))).))).......
+>B. subtilis SAM-I yitJ, terminator, 10.1073/pnas.0630422100
+AAAAUUUCAUAUCCGUUCUUAUCAAGAGAAGCAGAGGGACUGGCCCGACGAAGCUUCAGCAACCGGUGUAAUGGCGAUCAGCCAUGACCAAGGUGCUAAAUCCAGCAAGCUCGAACAGCUUGGAAGAUAAGAAGAGACAAAAUCACUGACAAAGUCUUCUUCUUAAGAGGACUUUUUUUAUUU
+...............((((((((.....((((...(((.....)))......)))).(((.((((((...(((((.....))))).)))..))))))........((((((.....))))))...))))))))....................((((((((...))))))))...........
+>B. subtilis SAM-I yitJ, antiterminator, 10.1073/pnas.0630422100
+AAAAUUUCAUAUCCGUUCUUAUCAAGAGAAGCAGAGGGACUGGCCCGACGAAGCUUCAGCAACCGGUGUAAUGGCGAUCAGCCAUGACCAAGGUGCUAAAUCCAGCAAGCUCGAACAGCUUGGAAGAUAAGAAGAGACAAAAUCACUGACAAAGUCUUCUUCUUAAGAGGACUUUUUUUAUUU
+............................((((...(((.....)))......)))).(((.((((((...(((((.....))))).)))..))))))........((((((.....)))))).....(((((((((((...............))).))))))))..................
+>preQ1-I B. subtilis queC, free, 10.1016/j.molcel.2009.02.019
+GGAGAGGUUCUAGCUACACCCUCUAUAAAAAACUAA
+((((.(((.........)))))))............
+>preQ1-I B. subtilis queC, bound, 10.1016/j.molcel.2009.02.019
+GGAGAGGUUCUAGCUACACCCUCUAUAAAAAACUAA
+..(((((...[[[......)))))........]].]
+>Fluoride B. cereus crcB, antiterminated, 10.1038/nsmb.3316
+UUAUAGGCGAUGGAGUUCGCCAUAAACGCUGCUUAGCUAAUGACUCCUACCAGUAUCACUACUGGUAGGAGUCUAUUUUUUU
+.....[[[[..((((((]]]]......(((....)))....)))))).(((((((....)))))))................
+>Fluoride B. cereus crcB, terminated, 10.1038/nsmb.3316
+UUAUAGGCGAUGGAGUUCGCCAUAAACGCUGCUUAGCUAAUGACUCCUACCAGUAUCACUACUGGUAGGAGUCUAUUUUUUU
+.....(((((......)))))......(((....)))....((((((((((((((....)))))))))))))).........
+>C. beijerinckii pfl riboswitch ZTP, terminated, 10.1038/s41589-019-0382-7
+UAUUAGUCAUAUGACUGACGGAAGUGGAGUUACCACAUGAAGUAUGACUAGGCAUAUUAUCUUAUAUGCCACAAAAAGCCGACCGUCUGGGCAAAAAAAGCCUGGAUUGCGUCGGCUUUUUUAU
+...(((((((((...........((((.....)))).....)))))))))(((((((......)))))))..((((((((((((((((((((.......))))))).)).)))))))))))...
+>C. beijerinckii pfl riboswitch ZTP, antiterminated, 10.1038/s41589-019-0382-7
+UAUUAGUCAUAUGACUGACGGAAGUGGAGUUACCACAUGAAGUAUGACUAGGCAUAUUAUCUUAUAUGCCACAAAAAGCCGACCGUCUGGGCAAAAAAAGCCUGGAUUGCGUCGGCUUUUUUAU
+...(((((((((..(.[[[[[..((((.....))))..)..)))))))))(((((((......))))))).......(((..]]]]]..))).(((((((((.((......)))))))))))..
+>B. subtilis lysC riboswitch, terminator, 10.1101/gad.1140003
+GAAGAUAGAGGUGCGAACUUCAAGAGUAUGCCUUUGGAGAAAGAUGGAUUCUGUGAAAAAGGCUGAAAGGGGAGCGUCGCCGAAGCAAAUAAAACCCCAUCGGUAUUAUUUGCUGGCCGUGCAUUGAAUAAAUGUAAGGCUGUCAAGAAAUCAUUUUCUUGGAGGGCUAUCUCGUUGUUCAUAAUCAUUUAUGAUGAUUAAUUGAUAAGCAAUGAGAGUAUUCCUCUCAUUGCUUUUUU
+..((((((....((((.((((........((((((......(((.....))).....)))))).......))))..))))...(((((((((.(((.....))).)))))))))((((.((((((.....)))))).)))).((((((((....))))))))....))))))..................................((((((((((((.....))))))))))))....
+>B. subtilis lysC riboswitch, antiterminator, 10.1101/gad.1140003
+GAAGAUAGAGGUGCGAACUUCAAGAGUAUGCCUUUGGAGAAAGAUGGAUUCUGUGAAAAAGGCUGAAAGGGGAGCGUCGCCGAAGCAAAUAAAACCCCAUCGGUAUUAUUUGCUGGCCGUGCAUUGAAUAAAUGUAAGGCUGUCAAGAAAUCAUUUUCUUGGAGGGCUAUCUCGUUGUUCAUAAUCAUUUAUGAUGAUUAAUUGAUAAGCAAUGAGAGUAUUCCUCUCAUUGCUUUUUU
+............((((.((((........((((((......(((.....))).....)))))).......))))..))))...(((((((((.(((.....))).)))))))))((((.((((((.....)))))).)))).((((((((....)))))))).......((((((((((............................))))))))))......................
+>M-box mgtE riboswitch, terminator, 10.1016/j.cell.2007.06.051
+GUCAAUUCAAUUAGGAACUUCGUUAGGUGAGGCUCCUGUAUGGAGAUACGCUGCUGCCCAAAAAUGUCCAAAGACGCCAAUGGGUCAACAGAAAUCAUCGACAUAAGGUGAUUUUUAAUGCAGCUGGAUGCUUGUCCUAUGCCAUACAGUGCUAAAGCUCUACGAUUGAAGGCGCCCGCACGCUUUUUUUGCCGUGCUUCUUUCACCUUCAAUCCCGAAGGCUUUUUUU
+.................((((((.....(((((..((((((((......(((((((((((....((((....))))....))))....))(((((((((.......)))))))))....))))).((((....))))....)))))))).)).....))).))....))))..................................(((((......)))))........
+>M-box mgtE riboswitch, antiterminator, 10.1016/j.cell.2007.06.051
+GUCAAUUCAAUUAGGAACUUCGUUAGGUGAGGCUCCUGUAUGGAGAUACGCUGCUGCCCAAAAAUGUCCAAAGACGCCAAUGGGUCAACAGAAAUCAUCGACAUAAGGUGAUUUUUAAUGCAGCUGGAUGCUUGUCCUAUGCCAUACAGUGCUAAAGCUCUACGAUUGAAGGCGCCCGCACGCUUUUUUUGCCGUGCUUCUUUCACCUUCAAUCCCGAAGGCUUUUUUU
+............................(((((..((((((((......(((((((((((....((((....))))....))))....))(((((((((.......)))))))))....))))).((((....))))....)))))))).)).....)))...(((((((((.................................)))))))))...............
+>HIV-I RRE, 5 SL, 10.1093/nar/gkv313
+AGCAGCAGAACAAUUUGCUGAGGGCUAUUGAGGCGCAACAGCAUCUGUUGCAACUCACA
+..(((((((....)))))))........((((..(((((((...)))))))..))))..
+>HIV-I RRE, 4 SL, 10.1093/nar/gkv313
+AGCAGCAGAACAAUUUGCUGAGGGCUAUUGAGGCGCAACAGCAUCUGUUGCAACUCACA
+.((((((((......(((((...(((.....)))....)))))))))))))........
+>Qβ SV11, metastable, 10.1002/j.1460-2075.1992.tb05620.x
+GGGCACCCCCCUUCGGGGGGUCACCUCGCGUAGCUAGCUACGCGAGGGUUAAAGGGCCUUUCUCCCUCGCGUAGCUAACCACGCGAGGUGACCCCCCGAAAAGGGGGGUUUCCCA
+(((((((((((...)))))))..((((((((((....))))))))))........)))).....((((((((.(....).)))))))).((((((((.....)))))))).....
+>Qβ SV11, stable, 10.1002/j.1460-2075.1992.tb05620.x
+GGGCACCCCCCUUCGGGGGGUCACCUCGCGUAGCUAGCUACGCGAGGGUUAAAGGGCCUUUCUCCCUCGCGUAGCUAACCACGCGAGGUGACCCCCCGAAAAGGGGGGUUUCCCA
+(((.(((((((.(((((((((((((((((((...((((((((((((((..(((.....)))..))))))))))))))...)))))))))))))))))))...)))))))..))).
+>74-nt hok tac stem RNA fragment, metastable, 10.1017/S1355838299990805
+GGCGCUUGAGGCUUUCUGCCUCAUGACGUGAAGGUGGUUUGUUGCCGUGUUGUGUGGCAGAAAGAAGAUAGCCC
+.(((..((((((.....))))))...)))............(((((((.....)))))))..............
+>74-nt hok tac stem RNA fragment, stable, 10.1017/S1355838299990805
+GGCGCUUGAGGCUUUCUGCCUCAUGACGUGAAGGUGGUUUGUUGCCGUGUUGUGUGGCAGAAAGAAGAUAGCCC
+((.(((.....(((((((((.(((((((((...((((....))))))))))))).))))))))).....)))))
+>7SK RNA, translation on, 10.1016/j.molcel.2022.02.009
+GAUCAACGCUUCAUAUAAUCCUAAUGAUAUGGUUUGGGAGUUUCUACCAAGAGCCUUAAACUCUUGAUUAUGAAGUCUGUCGCUUUAUCCGAAAUUUUAUAAAGAGAAGACUCAUGAAUUC
+.......((((((((...((((((.........))))))........((((((.......))))))..)))))))).............................................
+>7SK RNA, translation off, 10.1016/j.molcel.2022.02.009
+GAUCAACGCUUCAUAUAAUCCUAAUGAUAUGGUUUGGGAGUUUCUACCAAGAGCCUUAAACUCUUGAUUAUGAAGUCUGUCGCUUUAUCCGAAAUUUUAUAAAGAGAAGACUCAUGAAUUC
+.......(((((...(((.((.........)).))))))))......((((((.......))))))...((((.((((.((.((((((..........)))))).))))))))))......
+>pheA leader RNA, terminator, 10.1093/nar/gkq1272
+CACAUACCGUUUUUCUUCGCAUUCUUUUUUACCUUCCCCUGAAUGGGAGGCGUUUCGUCGUGUGAAACAGAAUGCGAAGACGAACAAUAAGGCCUCCCAAAUCGGGGGGCCUUUUUUAUU
+.............((((((((((((.((((((...((((......)).))...........)))))).))))))))))))........((((((((((.....)))))))))).......
+>pheA leader RNA, antiterminator, 10.1093/nar/gkq1272
+CACAUACCGUUUUUCUUCGCAUUCUUUUUUACCUUCCCCUGAAUGGGAGGCGUUUCGUCGUGUGAAACAGAAUGCGAAGACGAACAAUAAGGCCUCCCAAAUCGGGGGGCCUUUUUUAUU
+...................................(((((((.((((((((........................................))))))))..)))))))............
+>MS2 RNA SL-3 element, 46%, 10.1016/j.bpj.2024.08.004
+GGCUUACAAAGUAACC
+((.((((...))))))	
+>MS2 RNA SL-3 element, 17%, 10.1016/j.bpj.2024.08.004
+GGCUUACAAAGUAACC
+.((((...))))....
+

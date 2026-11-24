@@ -829,7 +829,12 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRtest",  "RNAPKplex"),
+    for dataset, tool in (("SRAltConf",  "SQUARNA5"),
+                          ("SRAltConf",  "RNAsubopt5"),
+                          ("SRAltConf",  "HFold5"),
+                          ("SRAltConf",  "IterativeHFold5"),
+                          ("SRAltConf",  "CParty5"),
+                          ("SRAltConf",  "ShapeKnots5"),
                           ):
 
         if NL:

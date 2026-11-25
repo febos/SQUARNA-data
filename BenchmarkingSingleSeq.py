@@ -829,12 +829,10 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("SRAltConf",  "SQUARNA5"),
-                          ("SRAltConf",  "RNAsubopt5"),
-                          ("SRAltConf",  "HFold5"),
-                          ("SRAltConf",  "IterativeHFold5"),
-                          ("SRAltConf",  "CParty5"),
-                          ("SRAltConf",  "ShapeKnots5"),
+    for dataset, tool in (("FoldBridgeDMSclean",  "SQUARNA"),
+                          ("FoldBridgeSHAPEclean",  "SQUARNA"),
+                          ("FoldBridgeDMSclean",  "SQUARNA5"),
+                          ("FoldBridgeSHAPEclean",  "SQUARNA5"),
                           ):
 
         if NL:

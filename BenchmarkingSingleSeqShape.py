@@ -381,8 +381,10 @@ if __name__ == "__main__":
     dtst  = "S01"
     tl    = "ShapeKnots"
 
-    for dataset, tool in (("S01",  "SQUARNA"),
-                          ("S01",  "SQUARNA5"),
+    for dataset, tool in (("FoldBridgeSHAPE",  "SQUARNA"),
+                          ("FoldBridgeSHAPE",  "SQUARNA5"),
+                          ("FoldBridgeDMS",  "SQUARNA"),
+                          ("FoldBridgeDMS",  "SQUARNA5"),
                           ):
 
         with open('datasets/{}.fas'.format(dataset)) as file:

@@ -829,10 +829,14 @@ if __name__ == "__main__":
     dtst  = "SRtrain150"
     tl    = "CONTRAfold"
 
-    for dataset, tool in (("FoldBridgeDMSclean",  "SQUARNA"),
-                          ("FoldBridgeSHAPEclean",  "SQUARNA"),
-                          ("FoldBridgeDMSclean",  "SQUARNA5"),
-                          ("FoldBridgeSHAPEclean",  "SQUARNA5"),
+    for dataset, tool in (("RMDBDMSclean",  "RNAfold"),
+                          ("RMDBSHAPEclean",  "RNAfold"),
+                          ("RMDBDMSclean",  "RNAsubopt5"),
+                          ("RMDBSHAPEclean",  "RNAsubopt5"),
+                          ("RMDBDMSclean",  "ShapeKnots"),
+                          ("RMDBSHAPEclean",  "ShapeKnots"),
+                          ("RMDBDMSclean",  "ShapeKnots5"),
+                          ("RMDBSHAPEclean",  "ShapeKnots5"),
                           ):
 
         if NL:

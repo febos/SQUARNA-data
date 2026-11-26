@@ -1,0 +1,570 @@
+>2O32_A
+UCUCAGGCCUUUUGGCUAAGA
+.((..((((....)))).)).
+(((..((((....)))).)))
+LEN=21 TIME=1.157sec RANK=1 TP=6 FP=1 FN=0 PRC=0.857 RCL=1.0 FS=0.923
+>1HLX_A
+GGGACAACUUCGGUUGUCCC
+((((((((....))))))))
+((((((((....))))))))
+LEN=20 TIME=2.309sec RANK=1 TP=8 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>8I45_A
+GGAUCGCUUUCGAGCGGUCC
+(((.((((....))).))))
+((((((((....))))))))
+LEN=20 TIME=3.448sec RANK=1 TP=6 FP=2 FN=1 PRC=0.75 RCL=0.857 FS=0.8
+>1PJY_A
+GGCCUUCCCACAAGGGGAGGCC
+(((((((((....)))))))))
+(((((((((....)))))))))
+LEN=22 TIME=4.591sec RANK=1 TP=9 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>2G1W_A
+GGGGUGGCUCCCCUAACAGCCG
+((((.[[[.)))).....]]].
+[[[[(((((]]]]....)))))
+LEN=22 TIME=5.729sec RANK=1 TP=7 FP=2 FN=0 PRC=0.778 RCL=1.0 FS=0.875
+>2KD8_A
+GGAUGGUUGGGGUUAGCCAUCC
+(((((((((....)))))))))
+(((((((((....)))))))))
+LEN=22 TIME=6.869sec RANK=1 TP=9 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>2M5U_A
+GGCAGAUUCUGGUAAAUCUGC
+.(((((((......)))))))
+.(((((((......)))))))
+LEN=21 TIME=8.007sec RANK=1 TP=7 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>2N0R_A
+CUGAGCUCGAAAGAGCAACGAU
+....((((....))))......
+....((((....))))......
+LEN=22 TIME=9.168sec RANK=1 TP=4 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>3PHP_A
+UUCCGAGGGUCAUCGGAAACCA
+((((((......)))).))...
+((((((......))))))....
+LEN=22 TIME=10.361sec RANK=1 TP=4 FP=2 FN=2 PRC=0.667 RCL=0.667 FS=0.667
+>387D_A
+UCCGAAGUGCAACGGGAAAAUGCACU
+((((........)))..)........
+[[[[.((((((.]]]]....))))))
+LEN=26 TIME=11.519sec RANK=1 TP=3 FP=7 FN=1 PRC=0.3 RCL=0.75 FS=0.429
+>9W1L_A
+GGAGACAUAUAUCACAGCCUGUCUC
+.((((((............))))))
+.((((((............))))))
+LEN=25 TIME=12.665sec RANK=1 TP=6 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>2RP0_A
+UCCGGUCGACUCCGGAGAAACAAAGUC
+(((((..[.[.)))))........].]
+(((((..[[[[))))).......]]]]
+LEN=27 TIME=13.816sec RANK=1 TP=7 FP=2 FN=0 PRC=0.778 RCL=1.0 FS=0.875
+>1TOB_A
+GGCACGAGGUUUAGCUACACUCGUGCC
+((((((((((......)).))))))))
+((((((((((......)).))))))))
+LEN=27 TIME=14.975sec RANK=1 TP=10 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>2LDL_A
+GAUCCAUUCGAUUAGUGAACGGAUCC
+(((((.(((.......))).))))).
+(((((.((((.....)))).))))).
+LEN=26 TIME=16.121sec RANK=1 TP=8 FP=1 FN=0 PRC=0.889 RCL=1.0 FS=0.941
+>1YG3_A
+AGUGGCGCCGACCACUUAAAAACACCGG
+(((((..[[[.))))).........]]]
+(((((......)))))............
+LEN=28 TIME=17.285sec RANK=1 TP=5 FP=0 FN=3 PRC=1.0 RCL=0.625 FS=0.769
+>9EOW_A
+GGUUUAUACCUUCGCAGGUAACAAACC
+(((((.(((((....)))))..)))))
+(((((.(((((....)))))..)))))
+LEN=27 TIME=18.467sec RANK=1 TP=10 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>1F84_A
+GGCCGAGUAGUGUUGGGUCGCGAAAGGCC
+.(((.....(((......)))....))).
+((((.....(((......)))....))))
+LEN=29 TIME=19.654sec RANK=1 TP=6 FP=1 FN=0 PRC=0.857 RCL=1.0 FS=0.923
+>2K5Z_A
+GUCUACAUUGCUGUUGUCGUGUUUGAC
+(((.((((.((....)).))))..)))
+(((.((((.((....)).))))..)))
+LEN=27 TIME=20.816sec RANK=1 TP=9 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>8SCF_A
+GCGUUUAUAUAACAUGAAAUAUAUAUACGC
+((((.(((((..........))))).))))
+((((.((((((........)))))).))))
+LEN=30 TIME=21.987sec RANK=1 TP=9 FP=1 FN=0 PRC=0.9 RCL=1.0 FS=0.947
+>5KMZ_A
+AACCUUCACCAAUUAGGUUCAAAUAAGUGGU
+((((..[{{{{.[[[))))....]]]]}}}}
+(((((..[[[[...)))))........]]]]
+LEN=31 TIME=23.145sec RANK=1 TP=8 FP=1 FN=4 PRC=0.889 RCL=0.667 FS=0.762
+>9FO9_A
+GGCUGCUUACGGUUUCGUCCGUGUUGCAGCC
+((((((..((((......))))...))))))
+((((((.(((((......)))))..))))))
+LEN=31 TIME=24.318sec RANK=1 TP=10 FP=1 FN=0 PRC=0.909 RCL=1.0 FS=0.952
+>1R2P_A
+GAGCCGUAUGCGAUGAAAGUCGCACGUACGGUUC
+(((((((..(((((....)))))....)))))))
+((((((((((((((....))))..))))))))))
+LEN=34 TIME=25.503sec RANK=1 TP=11 FP=3 FN=1 PRC=0.786 RCL=0.917 FS=0.846
+>1RNK_A
+GGCGCAGUGGGCUAGCGCCACUCAAAAGGCCCAU
+(((((..[[[[[[.)))))........]]]]]].
+(((((...[[[[[.)))))........]]]]]..
+LEN=34 TIME=26.679sec RANK=1 TP=10 FP=0 FN=1 PRC=1.0 RCL=0.909 FS=0.952
+>1P5N_A
+GCAGAAAGCGUCUAGCCAUGGCGUUAGUAUG
+.((....(((((.......))))).....))
+......((((((.......))))))......
+LEN=31 TIME=27.846sec RANK=1 TP=5 FP=1 FN=2 PRC=0.833 RCL=0.714 FS=0.769
+>1E95_A
+GCGGCCAGCUCCAGGCCGCCAAACAAUAUGGAGCAC
+((((((.[[[[[[)))))).........]]]]]]..
+((((((.[[[[[[)))))).........]]]]]]..
+LEN=36 TIME=29.027sec RANK=1 TP=12 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>2TPK_A
+GCUGACCAGCUAUGAGGUCAUACAUCGUCAUAGCAC
+..(((((.[[[[[[[))))).......]]]]]]]..
+..[[[[[.(((((((]]]]].......)))))))..
+LEN=36 TIME=30.187sec RANK=1 TP=12 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>1N8X_A
+GGACUCGGCUUGCUGGAGACGGCAAGAGGCGAGUCC
+(((((((.(((((((....)))))))...)))))))
+(((((((.(((((((....)))))))...)))))))
+LEN=36 TIME=31.356sec RANK=1 TP=14 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>9D9O_R
+GGCUAGCACUCUGGUAUCACGGUACCUUUGUGCGCC
+(((..((((...(((((....)))))...)))))))
+(((..((((...(((((....)))))...)))))))
+LEN=36 TIME=32.523sec RANK=1 TP=12 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>9AA8_B
+AAAUGAGGCGCUGCAUGUGGCAGUCUGCCUUUCUUUU
+......((((((((.....)))))..)))........
+....((((((((((.....)))))..)))))......
+LEN=37 TIME=33.729sec RANK=1 TP=8 FP=2 FN=0 PRC=0.8 RCL=1.0 FS=0.889
+>6U79_A
+GUUUCUUAGCACGAAGAUCUCGAUGUCUAAGAAACC
+((((((((((((((.....))).)).))))))))).
+((((((((((((((.....))).)).))))))))).
+LEN=36 TIME=34.913sec RANK=1 TP=14 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>2MXL_A
+AUUUGCAGGCCUACCAGAAACGGAUGGGAGUGCAGAU
+(((((((..((((((......)).))))..)))))))
+(((((((..((((((......)).))))..)))))))
+LEN=37 TIME=36.089sec RANK=1 TP=13 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>5NZ6_A
+CCGGACGAGGUGCGCCGUACCCGGUCACGACAAGACGGCGC
+((((.......[[[[[[[.[))))....].....]]]]]]]
+[[[[.......(((((((..]]]]..........)))))))
+LEN=41 TIME=37.264sec RANK=1 TP=11 FP=0 FN=1 PRC=1.0 RCL=0.917 FS=0.957
+>1A60_A
+GGGAGCUCAACUCUCCCCCCCUUUUCCGAGGGUCAUCGGAACCA
+(((((.......)))))(((...[[[[[[)))...]]]]]]...
+(((((.......)))))......((((((......))))))...
+LEN=44 TIME=38.436sec RANK=1 TP=11 FP=0 FN=3 PRC=1.0 RCL=0.786 FS=0.88
+>6HAG_A
+GUCACAACGGCUUCCUGACGUGGCAGAUUGAAUUAUUGGAGCAA
+(((((..(.[[[.[[.)..))))).............]]]]]..
+(((((....[[[[[.....))))).............]]]]]..
+LEN=44 TIME=39.619sec RANK=1 TP=8 FP=2 FN=3 PRC=0.8 RCL=0.727 FS=0.762
+>8CQ1_A
+GUGUGGCUGUCACUCGGCUGCAUGCUUAGUGCACUCACGC
+((((((.((.((((.(((.....))).)))))).))))))
+((((((.((.((((.(((.....))).)))))).))))))
+LEN=40 TIME=40.789sec RANK=1 TP=15 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>1XJR_A
+GAGUUCACCGAGGCCACGCGGAGUACGAUCGAGGGUACAGUGAAUU
+.(((((((...((((.((((.....))..))..))).).)))))))
+.(((((((....(((.((((.....))..))..)))...)))))))
+LEN=46 TIME=41.963sec RANK=1 TP=14 FP=0 FN=1 PRC=1.0 RCL=0.933 FS=0.966
+>5KH8_A
+GGCGAUGGUGUUCGCCAUAAACGCUCUUCGGAGCUAAUGACACCUAC
+((((..[[[[[[))))......((((....))))....]]]]]]...
+(((((.[[[[[)))))......((((....)))).....]]]]]...
+LEN=47 TIME=43.151sec RANK=1 TP=13 FP=1 FN=1 PRC=0.929 RCL=0.929 FS=0.929
+>2M8K_A
+GGUUUCUUUUUAGUGAUUUUUCCAAACCCCUUUGUGCAAAAAUCAUU
+(((((......[.[[[[[[[[[[))))).....].].]]]]]]]].]
+...........((((((((((.((((....))))...))))))))))
+LEN=47 TIME=44.315sec RANK=1 TP=10 FP=4 FN=6 PRC=0.714 RCL=0.625 FS=0.667
+>1E8O_E
+GGGCCGGGCGCGGUGGCGCGCGCCUGUAGUCCCAGCUACUCGGGAGGCUC
+((((((((((((..[[[.)))))))....((((.]]..]..)))))))))
+((((((((((((......))))))))...((((........)))).))))
+LEN=50 TIME=45.536sec RANK=1 TP=15 FP=1 FN=4 PRC=0.938 RCL=0.789 FS=0.857
+>7K16_P
+GGCAAGGUACGGCGAAAGCCGUAGGGGCUUGAGAACCCCCCCUCCCCACUC
+((...[[((((((....))))))((((...{{{...)))))).]]...}}}
+((..(((((((((....))))))((((........)))).)))..))....
+LEN=51 TIME=46.766sec RANK=1 TP=6 FP=9 FN=11 PRC=0.4 RCL=0.353 FS=0.375
+>4OJI_A
+CCGCCUAACACUGCCAAUGCCGGUCCCAAGCCCGGAUAAAAGUGGAGGGGGCGG
+(((((...(((((((...)[[[[.{{{..))]]]].....))))..}}})))))
+((((((..((((.......((((........)))).....))))....))))))
+LEN=54 TIME=47.989sec RANK=1 TP=13 FP=1 FN=6 PRC=0.929 RCL=0.684 FS=0.788
+>2N4L_A
+GAAUAGUUUUUGCUGUACUUUCUAUAGUGAAUAGAGUUAGGCAGGGAUAUUC
+(((((.((((((((..(((..((((.....)))))))..)))))))))))))
+(((((.((((((((.....((((((.....))))))...)))))))))))))
+LEN=52 TIME=49.201sec RANK=1 TP=17 FP=2 FN=3 PRC=0.895 RCL=0.85 FS=0.872
+>8IDF_B
+GGAUACUAAAAUUGGAACGAUACAGAGUUCGCUCGUGAAGCGUUCCAUAUUUU
+.........((((((((((.(((.(((....))))))...))))))).)))..
+.......((((((((((((...(((((....))).))...))))))).)))))
+LEN=53 TIME=50.406sec RANK=1 TP=13 FP=4 FN=3 PRC=0.765 RCL=0.812 FS=0.788
+>5DUN_A
+UUUUUAAUGAAGCCACAGGCCUGUGAGGGUCCUAAGCCCCUAAUUCAGAAGGGAA
+.((....((((((((((....)))).[[[.{{{..))]]]...))))..}}}.))
+...........((....(((((....)))))....))((((........))))..
+LEN=55 TIME=51.64sec RANK=1 TP=2 FP=9 FN=16 PRC=0.182 RCL=0.111 FS=0.138
+>2LC8_A
+GGUCAGGGUCAGGAGCCCCCCCCUGAACCCAGGAUAACCCUCAAAGUCGGGGGGCA
+.(((.((((((((.[[[[[[[)))).))))..))).............]]]]]]].
+.....((((.(((.[[[[[[[)))..)))).((.....))........]]]]]]].
+LEN=56 TIME=52.885sec RANK=1 TP=14 FP=2 FN=4 PRC=0.875 RCL=0.778 FS=0.824
+>5IEM_A
+GGGAUCUGUCACCCCAUUGAUCGCCUUCGGGCUGAUCUGGCUGGCUAGGCGGGUCCC
+((((((((((.(((((..(((((((....))).)))))))..))...))))))))))
+((((((((((.(((((..(((((((....))).)))))))..))...))))))))))
+LEN=57 TIME=54.137sec RANK=1 TP=22 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>7D7V_A
+GCGCAACAUCCCCGCCGGUUGGGCGCAUUGCACUCCGCGCAGUGAACCGGCUGCGCC
+(((((.....((.[[[[[[[[.((((..........)))).)])]]]]]]]))))).
+(((((........(((((((..((((..........))))....)))))))))))).
+LEN=57 TIME=55.353sec RANK=1 TP=16 FP=0 FN=3 PRC=1.0 RCL=0.842 FS=0.914
+>2M58_A
+GGAAGAAAGGGCUUCGGCCACUCAAACUACAGAGACGCCAGUCACUCAGAUAUCCUGGU
+(...((...(((....)))..))...)....(((...[[[[...))).......]]]].
+.((((......))))(((..(((........)))..)))......((((.....)))).
+LEN=59 TIME=56.583sec RANK=1 TP=0 FP=14 FN=13 PRC=0.0 RCL=0.0 FS=0.0
+>2MIY_A
+GCUUGGUGCUUAGCUUCUUUCACCAAGCAUAUUACACGCGGAUAACCGCCAAAGGAGAA
+((((((((.....[[[[[[.)))))))).........((((....))))..]]]]]]..
+((((((((.....[[[[[[[)))))))).........((((....)))).]]]]]]]..
+LEN=59 TIME=57.796sec RANK=1 TP=18 FP=1 FN=0 PRC=0.947 RCL=1.0 FS=0.973
+>6VAR_A
+GGUUCAUGUCCUACUGUUCAAGCCUCCAAGCUGUGCCUUGGGUGGCUUUGGGGCAUGGACC
+((((((((((((........(((((((((((...).)))))).))))..))))))))))))
+(((((((((((((......(((((((((((......)))))).))))))))))))))))))
+LEN=61 TIME=59.017sec RANK=1 TP=22 FP=2 FN=1 PRC=0.917 RCL=0.957 FS=0.936
+>9DTT_B
+UGUUAGUCUACGUGGACCGACAAAGACAGAUUCUUUGAGGGAGCUAAGCUCAACGUAGUUCUAACAG
+....((...((((.((((..((((((.....)))))).)).........)).))))....)).....
+((((((.((((((...((..((((((.....)))))).))((((...)))).))))))..)))))).
+LEN=67 TIME=60.283sec RANK=1 TP=14 FP=10 FN=2 PRC=0.583 RCL=0.875 FS=0.7
+>1H4Q_T
+GGAGUAGCGCAGCCCGGUAGCGCACCUCGUUCGGGACGAGGGGGGCGCUGGUUCAGAUCCAGUCUCC
+((((..((((......[..)))).((((((.....)))))).....(((((..]....)))))))))
+((((..((((.[[[[....)))).(((((((...))))))).]]]].................))))
+LEN=67 TIME=61.556sec RANK=1 TP=14 FP=5 FN=6 PRC=0.737 RCL=0.7 FS=0.718
+>2DET_C
+GUCCCCUUCGUCUAGAGGCCCAGGACACCGCCCUUUCACGGCGGUAACAGGGGUUCGAAUCCCCUAGGGG
+..(((....((((....[....))))((((((.......))))))....((((..]....))))..))).
+..(((((..((((.........))))((((((.......))))))...(((((.......))))))))))
+LEN=70 TIME=62.83sec RANK=1 TP=14 FP=6 FN=4 PRC=0.7 RCL=0.778 FS=0.737
+>2N8V_X
+GGAACAGCUGUACUGGGCAGUUACAGCAGUCGUAUGGUAACACAUGCGGCGUUCCGAAAUACCAUGCCUG
+(((((.(((((((.[[[[[).)))))).((((((((......))))))))))))).........]]]]].
+(((((.((((((((....)).)))))).((((((((......)))))))))))))...............
+LEN=70 TIME=64.082sec RANK=1 TP=20 FP=1 FN=5 PRC=0.952 RCL=0.8 FS=0.87
+>8FCS_A
+GGAGAGGAGGCAAGAUGCUGGCAUAGCUGUUGAACUGGGAACCUGCUAUGCCAACAUAUUGCCAUCUUUCC
+(((((((.(((((.(((.(((((((((.(((........)))..))))))))).))).))))).)))))))
+(((((((.(((((.(((.(((((((((.(((........)))..))))))))).))).))))).)))))))
+LEN=71 TIME=65.351sec RANK=1 TP=27 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>4KR3_C
+GCGCCGCUGGUGUAGUGGUAUCAUGCAAGAUUCCCAUUCUUGCGACCCGGGUUCGAUUCCCGGGCGGCGCA
+(((((((..(((.........)))((((((.......))))))...(((((.......)))))))))))).
+((((((((........(((....(((((((.......))))))))))((((.......)))))))))))).
+LEN=71 TIME=66.606sec RANK=1 TP=17 FP=5 FN=4 PRC=0.773 RCL=0.81 FS=0.791
+>8CTI_C
+GGUUCCAUAGUGUAGCGGUUAUCACGUCUGCUUUACACGCAGAAGGUCCUGGGUUCGAGCCCCAGUGGAAC
+.((((((..(((.....[....))).(((((.......))))).....(((((..]....)))))))))))
+.(((((((.(((((((((.........)))))..))))...........((((.......)))))))))))
+LEN=71 TIME=67.898sec RANK=1 TP=10 FP=10 FN=10 PRC=0.5 RCL=0.5 FS=0.5
+>5KPY_A
+GGACACUGAUGAUCGCGUGGAUAUGGCACGCAUUGAAUUGUUGGACACCGUAAAUGUCCUAACACGUGUCC
+((((((......(.(((((.....[[))))))..(.......(((((]].....)))))...)..))))))
+((((((........(((((.......))))).......(((((((((.......))))).)))).))))))
+LEN=71 TIME=69.222sec RANK=1 TP=16 FP=4 FN=4 PRC=0.8 RCL=0.8 FS=0.8
+>9J5O_B
+GGAGCCUUAGCUCAGCUGGGAGAGCGCCUGCUUUGCACGCAGGAGGUCAGCGGUUCGAUCCCGCUAGGCUCCA
+((.(((((.[[[[.)......]]]].(((((.......))))).....(((((.......))))))))).)).
+(((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))).
+LEN=73 TIME=70.506sec RANK=1 TP=20 FP=1 FN=1 PRC=0.952 RCL=0.952 FS=0.952
+>2AKE_B
+GACCUCGUGGCGCAAUGGUAGCGCGUCUGACUCCAGAUCAGAAGGUUGCGUGUUCGAAUCACGUCGGGGUCA
+(((((((..((((.......)))).(((((.......))))).....(((((.......)))))))))))).
+(((((((..((((.......)))).(((((.......))))).....(((((.......)))))))))))).
+LEN=72 TIME=71.796sec RANK=1 TP=21 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>1F7V_B
+UUCCUCGUGGCCCAAUGGUCACGGCGUCUGGCUGCGAACCAGAAGAUUCCAGGUUCAAGUCCUGGCGGGGAAG
+.((((((..(((.....[....)))..((((.......))))......(((((..]....)))))))))))..
+((((((((((((....))))))))((((.((((..(((((.((....))..))))).))))..)))).)))).
+LEN=73 TIME=73.09sec RANK=1 TP=3 FP=24 FN=16 PRC=0.111 RCL=0.158 FS=0.13
+>8Y2O_C
+GCCGAAAUAGCUCAGUUGGGAGAGCGUUAGACUGAAGAUCUAAAGGUCCCUGGUUCGAUCCCGGGUUUCGGCA
+(((((((..((((.....[..)))).(((((.......))))).....(((((..]....)))))))))))).
+((((((((.((((........))))...........((((.........[[[[...))))]]]])))))))).
+LEN=73 TIME=74.382sec RANK=1 TP=15 FP=5 FN=7 PRC=0.75 RCL=0.682 FS=0.714
+>8AW3_1
+GGCCGCUUAGCACAGUGGCAGUGCACCACUCUCGUAAAGUGGGGGUCGCGAGUUCGAUUCUCGCAGUGGCCUC
+((((.((..((((....[..))))..((((.......)))).......((((..]....)))).)).))))..
+(((((((..((((.[[[[..)))).]]]].(((((...)))))....(((((.......))))))))))))..
+LEN=73 TIME=75.69sec RANK=1 TP=14 FP=11 FN=5 PRC=0.56 RCL=0.737 FS=0.636
+>1U0B_A
+GGCGCGUUAACAAAGCGGUUAUGUAGCGGAUUGCAAAUCCGUCUAGUCCGGUUCGACUCCGGAACGCGCCUCCA
+(((((((..(((.........))).(((((.......)))))....(((((.......))))))))))))....
+(((((((((((......))).....(((((((...))))))).....((((.......))))))))))))....
+LEN=74 TIME=76.97sec RANK=1 TP=16 FP=6 FN=4 PRC=0.727 RCL=0.8 FS=0.762
+>5WT3_C
+GGGGCGGUAGCUCAGCCUGGGAGAGCACCGGACUGAAGAUCCGGGUGUCGGGGGUUCAAAUCCCCCCCGCCCCA
+(((((((..((((......[..))))((((((.......))))).)...(((((..]....)))))))))))).
+(((((((..((((.........)))).(((((.......))))).....(((((.......)))))))))))).
+LEN=74 TIME=78.266sec RANK=1 TP=21 FP=0 FN=2 PRC=1.0 RCL=0.913 FS=0.955
+>1GTR_B
+GGGGUAUCGCCAAGCGGUAAGGCACCGGAUUGUGAUUCCGGCUUUCCGAGGUUCGAAUCCUCGUACCCCAGCCAA
+((((((..(((.....[...))).(((((.......))))).....(((((..]....)))))))))))......
+((((((((((...)))).((((..(((((.......))))))))).(((((.......)))))))))))......
+LEN=75 TIME=79.55sec RANK=1 TP=16 FP=8 FN=4 PRC=0.667 RCL=0.8 FS=0.727
+>1FFY_T
+GGGCUUGUAGCUCAGGUGGUUAGAGCGCACCCCUGAUAAGGGUGAGGUCGGUGGUUCAAGUCCACUCAGGCCCAC
+(((((((..((((.....[...)))).(((((.......))))).....(((((..]....))))))))))))..
+(((((((.......(((((...((((.(((((((..........)))..))))))))....))))))))))))..
+LEN=75 TIME=80.872sec RANK=1 TP=7 FP=16 FN=15 PRC=0.304 RCL=0.318 FS=0.311
+>3AL0_E
+UGGGAGGUCGUCUAACGGUAGGACGGCGGACUCUGGAUCCGCUGGUGGAGGUUCGAGUCCUCCCCUCCCAGCCAA
+(((((((..((((....[..))))((((((.......))))))...(((((..]....)))))))))))).....
+(((((((((((((.......)))))).((((((.(((((..........)))))))))))...))))))).....
+LEN=75 TIME=82.191sec RANK=1 TP=11 FP=13 FN=12 PRC=0.458 RCL=0.478 FS=0.468
+>4WC4_B
+GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGCCCCUGGCCACA
+((((.((..((((.....[..))))...(((.......))).......(((((..]....))))))).))))...
+(((((((..((((........)))).(((((.......))))).....(((((.......))))))))))))...
+LEN=75 TIME=83.492sec RANK=1 TP=18 FP=3 FN=1 PRC=0.857 RCL=0.947 FS=0.9
+>1QF6_B
+GCCGAUAUAGCUCAGUUGGUAGAGCAGCGCAUUCGUAAUGCGAAGGUCGUAGGUUCGACUCCUAUUAUCGGCACCAA
+(((((((..((((.....[..))))..((((.......))))......(((((..]....)))))))))))).....
+(((((((..((((........))))..((((((...))))))..(((((......))))).....))))))).....
+LEN=77 TIME=84.798sec RANK=1 TP=15 FP=7 FN=6 PRC=0.682 RCL=0.714 FS=0.698
+>3WQY_C
+GGGCUCGUAGCUCAGCGGGAGAGCGCCGCCUUUGCGAGGCGGAGGCCGCGGGUUCAAAUCCCGCCGAGUCCACCAAA
+(((((((..((((....[..)))).((((((.....)))))).....(((((..]....))))))))))))......
+(((((((.......((((((((((((.((((((((...)))))))).))..))))...)))))))))))))......
+LEN=77 TIME=86.113sec RANK=1 TP=7 FP=20 FN=16 PRC=0.259 RCL=0.304 FS=0.28
+>9HN7_C
+CCUUCGAUAGCUCAGUUGGUAGAGCGGAGGACUGUAGAUCCUUAGGUCGCUGGUUCGAUUCCGGCUCGAAGGACCA
+(((((.(....((.....[..))....(((.........)))......(((((..]....)))))).)))))....
+(((((((..((((........)))).(((((.......))))).....(((((.......))))))))))))....
+LEN=76 TIME=87.455sec RANK=1 TP=16 FP=5 FN=1 PRC=0.762 RCL=0.941 FS=0.842
+>8FZR_R
+GCGCCCUUAGCUCAGUUGGAUAGAGCAACGACCUUCUAAGUCGUGGGCCGCAGGUUCGAAUCCUGCAGGGCGCGCCA
+....(......(...........)....((...........)).......(.............)...)........
+(((((((..((((.........)))).(((((.......))))).....(((((.......))))))))))))....
+LEN=77 TIME=88.759sec RANK=1 TP=5 FP=16 FN=0 PRC=0.238 RCL=1.0 FS=0.385
+>1P5O_A
+GGCUGUGAGGAACUACUGUCUUCACGCAGAAAGCGUCUAGCCAUGGCGUUAGUAUGAGUGUCGUGCAGCCUCCAGCC
+(((((.((((.....(((((..(((.((....(((((.......))))).....)).)))..).)))))))))))))
+(((((.((((.....((((...(((.((...((((((.......))))))....)).)))....)))))))))))))
+LEN=77 TIME=90.125sec RANK=1 TP=23 FP=1 FN=1 PRC=0.958 RCL=0.958 FS=0.958
+>4JF2_A
+GGAACCGCGAAAGCGGUUCCACGACGAUACUUAUUUCCUUUGAUCGUCGUUAUUACUGGCUUCGGCCACAAAGGAGA
+((((((((....))))))))((((((((.......[[[[[..))))))))......((((....))))..]]]]]..
+((((((((....))))))))[[[[[[[[.....(((((((((]]]]]]]]......((((....)))))))))))))
+LEN=77 TIME=91.431sec RANK=1 TP=25 FP=4 FN=0 PRC=0.862 RCL=1.0 FS=0.926
+>9DPA_C
+GCCCGGAUAGCUCAGUCGGUAGAGCAUCAGACUUUUAAUCUGAGGGUCCAGGGUUCAAGUCCCUGUUCGGGCGCCAAA
+((((((...((((.....[..)))).(((((.......))))).....(((((..]....))))).))))))......
+(((((((((((((........))))....((((((((...))))))))..(((.......))))))))))))......
+LEN=78 TIME=92.746sec RANK=1 TP=13 FP=11 FN=8 PRC=0.542 RCL=0.619 FS=0.578
+>1C0A_B
+GGAGCGGUAGUUCAGUCGGUUAGAAUACCUGCCUGUCACGCAGGGGGUCGCGGGUUCGAGUCCCGUCCGUUCCGCCAAA
+(((((((..((((.....[...)))).(((((.......)))))......((((..]....)))).)))))))......
+(((((((..((((.........))))((((.(((((...))))))))).(((((.......))))))))))))......
+LEN=79 TIME=94.074sec RANK=1 TP=15 FP=10 FN=6 PRC=0.6 RCL=0.714 FS=0.652
+>6CU1_A
+GGGUGGCUCUACAUUUGUUGCGGGUUCGAGACCCGUCAGAGCGAAAGCUCUGUAGCUCAAUGGUAGAGCGGUGUAGUCACC
+.(((((((..(((((....(((((..[....)))))((((((....))))))..((((....]..))))))))))))))))
+.(((((((((((..(((..(((((((...)))))))((((((....)))))).....)))..)))))))........))))
+LEN=81 TIME=95.377sec RANK=1 TP=15 FP=12 FN=13 PRC=0.556 RCL=0.536 FS=0.545
+>4P5J_A
+AGCUCGCCAGUUAGCGAGGUCUGUCUCGACACGACAGAUAAUCGGGUGCAACUCCCGCCCCUCUUCCGAGGGUCAUCGGAACCA
+.((((((..[...)))))(((((((.......)))))))...((((..]....))))(((...[[[[[[))).).]]]]]]...
+..(((((......)))))(((((((.......)))))))...((((.......))))......((((((......))))))...
+LEN=84 TIME=96.705sec RANK=1 TP=22 FP=0 FN=5 PRC=1.0 RCL=0.815 FS=0.898
+>3T4B_A
+CCUCCCGGGAGAGCCGCUAAGGGGGAAACUCUAUGCGGUACUGCCUGAUAGGGUGCUUGCGAGUGCCCCGGGAGGUCUCGUAG
+(((((((((((.(((((..(((((....)))).))))))[))((((..].))))((..[[[[[.))))))))))).]]]]]..
+(((((((((((.(((((..((((.....))))..))))).))..........(((((....))))))))))))))........
+LEN=83 TIME=98.036sec RANK=1 TP=16 FP=9 FN=17 PRC=0.64 RCL=0.485 FS=0.552
+>10FB_C
+GGUGGGAUUCCCGAGCGGCCAAAGGGAGCAGACUGUAAAUCUGCCGUCACAGACUUCGAAGGUUCGAAUCCUUCUCCCACCACCA
+(((((((..(((.....[.....))).(((((.......))))).(((...)))...(((((..]....))))))))))))....
+(((((((.((((...........))))(((((.......))))).(((...)))...(((((.......))))))))))))....
+LEN=85 TIME=99.42sec RANK=1 TP=23 FP=1 FN=1 PRC=0.958 RCL=0.958 FS=0.958
+>3A3A_A
+GCCCGGAUGAUCCUCAGUGGUCUGGGGUGCAGGCUUCAAACCUGUAGCUGUCUAGCGACAGAGUGGUUCAAUUCCACCUUUCGGGC
+(((((((.(..((((((..[.))))))((((((.......)))))).(((((....))))).((((..]....))))).)))))))
+(((((((....((((((....))))))((((((.......)))))).(((((....))))).((((.......))))..)))))))
+LEN=86 TIME=100.77sec RANK=1 TP=28 FP=0 FN=2 PRC=1.0 RCL=0.933 FS=0.966
+>7UZ0_A
+GCGGAAGUAGUUCAGUGGUAGAACACCUACUGGCCCGAAAGGGUGGAACCCCAGUAGGGGGUCGCGGGUUCGAGUCCCGUCUUCCGC
+(((((((..((((....[..)))).(((((((((((....))).......)))))))).....(((((..]....))))))))))))
+(((((((..((((.......)))).(((((((((((....))))...[[[[)))))))]]]].(((((.......))))))))))))
+LEN=87 TIME=102.151sec RANK=1 TP=26 FP=5 FN=2 PRC=0.839 RCL=0.929 FS=0.881
+>3ZN8_G
+UGGUGCAGCGCAGCGCGGACGCCCGAACCUGGUCAGAGCCGGAAGGCAGCAGCCAUAAGGGAUGCUUUGCGGGUGCCGUUGCCUUCCG
+....((.......(((((.(.(((......(((....((......))....)))....)))..)..))))).........).).....
+..........(((......[[[[[[...)))........(((((((((((..((....)).........]]]]]]..)))))))))))
+LEN=88 TIME=103.55sec RANK=1 TP=0 FP=22 FN=16 PRC=0.0 RCL=0.0 FS=0.0
+>8SH5_R
+GGUAGAACACGUGGGAUAGGGGAUGACCUUGUCGACCGAAACACGGUCCCCUGCUCCUUCGAGCUGGCAAGGCGCUCACAGGUUCUAC
+.(((((((..(((((.......(.[([[[[[[[(((((.....)))))...)((((....)))))]]]]]]]].)))))..)))))))
+.(((((((..(((((((((((.....)))))))(((((.....))))).((.((((....)))).))........))))..)))))))
+LEN=88 TIME=104.896sec RANK=1 TP=20 FP=9 FN=11 PRC=0.69 RCL=0.645 FS=0.667
+>5T83_A
+AAGUUUGCUAGGGUUCCGCGUCAUAGGUGGUCUGGUCCAAGAGCAAACGGCUUUCACAAAGCCACACGGAAGGAUAAAAGCCUGGGAGAU
+..((((((..((...(((((((...))))..).)).))....))))))((((.......)))).(.[....((.......))..)..]..
+..[[[[[(((((.(((((..........((......)).....]]]]]((...........))...))))).........))))).....
+LEN=90 TIME=106.278sec RANK=1 TP=7 FP=12 FN=16 PRC=0.368 RCL=0.304 FS=0.333
+>8DP3_R
+GGUAAAACAGCCUGUGGGUGAAACACACCCACAGGGCCCAUUGGGCGCUAGCACUCUGGUAUCACCGUACCUUUGUGCGCCUGUUUUACC
+((((((((((((((((((((.....))))))))))((((...))))((..((((...(((((....)))))...))))))))))))))))
+((((((((((((((((((((.....))))))))))((((...))))((..((((...(((((....)))))...))))))))))))))))
+LEN=90 TIME=107.616sec RANK=1 TP=35 FP=0 FN=0 PRC=1.0 RCL=1.0 FS=1.0
+>7URI_y
+GGAGGGGAACUUCUAUCUGGUGAUAGACGGGAACUCUAAAUUCCUUGAAAUGCCUCGCCGCAUUGGGUUCGAUUCCCUUCCCCUCCGCCA
+(((..((((..((((((..[.))))))((((((.......))))).).(((((......)))))(((..]....)))))))..)))....
+(((((((((..((((((....)))))).(((((.((......(((...(((((......))))))))...))))))))))))))))....
+LEN=90 TIME=109.003sec RANK=1 TP=18 FP=12 FN=10 PRC=0.6 RCL=0.643 FS=0.621
+>7BGB_B
+GGCCGCAGGAAGAGGAACGGAGCGAGUCCCCGCGCGCGGCGCGAUUCCCUGAGCUGUGGGACGUGCACCCAGGACUCGGCUCACACAU
+...................((((((((((......(..(((((...(((........))).))))).)...)))))).))))......
+..((.........))....((((((((((.........(((((..((((........))))))))).....))))))).)))......
+LEN=88 TIME=110.389sec RANK=1 TP=17 FP=4 FN=2 PRC=0.81 RCL=0.895 FS=0.85
+>4RUM_A
+GGGAACUGAGCAGGCAAUGACCAGAGCGGUCAUGCAGCCGGGCUGCGAAAGCGGCAACAGAUGAUUACACGCACAUCUGUGGGACAGUUCCCA
+((((((((..(.(((.((((((.....))))))...)))..(((((....))))).(((((((..........)))))))..).)))))))).
+((((((((....(((.((((((.....))))))...)))..(((((....))))).(((((((..........)))))))....)))))))).
+LEN=93 TIME=111.747sec RANK=1 TP=29 FP=0 FN=1 PRC=1.0 RCL=0.967 FS=0.983
+>11EH_A
+CCCUCUCUACACCUAUCGGUGUACCCAUAAGGGUCGCCCCAGAGAGGGCCCACUCACCGGGGCCACAUGUUUGUGCCGCCCCAAAGGGCGGAGUGAGUGG
+(((((((((((((....))))).((.....))...[[[[.)))))))).((((((((.]]].]((((....))))((((((....)))))).))))))))
+(((((((((((((....)))))((((....)))).[[[[.)))))))).((((((((..]]]]((((....))))((((((....)))))).))))))))
+LEN=100 TIME=113.228sec RANK=1 TP=32 FP=7 FN=5 PRC=0.821 RCL=0.865 FS=0.842
+>10ZU_A
+GGACGCCCGGCGCUGUAGCGCCGGCCGAAAGGCCACGCCCAGGCGUCCUGGCGGGCCAGGGCGGUCGUAAACGACGGGCCCGAAAGGGCCCAGGCCCGCC
+.((((((.(.(((....)))).((((....)))).[[[[[.))))))..((((((((.]]]]]((((....))))(((((......))))).))))))))
+(((((((((((((....))))))(((....)))..[[[[[.))))))).((((((((.]]]]]((((....))))((((((....)))))).))))))))
+LEN=100 TIME=114.646sec RANK=1 TP=34 FP=5 FN=2 PRC=0.872 RCL=0.944 FS=0.907
+>10ZT_A
+UGCCACGGGGAGCGAUAGCUCCGGGUGAAAACCCUGGGGGCCGUGGCUAGGCUGGAGGCCCCCGGCAGAAAUGCCGUACACGAAAGUGUACCCUCCAGCC
+.((((((((((((....)))))((((....)))).[[[[[)))))))..(((((((((]]]]].((......)).((((((....)))))))))))))))
+.((((((((((((....)))))((((....))))[[[[[[)))))))..(((((((((]]]]]](((....))).((((((....)))))))))))))))
+LEN=100 TIME=116.056sec RANK=1 TP=38 FP=2 FN=0 PRC=0.95 RCL=1.0 FS=0.974
+>8VPV_A
+GAGCAACUUAGGAUUUUAGGCUCCCCGGCGUGUCUCGAACCAUGCCGGGCCAAACCCAUAGGGUUGGCGGCCCCUGUGCGGUCAAAAUUCAUCCGCCGGA
+((((......[[[[[[...))))(((((((((........)))))))))....((((((((((........))))))).)))..]]]]]]..........
+((((...............))))(((((((((........)))))))))((.(((((...)))))))((........((((...........))))))..
+LEN=100 TIME=117.49sec RANK=1 TP=13 FP=13 FN=16 PRC=0.5 RCL=0.448 FS=0.473
+>3SUH_X
+GGACAGAGUAGGUAAACGUGCGUAAAGUGCCUGAGGGACGGGGAGUUGUCCUCAGGACGAACACCGAAAGGUGGCGGUACGUUUACCGCAUCUCGCUGUUC
+..........(((((((((((((......(((((((((..[[[[..).)))))))).....((((....))))))).))))))))))...]]]].......
+((((((((..(((((((((((.....((.((((((((...........))))))))))...((((....))))...)))))))))))....))..))))))
+LEN=101 TIME=118.943sec RANK=1 TP=22 FP=11 FN=8 PRC=0.667 RCL=0.733 FS=0.698
+>7LVA_A
+CUCUGGUAACUAGAGAUCCCUCAGACCCUUUUAGUCAGUGUGGAAAAUCUCUAGCAGUGGCGCCCGAACAGGGACUUGAAAGCGAAAGGGAAACCAGAG
+(((((((..(((((((((((.(.(((.......))).).).))...))))))))...(..(((((.....))).((....))))..).....)))))))
+(((((((..[[[[[[[[........(((((((.((((.........]]]]]]]]...)))).(((.....)))..........)))))))..)))))))
+LEN=99 TIME=120.363sec RANK=1 TP=18 FP=11 FN=12 PRC=0.621 RCL=0.6 FS=0.61
+>9J8P_B
+UCGCUUCGGCAGCACAUAUACUAAAAUUGGAACGAUACAGAGAAGAUUAGCAUGGCCCCUGCGCAAGGAUGACACGCAAAUUCGUGAAGCGUUCCAUAUUUU
+(.((....))).............((((((((((...............((.((.(.(((.....)))..).)).))............))))))).)))..
+..(((.....))).........((((((((((((...((..(((.....((.((...(((.....)))....)).))...))).))...))))))).)))))
+LEN=102 TIME=121.826sec RANK=1 TP=17 FP=10 FN=4 PRC=0.63 RCL=0.81 FS=0.708
+>4WFL_A
+GGCCGUGCUAAGCGGGGAGGUAGCGGUGCCCUGUACCUGCAAUCCGCUCUAGCAGGGCCGAAUCCCUUCUCGAGGUGGUAACAUCGACAGAAGGUGCACGGUC
+.(((((((...((((((....[[[[[..))))...(((((...]]]]]...)))))))......((((((...((((....))))...)))))).))))))).
+((((((((..((((((.(((((.....[[[[[[)))))....))))))....]]]]]]......((((((...((((....))))...)))))).))))))))
+LEN=103 TIME=123.333sec RANK=1 TP=17 FP=18 FN=16 PRC=0.486 RCL=0.515 FS=0.5
+>6OL3_C
+GGACCUCGCAAGGGUAUCAUGGCGGACGACCGGGGUUCGAACCCCGGAUCCGGCCGUCCGCCGUGAUCCAUGCGGUUACCGCCCGCGUGUCGAACCCAGGUGUGCGAGGUCC
+((((((((((.(((((((((((((((((.((.(((((((.....))))))))).))))))))))))).(((((((..[[[..)))))))....)))).]]].))))))))))
+((((((((((.(((((((((((((((((.((((((([[[[))))))).......))))))))))))).(((((((.......)))))))]]]])))).....))))))))))
+LEN=112 TIME=124.808sec RANK=1 TP=34 FP=11 FN=12 PRC=0.756 RCL=0.739 FS=0.747
+>4QK9_A
+CGCUGAAUUCCCUGAAGGGAAACGGGGGACCCAAUCUUCAGGGGUGAAUCCCACGUAAGUGGGUAGGGCUAGUCUCUUUCGGCCCGAACCCGUCAGCUAACCUCGUAAGCGUGGAAAGAGGG
+((((...(((((....)))))((((((....(........(((((....(((((....)))))..(((((...[[[[[[[)))))..))))..).)....)))))).))))..]]]]]]]..
+.(((((..((((((((((.....(((...)))..))))))))))((.....))......(((((.(((((..........)))))..))))))))))...((((.............)))).
+LEN=122 TIME=126.414sec RANK=1 TP=5 FP=29 FN=33 PRC=0.147 RCL=0.132 FS=0.139
+>4QLN_A
+GAUCGCUGAACCCGAAAGGGGCGGGGGACCCAGAAAUGGGGCGAAUCUCUUCCGAAAGGAAGAGUAGGGUUACUCCUUCGACCCGAGCCCGUCAGCUAACCUCGCAAGCGUCCGAAGGAGAA
+...((((...(((....)))((((((....(......(((((....(((((((....)))))))..(((((.[[[[[[[)))))..))))..).)....)))))).))))...]]]]]]]..
+...((((...(((....)))((((((..((((....))))......(((((((....)))))))..((((..[[[[[[[[)))).(((......)))..)))))).))))..]]]]]]]]..
+LEN=122 TIME=127.984sec RANK=1 TP=31 FP=8 FN=7 PRC=0.795 RCL=0.816 FS=0.805
+>8UYS_A
+GGACACGAGUAACUCGUCUAUCUUCUGCAGGCUGCUUACGGUUUCGUCCGUGUUGCAGCCGAUCAUCAGCACAUCUAGGUUUCGUCCGGGUGUGACCGAAAGGUAAGAUGGAGAGCCUUGUC
+.((((..((...(((.(((((((((((..((((((..((((......))))...))))))......)))(((((((.((......)))))))))(((....)))))))))))))).))))))
+....(((((...(((.(((((((((((..((((((.(((((......)))))..))))))......)))(((((((.((......)))))))))(((....)))))))))))))).))))).
+LEN=122 TIME=129.692sec RANK=1 TP=38 FP=4 FN=4 PRC=0.905 RCL=0.905 FS=0.905
+>4QK8_A
+GGUUGCCGAAUCCGAAAGGUACGGAGGAACCGCUUUUUGGGGUUAAUCUGCAGUGAAGCUGCAGUAGGGAUACCUUCUGUCCCGCACCCGACAGCUAACUCCGGAGGCAAUAAAGGAAGGAG
+...((((....((....))..(((((....(.....(.[((((....((((((.....))))))..(((((.{{{{{{)))))..)))).)].)....)))))..)))).....}}}}}}..
+((((.((...((((.......))))))))))..((((((((((((..(((((((...)))))))..((((((.....))))))((........))))))))))))))...............
+LEN=122 TIME=131.278sec RANK=1 TP=11 FP=26 FN=24 PRC=0.297 RCL=0.314 FS=0.306
+>6WLJ_A
+GGCGAUAUGGCAUGGAAUCAGCUCAAGGAACUGUGAACGUAUAUCGGGCAACGACUAGGAAACUAGUCGUUGGGAAGAAACUGCCGAUAUACGGGAGUUCCUUGAGCGGGAGAUUCCAUGCCUAAGUCGC
+.(((((.((((((((((((.((((((((((((.....((((((((((.((((((((((....))))))))))..(......).))))))))))..))))))))))))....)))))))))))..))))))
+.(((((..(((((((((((.((((((((((((.....((((((((((.((((((((((....))))))))))...........))))))))))..))))))))))))....)))))))))))...)))))
+LEN=130 TIME=132.824sec RANK=1 TP=48 FP=0 FN=2 PRC=1.0 RCL=0.96 FS=0.98
+>8UYK_A
+GAGCGUCGUGUCUCUUGUACGUCUCGGUCACAAUACACGGUUUCGUCCGGUGCGUGGCAAUUCGGGGCACAUCAUGUCUUUCGUGGCUGGUGUGACCGCGCAAGGUGCGCGCGGUACGUAUCGAGCAGCGCUCC
+((((((..((.(((..(((((((((((((((..(((.(((......)))))).)))))....).)))(((((((.(((......)))))))))).((((((.......)))))).)))))).))))))))))).
+((((((..((.(((..(((((((((((((((..(((.(((......)))))).)))))....)))))(((((((.(((......))))))))))(((((((.......))))))).))))).))))))))))).
+LEN=134 TIME=134.877sec RANK=1 TP=44 FP=5 FN=4 PRC=0.898 RCL=0.917 FS=0.907
+>7L48_E
+CCGCUUCACCAAAAGCUGUCCCUUAGGGGAUUAGAACUUGAGUGAAGGUGGGCUGCUUGCAUCAGCCUAAUGUCGAGAAGUGCUUUCUUCGGAAAGUAACCCUCGAAACAAAUUCAUUUGAAAGAAUGAAGGAAUGCAAC
+((.(((((((((...((.((.(.....)))..))...))).))))))).)(((((.[[[[[.))))).....(((((..((((((((....)))))).)).)))))..(..((((.(....).))))....)..]]]]].
+((.(((((((((...(((((((....))))).))...))).)))))).(((((((.[[[[[[)))))))...(((((...(((((((....)))))))...)))))......(((((((....))))))))).]]]]]].
+LEN=140 TIME=136.618sec RANK=1 TP=34 FP=16 FN=11 PRC=0.68 RCL=0.756 FS=0.716
+>6VMY_A
+GGUCAAAUAGGUGCCGGUCCGUGAACAACAGCCGGCUUAAAAGGGAAACCGGUAAAAGCCGGUGCGGUCCCGCCACUGUAAUUGGCCAAGCGCCAAGAGCCAGGAUACCUGCCUGUUUGAUCAGCACGAAUUCUGCGAGGACAGAUGA
+((((((((((((((((((.[((.....)).)))))).....(((...(((((......)))))((((.....)).[[[...(((((.....)))))..))]]]]...)))))))))))))))..(.....((........).)...).
+((((((((((((((((((..((.....)).))))))......((((.((((((....))))))....))))..........(((((.....))))).....(((...))))))))))))))).........((((......))))...
+LEN=148 TIME=138.601sec RANK=1 TP=30 FP=12 FN=14 PRC=0.714 RCL=0.682 FS=0.698
+>7R6K_1
+GCUGAACUUAAGCAUAAAGCGGAGUCGAGUUGUUUGCAGCUCUAAGCUACGGUGAUCGUCGAAGGGGCGAAAGACAAGAUGGGGAAGCUCCGUUUCAAUGUUGAGCUUGACUCUAGUUGUGGGGAGUAAAGUUACCACAUCGUGAGACAGGU
+((......(......)..))......((((((....)))))).......(((...))).......(.(....).)......(((....))).......(((.((((((..((((.(...)..))))..))))).).)))((....)).....
+..........(((((.(((((((((....((((((...(((((.....((((...))))....)))))...)))))).........)))))))))..)))))..(((((.(((....(((((............)))))....))).)))))
+LEN=152 TIME=140.649sec RANK=1 TP=3 FP=39 FN=30 PRC=0.071 RCL=0.091 FS=0.08
+>3P49_A
+GGAUAUGAGGAGAGAUUUCAUCCAUUGCACUCCGGAUGAAACACCGAAGAAGUAAAUCUUUCAGGUAAAAAGGACUCAUAUUGGACGAACCUCUGGAGAGCUUAUCUAAGAGAUAACACCGAAGGAGCAAAGCUAAUUUUAGCCUAAACUCUCAGGUAAAAGGACGGAG
+.((((((((....(.((.(((((..........))))).)))(((....(((.....)))...)))........))))))))........(((((.......((((.....))))..(((...((((....(((......))).....))).).))).......)))))
+.((((((((......((((((((.[[[[.{{{{)))))))).(((..................)))........)))))))).............(((((.((((((...))))))..........]]]].((((....)))).....)))))............}}}}
+LEN=169 TIME=142.738sec RANK=1 TP=25 FP=17 FN=16 PRC=0.595 RCL=0.61 FS=0.602
+>4R4V_A
+GGCGCUGUGUCGCAAUCUGCGAAGGGCGUCGUCGGCCCAAGCGGUAGUAAGCAGGGAACUCACCUCCAAUGAAACACAUUGUCGUAGCAGUUGACUACUGUUAUGUGAUUGGUAGAGGCUAAGUGACGGUAUUGGCGUAAGCCAAUACCGCAGCACAGCACAAGCCCGCUUGCGAGAUUACAGCGC
+.((((((((((.....((((...((((.......))))..))))..((((((.(((..((((((..(((((.....)))))..(((((((.......)))))))......))).)))(((..(((.((((((((((....))))))))))...)))))).....)))))))))..))).)))))))
+.((((((((((.....((((...((((.......))))..))))..((((((.(((..((((((..(((((.....))))).(((((((((.....))))))))).....))).)))(((..(((.((((((((((....))))))))))...)))))).....)))))))))))...))))))))
+LEN=186 TIME=145.417sec RANK=1 TP=58 FP=5 FN=3 PRC=0.921 RCL=0.951 FS=0.935
+>4P8Z_A
+GGUUGGGUUGGGAAGUAUCAUGGCUAAUCACCAUGAUGCAAUCGGGUUGAACACUUAAUUGGGUUAAAACGGUGGGGGACGAUCCCGUAACAUCCGUCCUAACGGCGACAGACUGCACGGCCCUGCCUCUUAGGUGUGUCCAAUGAACAGUCGUUCCGAAAGGAAGCAUCCGGUAUCCCAAGACAAUC
+(((((..(((((..(((((((((...[[[.)))))))))..((((.(((.((((......(((((...((((..(((...]]]))).......))))((....)).....[[[[[...))))).(((.....))))))).)))....]]]]].((((....))))....))))...)))))..)))))
+(((((..((((((.(((((((((.......))))))))).(((((((.....................((((...((((...)))).......))))(((..(((.[[[[(((((...(((...))).........]]]].......)))))...)))..)))....))))))).))))))..)))))
+LEN=188 TIME=149.045sec RANK=1 TP=32 FP=21 FN=27 PRC=0.604 RCL=0.542 FS=0.571
+>9ELY_A
+UAAGUUAGGUUUGUGGUUGAAAGUCGAUGCCAGUCGCAGGCAAAACGAUCCACGUAAGUUAAACAAAGUUUUAAUGAGCAUGGUGCGGCUUAGAAGUAAGUCCUGCCGCUUUAGGCGAGAGUAUUAGUAGUGAGAGGGUAAUUCCGGGUAGCGAAACUUCCAGCAGGCGAGUGUGGGGUCAAAGACCAGGUCAACUAACUUA
+((((((((..(((((((.....((((..(((.[[[[[[)))....))))((((....(((((((...).)))))).....{{.]]]]]]..........(.((((((((.....))).(.(.(......((....((......)).....)).....).)).))))))....))))...}}...))))...)))))))))))
+((((((((.....(((((.......(((.(((.((((..((....((..(((.((..((((((......))))))..)).)))..)).((((....(((....((((......))))......)))....)))).(((....)))(((.((.....))))).))..))))...))).)))...)))))......))))))))
+LEN=202 TIME=153.188sec RANK=1 TP=20 FP=37 FN=37 PRC=0.351 RCL=0.351 FS=0.351
+>4C4Q_N
+GACUAGCCGUAGUGGCGAGCUCCCUGGGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGCACUAGCCCACCUCGAGAUGCUACGUGGACGAGGGCAUGCCCAAGACACACCUUAACCCUGGCGGGGGUCGCUAGGGUGAAAUCACAUUAUGUGAUGGGGGUACGACCUGAUAGGGUGCUGCAGAGGCCCACUAGCAGGCUAGUAUAAAAAUCUCUGC
+.(((((((.((((((((..(((((..((((((((..((((((....))))))..(((((.((((.((((.(((.((....)).))).))))....))))...)))))(((....))).)))).))))...(((((.((((...)))).)))))....(((((...))))).)))))..))((((....))))((..[[[[[))))))))...)))))))........]]]]].
+.(((((((.((((((((.((((((.(((((((((..((((((....))))))..(((((.(((((((((.(((..........))).)))))...))))...)))))(((....))).)))).)))))..((((((((((...))))))))))...((((((...)))))))))))).))...............[[[[[[[.))))))...))))))).......]]]]]]]
+LEN=233 TIME=157.827sec RANK=1 TP=72 FP=7 FN=8 PRC=0.911 RCL=0.9 FS=0.906
+>9YN7_A
+AAAGCUCCCGUCCCAGCCCGACGGGGGUAUAAGGGCGCCCGUAGGCGCACCUCGAUGACCAGUCGAGGUUGCGCCAGCCGGGGGGCGAUGGCCCCUGACCACACGCAGGGACAAUGCCCCAAAGGACAUGUCCCAGCCCCCGUCGGGUAUAAGGGCGCCCGUAGGCGCACCUCCAUGACCAGUGGAGGUAGCGCCAGUCAGGGGCCGAUGCCCCCCGGCCAUACGUAGGGACGAGGGCGA
+...((((.((((((..((((((((((((....[[[[[[[[...((((((((((((.......))))))).))))).{{{{{{{{{{....{{{{{{{{{........((((((.((((.....)).)))))))).)))))))))))).....]]]]]]]]...(((((((((((((.....)))))))).))))).}}}}}}}}}....}}}}}}}}}}........)))))).))))..
+...((((.((((((.[[[[[[[[[[[[[....{{{{{{{{...(((((((((((((.....)))))))).))))).(((((((((((.(((((((((((........((((((....((....))...)))))).]]]]]]]]]]]]]....}}}}}}}}...(((((((((((((.....)))))))).))))).))))))))))).)))))))))))........)))))).))))..
+LEN=240 TIME=161.789sec RANK=1 TP=80 FP=7 FN=4 PRC=0.92 RCL=0.952 FS=0.936

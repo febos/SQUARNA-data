@@ -381,10 +381,14 @@ if __name__ == "__main__":
     dtst  = "S01"
     tl    = "ShapeKnots"
 
-    for dataset, tool in (("FoldBridgeSHAPE",  "SQUARNA"),
-                          ("FoldBridgeSHAPE",  "SQUARNA5"),
-                          ("FoldBridgeDMS",  "SQUARNA"),
-                          ("FoldBridgeDMS",  "SQUARNA5"),
+    for dataset, tool in (("RMDBSHAPE",  "RNAfold"),
+                          ("RMDBSHAPE",  "RNAsubopt5"),
+                          ("RMDBDMS",  "RNAfold"),
+                          ("RMDBDMS",  "RNAsubopt5"),
+                          ("RMDBSHAPE",  "ShapeKnots"),
+                          ("RMDBSHAPE",  "ShapeKnots5"),
+                          ("RMDBDMS",  "ShapeKnots"),
+                          ("RMDBDMS",  "ShapeKnots5"),
                           ):
 
         with open('datasets/{}.fas'.format(dataset)) as file:
